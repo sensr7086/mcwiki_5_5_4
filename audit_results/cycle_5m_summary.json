@@ -1,0 +1,381 @@
+{
+  "date": "2026-05-15",
+  "cycle": "5m",
+  "broken": {
+    "pages_with_broken": 1,
+    "broken_total": 3,
+    "links_total": 4448,
+    "note": "2 CLAUDE.md root + 1 anchor # 분리 한계 — Cycle 5n 도구 v0.3.3 후보"
+  },
+  "missing_sample10": {
+    "pages_with_missing": 4,
+    "missing_total": 8,
+    "results": [
+      {
+        "slug": "ue-components-skill",
+        "outbound": 29,
+        "inbound": 45,
+        "missing": [
+          {
+            "source_slug": "component-vs-actor-lifecycle-table",
+            "source_kind": "synthesis",
+            "inbound_count": 2,
+            "confidence": "low",
+            "is_reverse_linked": false,
+            "missing": true
+          },
+          {
+            "source_slug": "mc-soft-asset-component-pattern",
+            "source_kind": "synthesis",
+            "inbound_count": 2,
+            "confidence": "low",
+            "is_reverse_linked": false,
+            "missing": true
+          },
+          {
+            "source_slug": "mc-validation-policy-rollout",
+            "source_kind": "synthesis",
+            "inbound_count": 2,
+            "confidence": "low",
+            "is_reverse_linked": false,
+            "missing": true
+          },
+          {
+            "source_slug": "spawnactor-hitching-4-step-pattern",
+            "source_kind": "synthesis",
+            "inbound_count": 2,
+            "confidence": "low",
+            "is_reverse_linked": false,
+            "missing": true
+          }
+        ]
+      },
+      {
+        "slug": "ue-editor-skill",
+        "outbound": 32,
+        "inbound": 40,
+        "missing": [
+          {
+            "source_slug": "ue-editor-staticmesheditor",
+            "source_kind": "sources",
+            "inbound_count": 2,
+            "confidence": "med",
+            "is_reverse_linked": false,
+            "missing": true
+          }
+        ]
+      },
+      {
+        "slug": "ue-render-skill",
+        "outbound": 13,
+        "inbound": 30,
+        "missing": [
+          {
+            "source_slug": "render-rdg-pass-standard-pattern",
+            "source_kind": "synthesis",
+            "inbound_count": 2,
+            "confidence": "low",
+            "is_reverse_linked": false,
+            "missing": true
+          }
+        ]
+      },
+      {
+        "slug": "ue-animation-skill",
+        "outbound": 20,
+        "inbound": 28,
+        "missing": [
+          {
+            "source_slug": "character-many-npc-5-fold-optimization",
+            "source_kind": "synthesis",
+            "inbound_count": 2,
+            "confidence": "low",
+            "is_reverse_linked": false,
+            "missing": true
+          },
+          {
+            "source_slug": "ragdoll-getup-anim-recovery",
+            "source_kind": "synthesis",
+            "inbound_count": 2,
+            "confidence": "low",
+            "is_reverse_linked": false,
+            "missing": true
+          }
+        ]
+      }
+    ]
+  },
+  "stale_90d": {
+    "total": 265,
+    "stale_count": 0,
+    "aged_50%": 0
+  },
+  "conflict_curated10": {
+    "pairs": 10,
+    "conflicts_total": 11,
+    "results": [
+      {
+        "pair": [
+          "ue-editor-asseteditorapi",
+          "ue-editor-personatoolkit"
+        ],
+        "mode": "heuristic",
+        "conflicts": [
+          {
+            "type": "numeric_mismatch",
+            "keyword": "종",
+            "a_lines": [
+              [
+                45,
+                8
+              ]
+            ],
+            "b_lines": [
+              [
+                315,
+                11
+              ]
+            ],
+            "severity": "high"
+          },
+          {
+            "type": "api_signature_conflict",
+            "a_apis_sample": [
+              "FAssetEditorToolkit::InitAssetEditor",
+              "FGlobalTabmanager::RegisterNomadTabSpawner",
+              "UToolMenus::ExtendMenu"
+            ],
+            "b_apis_sample": [
+              "FMyEditorModule::OnRegisterTabs",
+              "FMyEditorModule::StartupModule",
+              "UAnimPreviewInstance::ModifyBone"
+            ],
+            "severity": "low",
+            "note": "common API pattern not found (heuristic — may be unrelated pages)"
+          }
+        ]
+      },
+      {
+        "pair": [
+          "ue-editor-asseteditorapi",
+          "ue-editor-toolmenus"
+        ],
+        "mode": "heuristic",
+        "conflicts": [
+          {
+            "type": "numeric_mismatch",
+            "keyword": "개",
+            "a_lines": [
+              [
+                71,
+                9
+              ]
+            ],
+            "b_lines": [
+              [
+                49,
+                1
+              ],
+              [
+                50,
+                1
+              ],
+              [
+                92,
+                1
+              ],
+              [
+                152,
+                5
+              ],
+              [
+                263,
+                5
+              ],
+              [
+                273,
+                5
+              ],
+              [
+                342,
+                5
+              ]
+            ],
+            "severity": "high"
+          },
+          {
+            "type": "api_signature_conflict",
+            "a_apis_sample": [
+              "FAssetEditorToolkit::InitAssetEditor",
+              "FGlobalTabmanager::RegisterNomadTabSpawner",
+              "UToolMenus::ExtendMenu"
+            ],
+            "b_apis_sample": [
+              "FAppStyle::GetAppStyleSetName",
+              "FAssetEditorToolkit::RegisterTabSpawners",
+              "FBlueprintEditorModule::OnRegisterTabs"
+            ],
+            "severity": "low",
+            "note": "common API pattern not found (heuristic — may be unrelated pages)"
+          }
+        ]
+      },
+      {
+        "pair": [
+          "ue-components-skill",
+          "ue-coreuobject-uobject"
+        ],
+        "mode": "heuristic",
+        "conflicts": [
+          {
+            "type": "numeric_mismatch",
+            "keyword": "종",
+            "a_lines": [
+              [
+                72,
+                5
+              ]
+            ],
+            "b_lines": [
+              [
+                123,
+                3
+              ],
+              [
+                191,
+                3
+              ],
+              [
+                273,
+                11
+              ],
+              [
+                291,
+                3
+              ],
+              [
+                402,
+                3
+              ]
+            ],
+            "severity": "high"
+          }
+        ]
+      },
+      {
+        "pair": [
+          "ue-render-lumennanite",
+          "ue-render-meshdrawing"
+        ],
+        "mode": "heuristic",
+        "conflicts": [
+          {
+            "type": "numeric_mismatch",
+            "keyword": "함정",
+            "a_lines": [
+              [
+                33,
+                5
+              ],
+              [
+                55,
+                6
+              ]
+            ],
+            "b_lines": [
+              [
+                44,
+                3
+              ],
+              [
+                118,
+                3
+              ]
+            ],
+            "severity": "high"
+          }
+        ]
+      },
+      {
+        "pair": [
+          "ue-levelsequence-skill",
+          "ue-levelsequence-moviescene"
+        ],
+        "mode": "heuristic",
+        "conflicts": [
+          {
+            "type": "tier_distribution_mismatch",
+            "a_line": 15,
+            "a_dist": "🟢 18 / 🟡 2 / 🔴 0",
+            "b_line": 14,
+            "b_dist": "🟢 13 / 🟡 2 / 🔴 0",
+            "severity": "med"
+          },
+          {
+            "type": "api_signature_conflict",
+            "a_apis_sample": [
+              "FMovieSceneEntityManager::Update",
+              "ULevelSequencePlayer::Tick"
+            ],
+            "b_apis_sample": [
+              "FFrameRate::TransformTime",
+              "FText::FromString",
+              "UMyMovieSceneSection::StaticClass"
+            ],
+            "severity": "low",
+            "note": "common API pattern not found (heuristic — may be unrelated pages)"
+          }
+        ]
+      },
+      {
+        "pair": [
+          "ue-levelsequence-levelsequenceplayer",
+          "ue-levelsequence-moviescene"
+        ],
+        "mode": "heuristic",
+        "conflicts": [
+          {
+            "type": "tier_distribution_mismatch",
+            "a_line": 17,
+            "a_dist": "🟢 16 / 🟡 1 / 🔴 0",
+            "b_line": 14,
+            "b_dist": "🟢 13 / 🟡 2 / 🔴 0",
+            "severity": "med"
+          },
+          {
+            "type": "api_signature_conflict",
+            "a_apis_sample": [
+              "AMyCtrl::OnEnterZone",
+              "AMyGM::StartIntroCutscene",
+              "FStreamableDelegate::CreateWeakLambda"
+            ],
+            "b_apis_sample": [
+              "FFrameRate::TransformTime",
+              "FText::FromString",
+              "UMyMovieSceneSection::StaticClass"
+            ],
+            "severity": "low",
+            "note": "common API pattern not found (heuristic — may be unrelated pages)"
+          }
+        ]
+      },
+      {
+        "pair": [
+          "ue-spatialpartition-skill",
+          "ue-spatialpartition-toctree2"
+        ],
+        "mode": "heuristic",
+        "conflicts": [
+          {
+            "type": "tier_distribution_mismatch",
+            "a_line": 15,
+            "a_dist": "🟢 12 / 🟡 0 / 🔴 0",
+            "b_line": 16,
+            "b_dist": "🟢 14 / 🟡 0 / 🔴 0",
+            "severity": "med"
+          }
+        ]
+      }
+    ]
+  }
+}

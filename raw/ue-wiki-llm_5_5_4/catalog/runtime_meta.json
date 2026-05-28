@@ -1,0 +1,2174 @@
+{
+ "AIModule": {
+  "has_build": true,
+  "public_deps": [
+   "Core",
+   "CoreUObject",
+   "Engine",
+   "GameplayTags",
+   "GameplayTasks",
+   "NavigationSystem"
+  ],
+  "private_deps": [
+   "AutoRTFM",
+   "RHI",
+   "RenderCore"
+  ],
+  "has_public_dir": true,
+  "has_private_dir": true
+ },
+ "AVEncoder": {
+  "has_build": true,
+  "public_deps": [
+   "CUDA",
+   "Core",
+   "RHI",
+   "RenderCore"
+  ],
+  "private_deps": [
+   "D3D11RHI",
+   "D3D12RHI",
+   "Engine",
+   "SignalProcessing"
+  ],
+  "has_public_dir": true,
+  "has_private_dir": true
+ },
+ "AVIWriter": {
+  "has_build": true,
+  "public_deps": [
+   "Core"
+  ],
+  "private_deps": [],
+  "has_public_dir": true,
+  "has_private_dir": true
+ },
+ "AdpcmAudioDecoder": {
+  "has_build": false
+ },
+ "AdvancedWidgets": {
+  "has_build": true,
+  "public_deps": [
+   "Core",
+   "CoreUObject",
+   "SlateCore",
+   "UMG"
+  ],
+  "private_deps": [
+   "Engine",
+   "InputCore",
+   "Slate"
+  ],
+  "has_public_dir": true,
+  "has_private_dir": true
+ },
+ "Advertising": {
+  "has_build": false
+ },
+ "Analytics": {
+  "has_build": false
+ },
+ "Android": {
+  "has_build": false
+ },
+ "AnimGraphRuntime": {
+  "has_build": true,
+  "public_deps": [
+   "AnimationCore",
+   "Core",
+   "CoreUObject",
+   "Engine",
+   "GeometryCollectionEngine"
+  ],
+  "private_deps": [
+   "TraceLog"
+  ],
+  "has_public_dir": true,
+  "has_private_dir": true
+ },
+ "AnimationCore": {
+  "has_build": true,
+  "public_deps": [
+   "Core",
+   "CoreUObject"
+  ],
+  "private_deps": [],
+  "has_public_dir": true,
+  "has_private_dir": true
+ },
+ "AppFramework": {
+  "has_build": true,
+  "public_deps": [
+   "ApplicationCore",
+   "Core",
+   "CoreUObject",
+   "Slate",
+   "SlateCore"
+  ],
+  "private_deps": [
+   "InputCore"
+  ],
+  "has_public_dir": true,
+  "has_private_dir": true
+ },
+ "Apple": {
+  "has_build": false
+ },
+ "ApplicationCore": {
+  "has_build": true,
+  "public_deps": [
+   "Core"
+  ],
+  "private_deps": [],
+  "has_public_dir": true,
+  "has_private_dir": true
+ },
+ "AssetRegistry": {
+  "has_build": true,
+  "public_deps": [],
+  "private_deps": [
+   "ApplicationCore",
+   "Core",
+   "CoreUObject",
+   "PakFile",
+   "Projects",
+   "TelemetryUtils",
+   "TraceLog"
+  ],
+  "has_public_dir": true,
+  "has_private_dir": true
+ },
+ "AudioAnalyzer": {
+  "has_build": true,
+  "public_deps": [
+   "Core",
+   "SignalProcessing"
+  ],
+  "private_deps": [
+   "AudioMixer",
+   "CoreUObject",
+   "Engine"
+  ],
+  "has_public_dir": true,
+  "has_private_dir": true
+ },
+ "AudioCaptureCore": {
+  "has_build": true,
+  "public_deps": [
+   "Core",
+   "SignalProcessing"
+  ],
+  "private_deps": [
+   "Engine"
+  ],
+  "has_public_dir": true,
+  "has_private_dir": true
+ },
+ "AudioCaptureImplementations": {
+  "has_build": false
+ },
+ "AudioDeviceEnumeration": {
+  "has_build": false
+ },
+ "AudioExtensions": {
+  "has_build": true,
+  "public_deps": [
+   "AudioMixerCore",
+   "Core",
+   "CoreUObject",
+   "SignalProcessing"
+  ],
+  "private_deps": [],
+  "has_public_dir": true,
+  "has_private_dir": true
+ },
+ "AudioLink": {
+  "has_build": false
+ },
+ "AudioMixer": {
+  "has_build": true,
+  "public_deps": [
+   "AudioLinkEngine",
+   "Core",
+   "CoreUObject"
+  ],
+  "private_deps": [
+   "AudioExtensions",
+   "AudioLinkCore",
+   "AudioMixerCore",
+   "AudioPlatformConfiguration",
+   "Engine",
+   "HeadMountedDisplay",
+   "NonRealtimeAudioRenderer",
+   "SignalProcessing",
+   "SoundFieldRendering",
+   "TraceLog"
+  ],
+  "has_public_dir": true,
+  "has_private_dir": true
+ },
+ "AudioMixerCore": {
+  "has_build": true,
+  "public_deps": [],
+  "private_deps": [
+   "Core",
+   "SignalProcessing",
+   "TraceLog"
+  ],
+  "has_public_dir": true,
+  "has_private_dir": true
+ },
+ "AudioPlatformConfiguration": {
+  "has_build": true,
+  "public_deps": [],
+  "private_deps": [
+   "Core",
+   "CoreUObject"
+  ],
+  "has_public_dir": true,
+  "has_private_dir": true
+ },
+ "AudioPlatformSupport": {
+  "has_build": false
+ },
+ "AugmentedReality": {
+  "has_build": false
+ },
+ "AutoRTFM": {
+  "has_build": true,
+  "public_deps": [],
+  "private_deps": [],
+  "has_public_dir": true,
+  "has_private_dir": true
+ },
+ "AutomationMessages": {
+  "has_build": true,
+  "public_deps": [
+   "AutomationTest",
+   "CoreUObject"
+  ],
+  "private_deps": [
+   "Core"
+  ],
+  "has_public_dir": true,
+  "has_private_dir": true
+ },
+ "AutomationTest": {
+  "has_build": true,
+  "public_deps": [
+   "CoreUObject"
+  ],
+  "private_deps": [
+   "Core",
+   "SourceControl"
+  ],
+  "has_public_dir": true,
+  "has_private_dir": true
+ },
+ "AutomationWorker": {
+  "has_build": true,
+  "public_deps": [
+   "Core"
+  ],
+  "private_deps": [
+   "Analytics",
+   "AnalyticsET",
+   "AutomationMessages",
+   "AutomationTest",
+   "CoreUObject",
+   "Json",
+   "JsonUtilities"
+  ],
+  "has_public_dir": true,
+  "has_private_dir": true
+ },
+ "BinkAudioDecoder": {
+  "has_build": false
+ },
+ "BlueprintRuntime": {
+  "has_build": true,
+  "public_deps": [],
+  "private_deps": [
+   "Core",
+   "CoreUObject"
+  ],
+  "has_public_dir": true,
+  "has_private_dir": true
+ },
+ "BuildSettings": {
+  "has_build": true,
+  "public_deps": [],
+  "private_deps": [],
+  "has_public_dir": true,
+  "has_private_dir": true
+ },
+ "CEF3Utils": {
+  "has_build": true,
+  "public_deps": [],
+  "private_deps": [
+   "Core"
+  ],
+  "has_public_dir": true,
+  "has_private_dir": true
+ },
+ "CUDA": {
+  "has_build": false
+ },
+ "Cbor": {
+  "has_build": true,
+  "public_deps": [
+   "Core"
+  ],
+  "private_deps": [],
+  "has_public_dir": true,
+  "has_private_dir": true
+ },
+ "CinematicCamera": {
+  "has_build": true,
+  "public_deps": [],
+  "private_deps": [
+   "Core",
+   "CoreUObject",
+   "DeveloperSettings",
+   "Engine",
+   "MovieScene",
+   "MovieSceneTracks",
+   "Slate",
+   "SlateCore"
+  ],
+  "has_public_dir": true,
+  "has_private_dir": true
+ },
+ "ClientPilot": {
+  "has_build": true,
+  "public_deps": [],
+  "private_deps": [
+   "Core",
+   "CoreUObject"
+  ],
+  "has_public_dir": true,
+  "has_private_dir": true
+ },
+ "ClothingSystemRuntimeCommon": {
+  "has_build": true,
+  "public_deps": [
+   "ClothingSystemRuntimeInterface",
+   "Core",
+   "CoreUObject"
+  ],
+  "private_deps": [
+   "Engine",
+   "Slate"
+  ],
+  "has_public_dir": true,
+  "has_private_dir": true
+ },
+ "ClothingSystemRuntimeInterface": {
+  "has_build": true,
+  "public_deps": [
+   "Core",
+   "CoreUObject"
+  ],
+  "private_deps": [],
+  "has_public_dir": true,
+  "has_private_dir": true
+ },
+ "ClothingSystemRuntimeNv": {
+  "has_build": true,
+  "public_deps": [
+   "ClothingSystemRuntimeCommon",
+   "ClothingSystemRuntimeInterface",
+   "Core",
+   "CoreUObject"
+  ],
+  "private_deps": [
+   "Engine"
+  ],
+  "has_public_dir": true,
+  "has_private_dir": true
+ },
+ "ColorManagement": {
+  "has_build": true,
+  "public_deps": [
+   "Core"
+  ],
+  "private_deps": [],
+  "has_public_dir": true,
+  "has_private_dir": true
+ },
+ "CookOnTheFly": {
+  "has_build": true,
+  "public_deps": [
+   "Core",
+   "CoreUObject",
+   "Networking",
+   "Sockets"
+  ],
+  "private_deps": [],
+  "has_public_dir": false,
+  "has_private_dir": true
+ },
+ "Core": {
+  "has_build": true,
+  "public_deps": [],
+  "private_deps": [],
+  "has_public_dir": true,
+  "has_private_dir": true
+ },
+ "CoreOnline": {
+  "has_build": true,
+  "public_deps": [
+   "Core",
+   "CoreUObject",
+   "Json"
+  ],
+  "private_deps": [],
+  "has_public_dir": true,
+  "has_private_dir": true
+ },
+ "CorePreciseFP": {
+  "has_build": false
+ },
+ "CoreUObject": {
+  "has_build": true,
+  "public_deps": [
+   "Core",
+   "CorePreciseFP",
+   "TraceLog"
+  ],
+  "private_deps": [
+   "AutoRTFM",
+   "Json",
+   "Projects"
+  ],
+  "has_public_dir": true,
+  "has_private_dir": true
+ },
+ "CoreVerseVM": {
+  "has_build": false
+ },
+ "CrashReportCore": {
+  "has_build": true,
+  "public_deps": [
+   "Analytics",
+   "AnalyticsET",
+   "Core",
+   "HTTP",
+   "Json",
+   "XmlParser"
+  ],
+  "private_deps": [],
+  "has_public_dir": true,
+  "has_private_dir": true
+ },
+ "D3D12RHI": {
+  "has_build": true,
+  "public_deps": [],
+  "private_deps": [],
+  "has_public_dir": true,
+  "has_private_dir": true
+ },
+ "Datasmith": {
+  "has_build": false
+ },
+ "DeveloperSettings": {
+  "has_build": true,
+  "public_deps": [],
+  "private_deps": [
+   "Core",
+   "CoreUObject",
+   "Projects"
+  ],
+  "has_public_dir": true,
+  "has_private_dir": true
+ },
+ "Engine": {
+  "has_build": true,
+  "public_deps": [
+   "AnalyticsET",
+   "AssetRegistry",
+   "AudioExtensions",
+   "AudioLinkCore",
+   "AudioPlatformConfiguration",
+   "CookOnTheFly",
+   "Core",
+   "CoreOnline",
+   "CoreUObject",
+   "DeveloperSettings",
+   "EngineMessages",
+   "EngineSettings",
+   "FieldNotification",
+   "GameplayTags",
+   "Horde",
+   "ImageCore",
+   "InputCore",
+   "IoStoreOnDemandCore",
+   "Json",
+   "JsonUtilities",
+   "MeshDescription",
+   "Messaging",
+   "MessagingCommon",
+   "NetCore",
+   "NetworkReplayStreaming",
+   "PacketHandler",
+   "PakFile",
+   "PhysicsCore",
+   "RHI",
+   "RenderCore",
+   "SignalProcessing",
+   "SkeletalMeshDescription",
+   "Slate",
+   "SlateCore",
+   "Sockets",
+   "StateStream",
+   "StaticMeshDescription",
+   "SynthBenchmark",
+   "TextureBuildUtilities"
+  ],
+  "private_deps": [
+   "Analytics",
+   "AnimationCore",
+   "AppFramework",
+   "AudioMixer",
+   "AudioMixerCore",
+   "AutoRTFM",
+   "BuildSettings",
+   "CinematicCamera",
+   "DerivedDataCache",
+   "EditorAnalyticsSession",
+   "HTTP",
+   "Icmp",
+   "IntelISPC",
+   "IoStoreOnDemand",
+   "Kismet",
+   "Landscape",
+   "MaterialShaderQualitySettings",
+   "MessagingRpc",
+   "MoviePlayerProxy",
+   "Networking",
+   "PortalRpc",
+   "PortalServices",
+   "Projects",
+   "RawMesh",
+   "TextureCompressor",
+   "TraceLog",
+   "TypedElementFramework",
+   "TypedElementRuntime",
+   "UMG",
+   "UniversalObjectLocator",
+   "UnrealEd",
+   "XmlParser",
+   "Zen"
+  ],
+  "has_public_dir": true,
+  "has_private_dir": true
+ },
+ "EngineMessages": {
+  "has_build": true,
+  "public_deps": [
+   "CoreUObject"
+  ],
+  "private_deps": [
+   "Core"
+  ],
+  "has_public_dir": true,
+  "has_private_dir": true
+ },
+ "EngineSettings": {
+  "has_build": true,
+  "public_deps": [
+   "CoreUObject"
+  ],
+  "private_deps": [
+   "Core"
+  ],
+  "has_public_dir": true,
+  "has_private_dir": true
+ },
+ "Experimental": {
+  "has_build": false
+ },
+ "ExternalRPCRegistry": {
+  "has_build": true,
+  "public_deps": [],
+  "private_deps": [
+   "Core",
+   "CoreUObject",
+   "HTTP",
+   "HTTPServer",
+   "Json"
+  ],
+  "has_public_dir": true,
+  "has_private_dir": true
+ },
+ "EyeTracker": {
+  "has_build": true,
+  "public_deps": [],
+  "private_deps": [
+   "Analytics",
+   "Core",
+   "CoreUObject",
+   "Engine",
+   "InputCore",
+   "RHI",
+   "RenderCore",
+   "Renderer",
+   "Slate",
+   "SlateCore"
+  ],
+  "has_public_dir": true,
+  "has_private_dir": true
+ },
+ "FieldNotification": {
+  "has_build": true,
+  "public_deps": [
+   "Core",
+   "CoreUObject"
+  ],
+  "private_deps": [],
+  "has_public_dir": true,
+  "has_private_dir": true
+ },
+ "Foliage": {
+  "has_build": true,
+  "public_deps": [],
+  "private_deps": [
+   "Core",
+   "CoreUObject",
+   "Engine",
+   "RHI",
+   "RenderCore"
+  ],
+  "has_public_dir": true,
+  "has_private_dir": true
+ },
+ "FriendsAndChat": {
+  "has_build": true,
+  "public_deps": [
+   "Core",
+   "CoreUObject",
+   "Slate"
+  ],
+  "private_deps": [
+   "SlateCore"
+  ],
+  "has_public_dir": true,
+  "has_private_dir": true
+ },
+ "GameMenuBuilder": {
+  "has_build": true,
+  "public_deps": [
+   "Core",
+   "CoreUObject",
+   "Engine",
+   "InputCore",
+   "Slate",
+   "SlateCore"
+  ],
+  "private_deps": [],
+  "has_public_dir": true,
+  "has_private_dir": true
+ },
+ "GameplayDebugger": {
+  "has_build": true,
+  "public_deps": [
+   "Core",
+   "CoreUObject",
+   "Engine"
+  ],
+  "private_deps": [
+   "DeveloperSettings",
+   "InputCore",
+   "LevelEditor",
+   "RenderCore",
+   "Slate",
+   "UnrealEd"
+  ],
+  "has_public_dir": true,
+  "has_private_dir": true
+ },
+ "GameplayMediaEncoder": {
+  "has_build": true,
+  "public_deps": [],
+  "private_deps": [
+   "AVEncoder",
+   "ApplicationCore",
+   "Core",
+   "CoreUObject",
+   "Engine",
+   "HTTP",
+   "Json",
+   "RHI",
+   "RenderCore",
+   "Slate",
+   "SlateCore"
+  ],
+  "has_public_dir": true,
+  "has_private_dir": true
+ },
+ "GameplayTags": {
+  "has_build": true,
+  "public_deps": [
+   "Core",
+   "CoreUObject",
+   "DeveloperSettings",
+   "Engine"
+  ],
+  "private_deps": [
+   "Json",
+   "JsonUtilities",
+   "NetCore",
+   "Projects",
+   "Slate",
+   "SlateCore"
+  ],
+  "has_public_dir": true,
+  "has_private_dir": true
+ },
+ "GameplayTasks": {
+  "has_build": true,
+  "public_deps": [
+   "Core",
+   "CoreUObject",
+   "Engine",
+   "GameplayTags",
+   "NetCore"
+  ],
+  "private_deps": [],
+  "has_public_dir": true,
+  "has_private_dir": true
+ },
+ "GeometryCore": {
+  "has_build": true,
+  "public_deps": [
+   "Core"
+  ],
+  "private_deps": [
+   "AutoRTFM"
+  ],
+  "has_public_dir": true,
+  "has_private_dir": true
+ },
+ "GeometryFramework": {
+  "has_build": true,
+  "public_deps": [
+   "Core",
+   "CoreUObject",
+   "Engine",
+   "GeometryCore",
+   "InteractiveToolsFramework",
+   "MeshConversion",
+   "MeshDescription",
+   "PhysicsCore",
+   "RHI",
+   "RenderCore",
+   "SkeletalMeshDescription",
+   "StaticMeshDescription"
+  ],
+  "private_deps": [
+   "EditorWidgets",
+   "Slate"
+  ],
+  "has_public_dir": true,
+  "has_private_dir": true
+ },
+ "HardwareSurvey": {
+  "has_build": true,
+  "public_deps": [
+   "ApplicationCore",
+   "Core"
+  ],
+  "private_deps": [],
+  "has_public_dir": true,
+  "has_private_dir": true
+ },
+ "HeadMountedDisplay": {
+  "has_build": true,
+  "public_deps": [],
+  "private_deps": [
+   "Core",
+   "CoreUObject",
+   "Engine",
+   "EngineSettings",
+   "InputCore",
+   "RHI",
+   "RenderCore",
+   "Renderer"
+  ],
+  "has_public_dir": true,
+  "has_private_dir": true
+ },
+ "IESFile": {
+  "has_build": true,
+  "public_deps": [],
+  "private_deps": [],
+  "has_public_dir": true,
+  "has_private_dir": true
+ },
+ "IOS": {
+  "has_build": false
+ },
+ "IPC": {
+  "has_build": true,
+  "public_deps": [],
+  "private_deps": [],
+  "has_public_dir": true,
+  "has_private_dir": true
+ },
+ "ImageCore": {
+  "has_build": true,
+  "public_deps": [],
+  "private_deps": [],
+  "has_public_dir": true,
+  "has_private_dir": true
+ },
+ "ImageWrapper": {
+  "has_build": true,
+  "public_deps": [],
+  "private_deps": [
+   "Core"
+  ],
+  "has_public_dir": true,
+  "has_private_dir": true
+ },
+ "ImageWriteQueue": {
+  "has_build": true,
+  "public_deps": [
+   "Core",
+   "CoreUObject",
+   "ImageCore",
+   "ImageWrapper"
+  ],
+  "private_deps": [
+   "Engine",
+   "RHI",
+   "RenderCore"
+  ],
+  "has_public_dir": true,
+  "has_private_dir": true
+ },
+ "InputCore": {
+  "has_build": true,
+  "public_deps": [
+   "Core",
+   "CoreUObject"
+  ],
+  "private_deps": [],
+  "has_public_dir": true,
+  "has_private_dir": true
+ },
+ "InputDevice": {
+  "has_build": true,
+  "public_deps": [],
+  "private_deps": [
+   "Core",
+   "Engine"
+  ],
+  "has_public_dir": true,
+  "has_private_dir": true
+ },
+ "InstallBundleManager": {
+  "has_build": true,
+  "public_deps": [],
+  "private_deps": [
+   "ApplicationCore",
+   "Core",
+   "IoStoreOnDemandCore",
+   "Json"
+  ],
+  "has_public_dir": true,
+  "has_private_dir": true
+ },
+ "Instrumentation": {
+  "has_build": true,
+  "public_deps": [],
+  "private_deps": [],
+  "has_public_dir": true,
+  "has_private_dir": true
+ },
+ "InteractiveToolsFramework": {
+  "has_build": true,
+  "public_deps": [
+   "ApplicationCore",
+   "Core",
+   "CoreUObject",
+   "InputCore",
+   "MeshDescription"
+  ],
+  "private_deps": [
+   "Engine",
+   "GeometryCore",
+   "RHI",
+   "RenderCore",
+   "Slate",
+   "SlateCore"
+  ],
+  "has_public_dir": true,
+  "has_private_dir": true
+ },
+ "Interchange": {
+  "has_build": false
+ },
+ "Json": {
+  "has_build": true,
+  "public_deps": [
+   "Core",
+   "RapidJSON"
+  ],
+  "private_deps": [],
+  "has_public_dir": true,
+  "has_private_dir": true
+ },
+ "JsonUtilities": {
+  "has_build": true,
+  "public_deps": [
+   "Core",
+   "CoreUObject",
+   "Json"
+  ],
+  "private_deps": [],
+  "has_public_dir": true,
+  "has_private_dir": true
+ },
+ "Landscape": {
+  "has_build": true,
+  "public_deps": [],
+  "private_deps": [
+   "ActionableMessage",
+   "ApplicationCore",
+   "Core",
+   "CoreUObject",
+   "DeveloperSettings",
+   "EditorFramework",
+   "Engine",
+   "Foliage",
+   "GeometryCore",
+   "ImageCore",
+   "MaterialUtilities",
+   "MathCore",
+   "MeshBuilder",
+   "MeshBuilderCommon",
+   "MeshDescription",
+   "MeshUtilities",
+   "MeshUtilitiesCommon",
+   "RHI",
+   "RenderCore",
+   "Renderer",
+   "Slate",
+   "SlateCore",
+   "StaticMeshDescription",
+   "TraceLog",
+   "UnrealEd"
+  ],
+  "has_public_dir": true,
+  "has_private_dir": true
+ },
+ "Launch": {
+  "has_build": true,
+  "public_deps": [],
+  "private_deps": [
+   "ApplicationCore",
+   "AutomationWorker",
+   "ClothingSystemRuntimeInterface",
+   "ClothingSystemRuntimeNv",
+   "Core",
+   "CoreUObject",
+   "DesktopPlatform",
+   "EditorFramework",
+   "Engine",
+   "FunctionalTesting",
+   "HeadMountedDisplay",
+   "InputCore",
+   "InstallBundleManager",
+   "MRMesh",
+   "MainFrame",
+   "MediaUtils",
+   "MoviePlayer",
+   "MoviePlayerProxy",
+   "NetworkFile",
+   "Networking",
+   "Overlay",
+   "PIEPreviewDeviceProfileSelector",
+   "PakFile",
+   "PreLoadScreen",
+   "Projects",
+   "RHI",
+   "RenderCore",
+   "SandboxFile",
+   "Serialization",
+   "Settings",
+   "Slate",
+   "SlateCore",
+   "Sockets",
+   "SourceControl",
+   "StreamingFile",
+   "TraceLog",
+   "UnrealEd"
+  ],
+  "has_public_dir": true,
+  "has_private_dir": true
+ },
+ "LevelSequence": {
+  "has_build": true,
+  "public_deps": [
+   "Core",
+   "CoreUObject",
+   "Engine",
+   "MovieScene",
+   "MovieSceneTracks",
+   "TimeManagement",
+   "UMG"
+  ],
+  "private_deps": [
+   "ActorPickerMode",
+   "DeveloperSettings",
+   "EditorFramework",
+   "MediaAssets",
+   "PropertyEditor",
+   "UniversalObjectLocator",
+   "UnrealEd"
+  ],
+  "has_public_dir": true,
+  "has_private_dir": true
+ },
+ "Linux": {
+  "has_build": false
+ },
+ "LiveLinkAnimationCore": {
+  "has_build": true,
+  "public_deps": [
+   "Core",
+   "CoreUObject",
+   "Engine",
+   "LiveLinkInterface"
+  ],
+  "private_deps": [],
+  "has_public_dir": true,
+  "has_private_dir": true
+ },
+ "LiveLinkInterface": {
+  "has_build": true,
+  "public_deps": [
+   "Core",
+   "CoreUObject"
+  ],
+  "private_deps": [],
+  "has_public_dir": true,
+  "has_private_dir": true
+ },
+ "LiveLinkMessageBusFramework": {
+  "has_build": true,
+  "public_deps": [
+   "Core",
+   "CoreUObject",
+   "LiveLinkInterface",
+   "MessagingCommon",
+   "Serialization"
+  ],
+  "private_deps": [],
+  "has_public_dir": true,
+  "has_private_dir": true
+ },
+ "MRMesh": {
+  "has_build": false
+ },
+ "MassEntity": {
+  "has_build": true,
+  "public_deps": [
+   "Core",
+   "CoreUObject",
+   "DeveloperSettings",
+   "Engine",
+   "TraceLog"
+  ],
+  "private_deps": [],
+  "has_public_dir": true,
+  "has_private_dir": true
+ },
+ "MaterialShaderQualitySettings": {
+  "has_build": true,
+  "public_deps": [],
+  "private_deps": [
+   "Core",
+   "CoreUObject",
+   "InputCore",
+   "PropertyEditor",
+   "RHI",
+   "Slate",
+   "SlateCore",
+   "TargetPlatform"
+  ],
+  "has_public_dir": false,
+  "has_private_dir": true
+ },
+ "MathCore": {
+  "has_build": true,
+  "public_deps": [
+   "Core"
+  ],
+  "private_deps": [],
+  "has_public_dir": true,
+  "has_private_dir": true
+ },
+ "Media": {
+  "has_build": true,
+  "public_deps": [
+   "Core",
+   "RenderCore"
+  ],
+  "private_deps": [],
+  "has_public_dir": true,
+  "has_private_dir": true
+ },
+ "MediaAssets": {
+  "has_build": true,
+  "public_deps": [
+   "AudioExtensions",
+   "AudioMixer",
+   "Core",
+   "CoreUObject",
+   "Engine",
+   "Media",
+   "MediaUtils",
+   "SignalProcessing"
+  ],
+  "private_deps": [
+   "RHI",
+   "RenderCore",
+   "Renderer"
+  ],
+  "has_public_dir": true,
+  "has_private_dir": true
+ },
+ "MediaUtils": {
+  "has_build": true,
+  "public_deps": [
+   "Core",
+   "CoreUObject",
+   "ImageWrapper",
+   "Media",
+   "SignalProcessing"
+  ],
+  "private_deps": [
+   "ImageWriteQueue"
+  ],
+  "has_public_dir": true,
+  "has_private_dir": true
+ },
+ "MeshConversion": {
+  "has_build": true,
+  "public_deps": [
+   "Core",
+   "GeometryCore",
+   "MeshDescription",
+   "SkeletalMeshDescription",
+   "StaticMeshDescription"
+  ],
+  "private_deps": [],
+  "has_public_dir": true,
+  "has_private_dir": true
+ },
+ "MeshConversionEngineTypes": {
+  "has_build": true,
+  "public_deps": [
+   "Chaos",
+   "Core",
+   "Engine",
+   "GeometryCore",
+   "MeshConversion",
+   "MeshDescription",
+   "SkeletalMeshDescription",
+   "StaticMeshDescription"
+  ],
+  "private_deps": [],
+  "has_public_dir": true,
+  "has_private_dir": true
+ },
+ "MeshDescription": {
+  "has_build": true,
+  "public_deps": [
+   "Core",
+   "CoreUObject"
+  ],
+  "private_deps": [],
+  "has_public_dir": true,
+  "has_private_dir": true
+ },
+ "MeshUtilitiesCommon": {
+  "has_build": true,
+  "public_deps": [],
+  "private_deps": [
+   "Core"
+  ],
+  "has_public_dir": true,
+  "has_private_dir": true
+ },
+ "Messaging": {
+  "has_build": true,
+  "public_deps": [
+   "Core",
+   "CoreUObject"
+  ],
+  "private_deps": [],
+  "has_public_dir": true,
+  "has_private_dir": true
+ },
+ "MessagingCommon": {
+  "has_build": true,
+  "public_deps": [
+   "Core",
+   "CoreUObject"
+  ],
+  "private_deps": [],
+  "has_public_dir": true,
+  "has_private_dir": true
+ },
+ "MessagingRpc": {
+  "has_build": true,
+  "public_deps": [
+   "Core",
+   "CoreUObject",
+   "MessagingCommon"
+  ],
+  "private_deps": [],
+  "has_public_dir": true,
+  "has_private_dir": true
+ },
+ "MoviePlayer": {
+  "has_build": true,
+  "public_deps": [
+   "ApplicationCore",
+   "Engine"
+  ],
+  "private_deps": [
+   "Core",
+   "CoreUObject",
+   "HTTP",
+   "HeadMountedDisplay",
+   "InputCore",
+   "MoviePlayerProxy",
+   "RHI",
+   "RenderCore",
+   "Slate",
+   "SlateCore"
+  ],
+  "has_public_dir": true,
+  "has_private_dir": true
+ },
+ "MoviePlayerProxy": {
+  "has_build": true,
+  "public_deps": [],
+  "private_deps": [
+   "Core"
+  ],
+  "has_public_dir": true,
+  "has_private_dir": true
+ },
+ "MovieScene": {
+  "has_build": true,
+  "public_deps": [
+   "Core",
+   "CoreUObject",
+   "Engine",
+   "InputCore",
+   "SlateCore",
+   "TimeManagement",
+   "UniversalObjectLocator"
+  ],
+  "private_deps": [
+   "AutoRTFM"
+  ],
+  "has_public_dir": true,
+  "has_private_dir": true
+ },
+ "MovieSceneCapture": {
+  "has_build": true,
+  "public_deps": [],
+  "private_deps": [
+   "AVIWriter",
+   "AssetRegistry",
+   "AudioMixer",
+   "Core",
+   "CoreUObject",
+   "Engine",
+   "ImageWriteQueue",
+   "Json",
+   "JsonUtilities",
+   "RHI",
+   "RenderCore",
+   "Slate",
+   "SlateCore"
+  ],
+  "has_public_dir": true,
+  "has_private_dir": true
+ },
+ "MovieSceneTracks": {
+  "has_build": true,
+  "public_deps": [
+   "AnimationCore",
+   "AudioExtensions",
+   "AudioMixer",
+   "BlueprintGraph",
+   "Constraints",
+   "Core",
+   "CoreUObject",
+   "Engine",
+   "MovieScene",
+   "TimeManagement"
+  ],
+  "private_deps": [
+   "AnimGraphRuntime",
+   "AnimationBlueprintLibrary",
+   "DataLayerEditor",
+   "EditorFramework",
+   "PropertyPath",
+   "SlateCore",
+   "UnrealEd"
+  ],
+  "has_public_dir": true,
+  "has_private_dir": true
+ },
+ "NNE": {
+  "has_build": true,
+  "public_deps": [],
+  "private_deps": [
+   "Core",
+   "CoreUObject",
+   "DerivedDataCache"
+  ],
+  "has_public_dir": true,
+  "has_private_dir": true
+ },
+ "NavigationSystem": {
+  "has_build": true,
+  "public_deps": [
+   "Chaos",
+   "Core",
+   "CoreUObject",
+   "Engine",
+   "GeometryCollectionEngine"
+  ],
+  "private_deps": [
+   "RHI",
+   "RenderCore"
+  ],
+  "has_public_dir": true,
+  "has_private_dir": true
+ },
+ "Navmesh": {
+  "has_build": true,
+  "public_deps": [],
+  "private_deps": [
+   "Core"
+  ],
+  "has_public_dir": true,
+  "has_private_dir": true
+ },
+ "Net": {
+  "has_build": false
+ },
+ "NetworkFile": {
+  "has_build": true,
+  "public_deps": [],
+  "private_deps": [
+   "CookOnTheFly",
+   "Core",
+   "CoreUObject",
+   "Sockets"
+  ],
+  "has_public_dir": true,
+  "has_private_dir": true
+ },
+ "NetworkFileSystem": {
+  "has_build": true,
+  "public_deps": [
+   "Core",
+   "Sockets"
+  ],
+  "private_deps": [
+   "CookOnTheFly",
+   "CookOnTheFlyNetServer",
+   "CoreUObject",
+   "DesktopPlatform",
+   "Engine",
+   "Projects",
+   "SandboxFile",
+   "TargetPlatform"
+  ],
+  "has_public_dir": true,
+  "has_private_dir": true
+ },
+ "NetworkReplayStreaming": {
+  "has_build": false
+ },
+ "Networking": {
+  "has_build": true,
+  "public_deps": [
+   "Core",
+   "Sockets"
+  ],
+  "private_deps": [],
+  "has_public_dir": true,
+  "has_private_dir": true
+ },
+ "NonRealtimeAudioRenderer": {
+  "has_build": true,
+  "public_deps": [],
+  "private_deps": [
+   "AudioMixer",
+   "AudioMixerCore",
+   "Core",
+   "CoreUObject",
+   "Engine",
+   "SignalProcessing"
+  ],
+  "has_public_dir": true,
+  "has_private_dir": true
+ },
+ "NullDrv": {
+  "has_build": true,
+  "public_deps": [],
+  "private_deps": [],
+  "has_public_dir": true,
+  "has_private_dir": true
+ },
+ "NullInstallBundleManager": {
+  "has_build": false
+ },
+ "Online": {
+  "has_build": false
+ },
+ "OodleDataCompression": {
+  "has_build": true,
+  "public_deps": [],
+  "private_deps": [],
+  "has_public_dir": false,
+  "has_private_dir": false
+ },
+ "OpenColorIOWrapper": {
+  "has_build": true,
+  "public_deps": [
+   "Core"
+  ],
+  "private_deps": [
+   "ImageCore"
+  ],
+  "has_public_dir": true,
+  "has_private_dir": true
+ },
+ "OpenGLDrv": {
+  "has_build": true,
+  "public_deps": [
+   "Core",
+   "RHI"
+  ],
+  "private_deps": [
+   "ApplicationCore",
+   "CoreUObject",
+   "Engine",
+   "PreLoadScreen",
+   "RHICore",
+   "RenderCore",
+   "TraceLog"
+  ],
+  "has_public_dir": true,
+  "has_private_dir": true
+ },
+ "OpusAudioDecoder": {
+  "has_build": false
+ },
+ "Overlay": {
+  "has_build": true,
+  "public_deps": [
+   "Core",
+   "CoreUObject",
+   "Engine"
+  ],
+  "private_deps": [
+   "Slate",
+   "SlateCore",
+   "UMG"
+  ],
+  "has_public_dir": true,
+  "has_private_dir": true
+ },
+ "PacketHandlers": {
+  "has_build": false
+ },
+ "PakFile": {
+  "has_build": true,
+  "public_deps": [],
+  "private_deps": [],
+  "has_public_dir": true,
+  "has_private_dir": true
+ },
+ "PerfCounters": {
+  "has_build": true,
+  "public_deps": [],
+  "private_deps": [
+   "Core",
+   "HTTPServer",
+   "Json"
+  ],
+  "has_public_dir": true,
+  "has_private_dir": true
+ },
+ "PhysicsCore": {
+  "has_build": true,
+  "public_deps": [
+   "DeveloperSettings"
+  ],
+  "private_deps": [
+   "Core",
+   "CoreUObject"
+  ],
+  "has_public_dir": true,
+  "has_private_dir": true
+ },
+ "PlatformThirdPartyHelpers": {
+  "has_build": false
+ },
+ "Portal": {
+  "has_build": false
+ },
+ "PreLoadScreen": {
+  "has_build": true,
+  "public_deps": [
+   "Analytics",
+   "AnalyticsET",
+   "ApplicationCore",
+   "Engine"
+  ],
+  "private_deps": [
+   "BuildPatchServices",
+   "Core",
+   "CoreUObject",
+   "InputCore",
+   "Projects",
+   "RHI",
+   "RenderCore",
+   "Slate",
+   "SlateCore"
+  ],
+  "has_public_dir": true,
+  "has_private_dir": true
+ },
+ "Projects": {
+  "has_build": true,
+  "public_deps": [
+   "Core",
+   "Json"
+  ],
+  "private_deps": [
+   "DesktopPlatform"
+  ],
+  "has_public_dir": true,
+  "has_private_dir": true
+ },
+ "PropertyPath": {
+  "has_build": true,
+  "public_deps": [],
+  "private_deps": [
+   "Core",
+   "CoreUObject"
+  ],
+  "has_public_dir": true,
+  "has_private_dir": true
+ },
+ "RHI": {
+  "has_build": true,
+  "public_deps": [],
+  "private_deps": [],
+  "has_public_dir": true,
+  "has_private_dir": true
+ },
+ "RHICore": {
+  "has_build": true,
+  "public_deps": [],
+  "private_deps": [],
+  "has_public_dir": true,
+  "has_private_dir": true
+ },
+ "RSA": {
+  "has_build": true,
+  "public_deps": [],
+  "private_deps": [],
+  "has_public_dir": true,
+  "has_private_dir": true
+ },
+ "RadAudioCodec": {
+  "has_build": false
+ },
+ "RawMesh": {
+  "has_build": true,
+  "public_deps": [],
+  "private_deps": [
+   "Core",
+   "CoreUObject"
+  ],
+  "has_public_dir": true,
+  "has_private_dir": true
+ },
+ "RenderCore": {
+  "has_build": true,
+  "public_deps": [
+   "CoreUObject",
+   "RHI"
+  ],
+  "private_deps": [
+   "ApplicationCore",
+   "CookOnTheFly",
+   "Core",
+   "Projects",
+   "TraceLog"
+  ],
+  "has_public_dir": true,
+  "has_private_dir": true
+ },
+ "Renderer": {
+  "has_build": true,
+  "public_deps": [
+   "Core",
+   "Engine"
+  ],
+  "private_deps": [
+   "ApplicationCore",
+   "CoreUObject",
+   "GeometryCore",
+   "ImageWriteQueue",
+   "MaterialShaderQualitySettings",
+   "NaniteUtilities",
+   "RHI",
+   "RenderCore",
+   "StateStream",
+   "TargetPlatform",
+   "TraceLog"
+  ],
+  "has_public_dir": true,
+  "has_private_dir": true
+ },
+ "RewindDebuggerRuntimeInterface": {
+  "has_build": true,
+  "public_deps": [],
+  "private_deps": [
+   "Core",
+   "CoreUObject"
+  ],
+  "has_public_dir": true,
+  "has_private_dir": true
+ },
+ "RuntimeAssetCache": {
+  "has_build": true,
+  "public_deps": [],
+  "private_deps": [
+   "Core",
+   "CoreUObject",
+   "Engine"
+  ],
+  "has_public_dir": true,
+  "has_private_dir": true
+ },
+ "SandboxFile": {
+  "has_build": true,
+  "public_deps": [],
+  "private_deps": [],
+  "has_public_dir": true,
+  "has_private_dir": true
+ },
+ "Serialization": {
+  "has_build": true,
+  "public_deps": [
+   "Cbor",
+   "Core",
+   "Json"
+  ],
+  "private_deps": [
+   "CoreUObject"
+  ],
+  "has_public_dir": true,
+  "has_private_dir": true
+ },
+ "SessionMessages": {
+  "has_build": true,
+  "public_deps": [
+   "CoreUObject"
+  ],
+  "private_deps": [
+   "Core"
+  ],
+  "has_public_dir": true,
+  "has_private_dir": true
+ },
+ "SessionServices": {
+  "has_build": true,
+  "public_deps": [
+   "Core"
+  ],
+  "private_deps": [
+   "CoreUObject",
+   "EngineMessages",
+   "SessionMessages"
+  ],
+  "has_public_dir": true,
+  "has_private_dir": true
+ },
+ "SignalProcessing": {
+  "has_build": true,
+  "public_deps": [
+   "IntelISPC"
+  ],
+  "private_deps": [
+   "Core",
+   "MathCore"
+  ],
+  "has_public_dir": true,
+  "has_private_dir": true
+ },
+ "SkeletalMeshDescription": {
+  "has_build": true,
+  "public_deps": [
+   "Core",
+   "CoreUObject",
+   "MeshDescription",
+   "StaticMeshDescription"
+  ],
+  "private_deps": [],
+  "has_public_dir": true,
+  "has_private_dir": true
+ },
+ "Slate": {
+  "has_build": true,
+  "public_deps": [
+   "Core",
+   "CoreUObject",
+   "ImageWrapper",
+   "InputCore",
+   "Json",
+   "SlateCore"
+  ],
+  "private_deps": [
+   "TraceLog"
+  ],
+  "has_public_dir": true,
+  "has_private_dir": true
+ },
+ "SlateCore": {
+  "has_build": true,
+  "public_deps": [
+   "Core",
+   "CoreUObject",
+   "DeveloperSettings",
+   "InputCore",
+   "Json",
+   "TraceLog"
+  ],
+  "private_deps": [],
+  "has_public_dir": true,
+  "has_private_dir": true
+ },
+ "SlateNullRenderer": {
+  "has_build": true,
+  "public_deps": [],
+  "private_deps": [
+   "Core",
+   "CoreUObject",
+   "Engine",
+   "RHI",
+   "RenderCore",
+   "SlateCore"
+  ],
+  "has_public_dir": true,
+  "has_private_dir": true
+ },
+ "SlateRHIRenderer": {
+  "has_build": true,
+  "public_deps": [],
+  "private_deps": [
+   "Core",
+   "CoreUObject",
+   "DeveloperSettings",
+   "Engine",
+   "HeadMountedDisplay",
+   "ImageCore",
+   "RHI",
+   "RenderCore",
+   "Renderer",
+   "Slate",
+   "SlateCore"
+  ],
+  "has_public_dir": true,
+  "has_private_dir": true
+ },
+ "Sockets": {
+  "has_build": true,
+  "public_deps": [],
+  "private_deps": [
+   "Core",
+   "NetCommon"
+  ],
+  "has_public_dir": true,
+  "has_private_dir": true
+ },
+ "Solaris": {
+  "has_build": false
+ },
+ "SoundFieldRendering": {
+  "has_build": true,
+  "public_deps": [],
+  "private_deps": [
+   "AudioExtensions",
+   "AudioMixer",
+   "Core",
+   "Engine",
+   "SignalProcessing"
+  ],
+  "has_public_dir": true,
+  "has_private_dir": true
+ },
+ "StateStream": {
+  "has_build": true,
+  "public_deps": [
+   "Core",
+   "CoreUObject"
+  ],
+  "private_deps": [],
+  "has_public_dir": true,
+  "has_private_dir": true
+ },
+ "StaticMeshDescription": {
+  "has_build": true,
+  "public_deps": [
+   "Core",
+   "CoreUObject",
+   "MeshDescription"
+  ],
+  "private_deps": [
+   "MeshUtilitiesCommon",
+   "RawMesh"
+  ],
+  "has_public_dir": true,
+  "has_private_dir": true
+ },
+ "StorageServerClient": {
+  "has_build": true,
+  "public_deps": [],
+  "private_deps": [
+   "CookOnTheFly",
+   "Core",
+   "CoreUObject",
+   "DeveloperSettings",
+   "Json",
+   "Sockets"
+  ],
+  "has_public_dir": false,
+  "has_private_dir": true
+ },
+ "StorageServerClientDebug": {
+  "has_build": true,
+  "public_deps": [],
+  "private_deps": [
+   "Core",
+   "CoreUObject",
+   "Engine",
+   "Json",
+   "Sockets",
+   "StorageServerClient"
+  ],
+  "has_public_dir": false,
+  "has_private_dir": true
+ },
+ "StreamingFile": {
+  "has_build": true,
+  "public_deps": [
+   "Core",
+   "NetworkFile",
+   "Sockets"
+  ],
+  "private_deps": [],
+  "has_public_dir": true,
+  "has_private_dir": true
+ },
+ "StreamingPauseRendering": {
+  "has_build": true,
+  "public_deps": [
+   "Engine",
+   "MoviePlayer",
+   "Slate"
+  ],
+  "private_deps": [
+   "Core",
+   "CoreUObject",
+   "InputCore",
+   "RHI",
+   "RenderCore",
+   "SlateCore"
+  ],
+  "has_public_dir": true,
+  "has_private_dir": true
+ },
+ "StudioTelemetry": {
+  "has_build": false
+ },
+ "SymsLib": {
+  "has_build": true,
+  "public_deps": [],
+  "private_deps": [],
+  "has_public_dir": false,
+  "has_private_dir": false
+ },
+ "SynthBenchmark": {
+  "has_build": true,
+  "public_deps": [
+   "Core",
+   "RHI",
+   "RenderCore"
+  ],
+  "private_deps": [
+   "ApplicationCore"
+  ],
+  "has_public_dir": true,
+  "has_private_dir": true
+ },
+ "TextureUtilitiesCommon": {
+  "has_build": false
+ },
+ "TimeManagement": {
+  "has_build": true,
+  "public_deps": [
+   "Core",
+   "CoreUObject",
+   "Engine",
+   "Slate",
+   "SlateCore"
+  ],
+  "private_deps": [],
+  "has_public_dir": true,
+  "has_private_dir": true
+ },
+ "Toolbox": {
+  "has_build": false
+ },
+ "TraceLog": {
+  "has_build": true,
+  "public_deps": [],
+  "private_deps": [],
+  "has_public_dir": true,
+  "has_private_dir": true
+ },
+ "TypedElementFramework": {
+  "has_build": true,
+  "public_deps": [
+   "Core",
+   "CoreUObject"
+  ],
+  "private_deps": [],
+  "has_public_dir": true,
+  "has_private_dir": true
+ },
+ "TypedElementRuntime": {
+  "has_build": true,
+  "public_deps": [
+   "Core",
+   "CoreUObject",
+   "TypedElementFramework"
+  ],
+  "private_deps": [],
+  "has_public_dir": true,
+  "has_private_dir": true
+ },
+ "UEJpegComp": {
+  "has_build": true,
+  "public_deps": [],
+  "private_deps": [],
+  "has_public_dir": false,
+  "has_private_dir": false
+ },
+ "UELibrary": {
+  "has_build": true,
+  "public_deps": [
+   "Core",
+   "Engine",
+   "InputCore"
+  ],
+  "private_deps": [
+   "ApplicationCore",
+   "Launch"
+  ],
+  "has_public_dir": true,
+  "has_private_dir": true
+ },
+ "UEWavComp": {
+  "has_build": true,
+  "public_deps": [],
+  "private_deps": [],
+  "has_public_dir": false,
+  "has_private_dir": false
+ },
+ "UMG": {
+  "has_build": true,
+  "public_deps": [
+   "FieldNotification",
+   "HTTP",
+   "MovieScene",
+   "MovieSceneTracks",
+   "PropertyPath",
+   "TimeManagement"
+  ],
+  "private_deps": [
+   "ApplicationCore",
+   "Core",
+   "CoreUObject",
+   "DeveloperSettings",
+   "Engine",
+   "InputCore",
+   "RHI",
+   "RenderCore",
+   "Renderer",
+   "Slate",
+   "SlateCore",
+   "SlateRHIRenderer",
+   "TraceLog"
+  ],
+  "has_public_dir": true,
+  "has_private_dir": true
+ },
+ "UniversalObjectLocator": {
+  "has_build": true,
+  "public_deps": [
+   "Core",
+   "CoreUObject"
+  ],
+  "private_deps": [],
+  "has_public_dir": true,
+  "has_private_dir": true
+ },
+ "Unix": {
+  "has_build": false
+ },
+ "UnrealGame": {
+  "has_build": true,
+  "public_deps": [],
+  "private_deps": [
+   "Core",
+   "CoreUObject",
+   "Engine"
+  ],
+  "has_public_dir": false,
+  "has_private_dir": true
+ },
+ "VectorVM": {
+  "has_build": true,
+  "public_deps": [
+   "Core",
+   "CoreUObject"
+  ],
+  "private_deps": [],
+  "has_public_dir": true,
+  "has_private_dir": true
+ },
+ "VerseCompiler": {
+  "has_build": true,
+  "public_deps": [
+   "uLangCore",
+   "uLangJSON"
+  ],
+  "private_deps": [],
+  "has_public_dir": true,
+  "has_private_dir": true
+ },
+ "VirtualProduction": {
+  "has_build": false
+ },
+ "VorbisAudioDecoder": {
+  "has_build": false
+ },
+ "VulkanRHI": {
+  "has_build": true,
+  "public_deps": [],
+  "private_deps": [
+   "ApplicationCore",
+   "BuildSettings",
+   "Core",
+   "CoreUObject",
+   "Engine",
+   "GoogleGameSDK",
+   "HeadMountedDisplay",
+   "Launch",
+   "PreLoadScreen",
+   "RHI",
+   "RHICore",
+   "RenderCore",
+   "TraceLog"
+  ],
+  "has_public_dir": true,
+  "has_private_dir": true
+ },
+ "WebBrowser": {
+  "has_build": true,
+  "public_deps": [
+   "Slate",
+   "SlateCore"
+  ],
+  "private_deps": [
+   "ApplicationCore",
+   "Core",
+   "CoreUObject",
+   "Engine",
+   "HTTP",
+   "InputCore",
+   "Json",
+   "JsonUtilities",
+   "RHI",
+   "RenderCore",
+   "Serialization",
+   "WebBrowserTexture"
+  ],
+  "has_public_dir": true,
+  "has_private_dir": true
+ },
+ "WebBrowserTexture": {
+  "has_build": true,
+  "public_deps": [],
+  "private_deps": [
+   "ApplicationCore",
+   "Core",
+   "CoreUObject",
+   "Engine",
+   "InputCore",
+   "MediaUtils",
+   "RHI",
+   "RenderCore",
+   "Serialization",
+   "Slate",
+   "SlateCore",
+   "WebBrowser"
+  ],
+  "has_public_dir": true,
+  "has_private_dir": true
+ },
+ "WidgetCarousel": {
+  "has_build": true,
+  "public_deps": [],
+  "private_deps": [
+   "ApplicationCore",
+   "Core",
+   "CoreUObject",
+   "Slate",
+   "SlateCore"
+  ],
+  "has_public_dir": true,
+  "has_private_dir": true
+ },
+ "Windows": {
+  "has_build": false
+ },
+ "XmlParser": {
+  "has_build": true,
+  "public_deps": [],
+  "private_deps": [
+   "Core"
+  ],
+  "has_public_dir": true,
+  "has_private_dir": true
+ }
+}

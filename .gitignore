@@ -1,0 +1,39 @@
+# Obsidian
+.obsidian/workspace*
+.obsidian/cache
+.obsidian/graph.json
+
+# Trash
+.trash/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+
+# Editor
+.vscode/
+.idea/
+*.swp
+
+# Build artifacts (none expected for a markdown vault, but just in case)
+*.log
+
+# MCP server / venv
+.venv/
+.env
+*.key
+*.pem
+
+# Local-only mcp.json copies (use mcp.example.json as the committed template)
+mcp.json
+tools/mcp.local.json
+
+# .mcpb build outputs (versioned via GitHub Releases, not committed to source)
+*.mcpb

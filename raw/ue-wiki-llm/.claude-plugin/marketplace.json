@@ -1,0 +1,17 @@
+{
+  "name": "ue-wiki-marketplace",
+  "version": "1.0.0",
+  "description": "Unreal Engine 5.7.4 LLM Wiki marketplace — UE 모든 카테고리 sub-skill 통합 진입점",
+  "owner": {
+    "name": "민철",
+    "email": "sensr7086@naver.com"
+  },
+  "plugins": [
+    {
+      "name": "ue-wiki-llm",
+      "source": ".",
+      "description": "Unreal Engine 5.7.4 LLM Wiki — 13 카테고리 + 108 sub-skill + 14 횡단 인덱스",
+      "category": "game-engine"
+    }
+  ]
+}

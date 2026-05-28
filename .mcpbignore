@@ -1,0 +1,50 @@
+# Exclude from .mcpb packaging — keep extension lean.
+# Pattern syntax: gitignore-like.
+
+# Python virtualenv (must NOT be bundled — conflicts with mcpb's Python runtime)
+.venv/
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Git internals
+.git/
+.gitignore
+.gitattributes
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.swp
+
+# Obsidian working state
+.obsidian/workspace*
+.obsidian/cache
+.obsidian/plugins/*/data.json
+
+# Build outputs (don't recursively bundle .mcpb files into themselves)
+*.mcpb
+mcwiki-*.zip
+_check/
+_check_mcpb/
+
+# Local-only configs
+mcp.json
+tools/mcp.local.json
+.env
+*.key
+*.pem
+
+# Logs / lint reports
+*.log
+wiki/synthesis/lint-*.md
+
+# Documentation that's not needed at runtime (optional — comment out to include)
+# docs/
+# raw/articles/
+# raw/papers/
+# raw/youtube/

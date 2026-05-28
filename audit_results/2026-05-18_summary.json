@@ -1,0 +1,24 @@
+{
+  "date": "2026-05-18",
+  "kinds": [
+    "sources",
+    "synthesis"
+  ],
+  "sample": null,
+  "broken": {
+    "pages_with_broken": 0,
+    "broken_total": 0,
+    "links_total": 5089
+  },
+  "missing": {
+    "pages_with_missing": 146,
+    "missing_total": 401,
+    "min_inbound": 2
+  },
+  "stale": {
+    "stale_count": 0,
+    "aged_50%": 0,
+    "total": 275,
+    "threshold_days": 90
+  }
+}

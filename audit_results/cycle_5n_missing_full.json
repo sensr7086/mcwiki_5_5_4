@@ -1,0 +1,4101 @@
+{
+  "cycle": "5n",
+  "elapsed_seconds": 5.6,
+  "total_scanned": 266,
+  "pages_with_missing": 135,
+  "missing_total": 359,
+  "confidence_distribution": {
+    "high": 24,
+    "med": 166,
+    "low": 169
+  },
+  "results": [
+    {
+      "slug": "mc-soft-skeletalmesh-ragdoll",
+      "kind": "sources",
+      "outbound": 16,
+      "inbound": 43,
+      "missing_count": 14,
+      "missing": [
+        {
+          "source_slug": "ragdoll-getup-anim-recovery",
+          "source_kind": "synthesis",
+          "inbound_count": 5,
+          "confidence": "med",
+          "is_reverse_linked": false,
+          "missing": true
+        },
+        {
+          "source_slug": "mc-soft-asset-component-pattern",
+          "source_kind": "synthesis",
+          "inbound_count": 3,
+          "confidence": "med",
+          "is_reverse_linked": false,
+          "missing": true
+        },
+        {
+          "source_slug": "spawnactor-hitching-4-step-pattern",
+          "source_kind": "synthesis",
+          "inbound_count": 3,
+          "confidence": "med",
+          "is_reverse_linked": false,
+          "missing": true
+        },
+        {
+          "source_slug": "ai-npc-ragdoll-coordination",
+          "source_kind": "synthesis",
+          "inbound_count": 2,
+          "confidence": "low",
+          "is_reverse_linked": false,
+          "missing": true
+        },
+        {
+          "source_slug": "ai-npc-squad-coordination-tick-budget",
+          "source_kind": "synthesis",
+          "inbound_count": 2,
+          "confidence": "low",
+          "is_reverse_linked": false,
+          "missing": true
+        },
+        {
+          "source_slug": "cooked-first-frame-stability",
+          "source_kind": "synthesis",
+          "inbound_count": 2,
+          "confidence": "low",
+          "is_reverse_linked": false,
+          "missing": true
+        },
+        {
+          "source_slug": "late-join-reconnect-state-sync",
+          "source_kind": "synthesis",
+          "inbound_count": 2,
+          "confidence": "low",
+          "is_reverse_linked": false,
+          "missing": true
+        },
+        {
+          "source_slug": "lint-2026-05-10-mcsoft-components",
+          "source_kind": "synthesis",
+          "inbound_count": 2,
+          "confidence": "low",
+          "is_reverse_linked": false,
+          "missing": true
+        },
+        {
+          "source_slug": "mc-character-hit-reaction-pipeline",
+          "source_kind": "synthesis",
+          "inbound_count": 2,
+          "confidence": "low",
+          "is_reverse_linked": false,
+          "missing": true
+        },
+        {
+          "source_slug": "mc-validation-automation-tooling",
+          "source_kind": "synthesis",
+          "inbound_count": 2,
+          "confidence": "low",
+          "is_reverse_linked": false,
+          "missing": true
+        },
+        {
+          "source_slug": "mc-validation-policy-rollout",
+          "source_kind": "synthesis",
+          "inbound_count": 2,
+          "confidence": "low",
+          "is_reverse_linked": false,
+          "missing": true
+        },
+        {
+          "source_slug": "ragdoll-multiplayer-replication",
+          "source_kind": "synthesis",
+          "inbound_count": 2,
+          "confidence": "low",
+          "is_reverse_linked": false,
+          "missing": true
+        },
+        {
+          "source_slug": "replication-graph-bandwidth-management",
+          "source_kind": "synthesis",
+          "inbound_count": 2,
+          "confidence": "low",
+          "is_reverse_linked": false,
+          "missing": true
+        },
+        {
+          "source_slug": "validation-static-analysis-ide-integration",
+          "source_kind": "synthesis",
+          "inbound_count": 2,
+          "confidence": "low",
+          "is_reverse_linked": false,
+          "missing": true
+        }
+      ]
+    },
+    {
+      "slug": "ue-networking-skill",
+      "kind": "sources",
+      "outbound": 8,
+      "inbound": 34,
+      "missing_count": 11,
+      "missing": [
+        {
+          "source_slug": "late-join-reconnect-state-sync",
+          "source_kind": "synthesis",
+          "inbound_count": 3,
+          "confidence": "med",
+          "is_reverse_linked": false,
+          "missing": true
+        },
+        {
+          "source_slug": "actor-lifecycle-edge-cases",
+          "source_kind": "synthesis",
+          "inbound_count": 2,
+          "confidence": "low",
+          "is_reverse_linked": false,
+          "missing": true
+        },
+        {
+          "source_slug": "actor-pool-multiplayer-gc-integration",
+          "source_kind": "synthesis",
+          "inbound_count": 2,
+          "confidence": "low",
+          "is_reverse_linked": false,
+          "missing": true
+        },
+        {
+          "source_slug": "ai-npc-ragdoll-coordination",
+          "source_kind": "synthesis",
+          "inbound_count": 2,
+          "confidence": "low",
+          "is_reverse_linked": false,
+          "missing": true
+        },
+        {
+          "source_slug": "gameplaycue-cosmetic-boundary",
+          "source_kind": "synthesis",
+          "inbound_count": 2,
+          "confidence": "low",
+          "is_reverse_linked": false,
+          "missing": true
+        },
+        {
+          "source_slug": "gameplaycue-prediction-modifier-cdr",
+          "source_kind": "synthesis",
+          "inbound_count": 2,
+          "confidence": "low",
+          "is_reverse_linked": false,
+          "missing": true
+        },
+        {
+          "source_slug": "gas-advanced-runtime-patterns",
+          "source_kind": "synthesis",
+          "inbound_count": 2,
+          "confidence": "low",
+          "is_reverse_linked": false,
+          "missing": true
+        },
+        {
+          "source_slug": "gas-pawn-vs-playerstate-decision",
+          "source_kind": "synthesis",
+          "inbound_count": 2,
+          "confidence": "low",
+          "is_reverse_linked": false,
+          "missing": true
+        },
+        {
+          "source_slug": "ragdoll-multiplayer-replication",
+          "source_kind": "synthesis",
+          "inbound_count": 2,
+          "confidence": "low",
+          "is_reverse_linked": false,
+          "missing": true
+        },
+        {
+          "source_slug": "replication-graph-bandwidth-management",
+          "source_kind": "synthesis",
+          "inbound_count": 2,
+          "confidence": "low",
+          "is_reverse_linked": false,
+          "missing": true
+        },
+        {
+          "source_slug": "server-vs-client-rpc-decision-tree",
+          "source_kind": "synthesis",
+          "inbound_count": 2,
+          "confidence": "low",
+          "is_reverse_linked": false,
+          "missing": true
+        }
+      ]
+    },
+    {
+      "slug": "ue-ref-07-profilingscopeRule",
+      "kind": "sources",
+      "outbound": 13,
+      "inbound": 55,
+      "missing_count": 10,
+      "missing": [
+        {
+          "source_slug": "ue-editor-unrealed-asseteditortoolkit",
+          "source_kind": "sources",
+          "inbound_count": 2,
+          "confidence": "med",
+          "is_reverse_linked": false,
+          "missing": true
+        },
+        {
+          "source_slug": "ue-editor-unrealed-elements",
+          "source_kind": "sources",
+          "inbound_count": 2,
+          "confidence": "med",
+          "is_reverse_linked": false,
+          "missing": true
+        },
+        {
+          "source_slug": "ue-editor-unrealed-kismet2",
+          "source_kind": "sources",
+          "inbound_count": 2,
+          "confidence": "med",
+          "is_reverse_linked": false,
+          "missing": true
+        },
+        {
+          "source_slug": "ue-editor-unrealed-materialeditor",
+          "source_kind": "sources",
+          "inbound_count": 2,
+          "confidence": "med",
+          "is_reverse_linked": false,
+          "missing": true
+        },
+        {
+          "source_slug": "ue-editor-unrealed-misc",
+          "source_kind": "sources",
+          "inbound_count": 2,
+          "confidence": "med",
+          "is_reverse_linked": false,
+          "missing": true
+        },
+        {
+          "source_slug": "ue-ref-15-evaluatorrecipe",
+          "source_kind": "sources",
+          "inbound_count": 2,
+          "confidence": "med",
+          "is_reverse_linked": false,
+          "missing": true
+        },
+        {
+          "source_slug": "ue-ref-deep-assetloading",
+          "source_kind": "sources",
+          "inbound_count": 2,
+          "confidence": "med",
+          "is_reverse_linked": false,
+          "missing": true
+        },
+        {
+          "source_slug": "ue-ref-deep-componentpolicies",
+          "source_kind": "sources",
+          "inbound_count": 2,
+          "confidence": "med",
+          "is_reverse_linked": false,
+          "missing": true
+        },
+        {
+          "source_slug": "editor-preview-scene-runtime-handoff",
+          "source_kind": "synthesis",
+          "inbound_count": 2,
+          "confidence": "low",
+          "is_reverse_linked": false,
+          "missing": true
+        },
+        {
+          "source_slug": "mc-actor-spawn-subsystem-h1-measurement",
+          "source_kind": "synthesis",
+          "inbound_count": 2,
+          "confidence": "low",
+          "is_reverse_linked": false,
+          "missing": true
+        }
+      ]
+    },
+    {
+      "slug": "ue-ref-11-assetloadingpolicy",
+      "kind": "sources",
+      "outbound": 32,
+      "inbound": 60,
+      "missing_count": 10,
+      "missing": [
+        {
+          "source_slug": "mc-actor-spawn-subsystem-h1-measurement",
+          "source_kind": "synthesis",
+          "inbound_count": 5,
+          "confidence": "med",
+          "is_reverse_linked": false,
+          "missing": true
+        },
+        {
+          "source_slug": "ue-editor-propertyeditor",
+          "source_kind": "sources",
+          "inbound_count": 3,
+          "confidence": "high",
+          "is_reverse_linked": false,
+          "missing": true
+        },
+        {
+          "source_slug": "actor-pool-reset-pattern",
+          "source_kind": "synthesis",
+          "inbound_count": 3,
+          "confidence": "med",
+          "is_reverse_linked": false,
+          "missing": true
+        },
+        {
+          "source_slug": "ue-assetclasses-assetuserdata",
+          "source_kind": "sources",
+          "inbound_count": 2,
+          "confidence": "med",
+          "is_reverse_linked": false,
+          "missing": true
+        },
+        {
+          "source_slug": "ue-editor-assettools",
+          "source_kind": "sources",
+          "inbound_count": 2,
+          "confidence": "med",
+          "is_reverse_linked": false,
+          "missing": true
+        },
+        {
+          "source_slug": "ue-editor-skill",
+          "source_kind": "sources",
+          "inbound_count": 2,
+          "confidence": "med",
+          "is_reverse_linked": false,
+          "missing": true
+        },
+        {
+          "source_slug": "ue-ref-15-evaluatorrecipe",
+          "source_kind": "sources",
+          "inbound_count": 2,
+          "confidence": "med",
+          "is_reverse_linked": false,
+          "missing": true
+        },
+        {
+          "source_slug": "ue-render-materialexpression",
+          "source_kind": "sources",
+          "inbound_count": 2,
+          "confidence": "med",
+          "is_reverse_linked": false,
+          "missing": true
+        },
+        {
+          "source_slug": "editor-preview-scene-runtime-handoff",
+          "source_kind": "synthesis",
+          "inbound_count": 2,
+          "confidence": "low",
+          "is_reverse_linked": false,
+          "missing": true
+        },
+        {
+          "source_slug": "instanced-subobject-customization-bypass",
+          "source_kind": "synthesis",
+          "inbound_count": 2,
+          "confidence": "low",
+          "is_reverse_linked": false,
+          "missing": true
+        }
+      ]
+    },
+    {
+      "slug": "mc-asset-validation-policy",
+      "kind": "sources",
+      "outbound": 15,
+      "inbound": 36,
+      "missing_count": 9,
+      "missing": [
+        {
+          "source_slug": "ue-editor-personatoolkit",
+          "source_kind": "sources",
+          "inbound_count": 2,
+          "confidence": "med",
+          "is_reverse_linked": false,
+          "missing": true
+        },
+        {
+          "source_slug": "actor-lifecycle-edge-cases",
+          "source_kind": "synthesis",
+          "inbound_count": 2,
+          "confidence": "low",
+          "is_reverse_linked": false,
+          "missing": true
+        },
+        {
+          "source_slug": "actor-pool-reset-pattern",
+          "source_kind": "synthesis",
+          "inbound_count": 2,
+          "confidence": "low",
+          "is_reverse_linked": false,
+          "missing": true
+        },
+        {
+          "source_slug": "gameplaycue-cosmetic-boundary",
+          "source_kind": "synthesis",
+          "inbound_count": 2,
+          "confidence": "low",
+          "is_reverse_linked": false,
+          "missing": true
+        },
+        {
+          "source_slug": "lint-2026-05-10-mcsoft-components",
+          "source_kind": "synthesis",
+          "inbound_count": 2,
+          "confidence": "low",
+          "is_reverse_linked": false,
+          "missing": true
+        },
+        {
+          "source_slug": "mc-soft-asset-component-pattern",
+          "source_kind": "synthesis",
+          "inbound_count": 2,
+          "confidence": "low",
+          "is_reverse_linked": false,
+          "missing": true
+        },
+        {
+          "source_slug": "runtime-dlc-livepatch-rollout",
+          "source_kind": "synthesis",
+          "inbound_count": 2,
+          "confidence": "low",
+          "is_reverse_linked": false,
+          "missing": true
+        },
+        {
+          "source_slug": "validation-static-analysis-ide-integration",
+          "source_kind": "synthesis",
+          "inbound_count": 2,
+          "confidence": "low",
+          "is_reverse_linked": false,
+          "missing": true
+        },
+        {
+          "source_slug": "vfx-audio-soft-pool-significance",
+          "source_kind": "synthesis",
+          "inbound_count": 2,
+          "confidence": "low",
+          "is_reverse_linked": false,
+          "missing": true
+        }
+      ]
+    },
+    {
+      "slug": "ue-niagara-skill",
+      "kind": "sources",
+      "outbound": 5,
+      "inbound": 25,
+      "missing_count": 8,
+      "missing": [
+        {
+          "source_slug": "component-renderstate-and-spawn-side-effects",
+          "source_kind": "synthesis",
+          "inbound_count": 4,
+          "confidence": "med",
+          "is_reverse_linked": false,
+          "missing": true
+        },
+        {
+          "source_slug": "editor-preview-scene-runtime-handoff",
+          "source_kind": "synthesis",
+          "inbound_count": 3,
+          "confidence": "med",
+          "is_reverse_linked": false,
+          "missing": true
+        },
+        {
+          "source_slug": "mc-soft-asset-component-pattern",
+          "source_kind": "synthesis",
+          "inbound_count": 3,
+          "confidence": "med",
+          "is_reverse_linked": false,
+          "missing": true
+        },
+        {
+          "source_slug": "vfx-audio-soft-pool-significance",
+          "source_kind": "synthesis",
+          "inbound_count": 3,
+          "confidence": "med",
+          "is_reverse_linked": false,
+          "missing": true
+        },
+        {
+          "source_slug": "ue-ref-12-assetoptimizationpolicy",
+          "source_kind": "sources",
+          "inbound_count": 2,
+          "confidence": "med",
+          "is_reverse_linked": false,
+          "missing": true
+        },
+        {
+          "source_slug": "actor-pool-multiplayer-gc-integration",
+          "source_kind": "synthesis",
+          "inbound_count": 2,
+          "confidence": "low",
+          "is_reverse_linked": false,
+          "missing": true
+        },
+        {
+          "source_slug": "actor-pool-reset-pattern",
+          "source_kind": "synthesis",
+          "inbound_count": 2,
+          "confidence": "low",
+          "is_reverse_linked": false,
+          "missing": true
+        },
+        {
+          "source_slug": "mc-actor-spawn-subsystem-implementation",
+          "source_kind": "synthesis",
+          "inbound_count": 2,
+          "confidence": "low",
+          "is_reverse_linked": false,
+          "missing": true
+        }
+      ]
+    },
+    {
+      "slug": "ue-render-material",
+      "kind": "sources",
+      "outbound": 8,
+      "inbound": 31,
+      "missing_count": 8,
+      "missing": [
+        {
+          "source_slug": "ue-render-meshdrawing",
+          "source_kind": "sources",
+          "inbound_count": 3,
+          "confidence": "high",
+          "is_reverse_linked": false,
+          "missing": true
+        },
+        {
+          "source_slug": "ue-render-mobile",
+          "source_kind": "sources",
+          "inbound_count": 3,
+          "confidence": "high",
+          "is_reverse_linked": false,
+          "missing": true
+        },
+        {
+          "source_slug": "cooked-first-frame-stability",
+          "source_kind": "synthesis",
+          "inbound_count": 3,
+          "confidence": "med",
+          "is_reverse_linked": false,
+          "missing": true
+        },
+        {
+          "source_slug": "PSO-Precache",
+          "source_kind": "concepts",
+          "inbound_count": 3,
+          "confidence": "med",
+          "is_reverse_linked": false,
+          "missing": true
+        },
+        {
+          "source_slug": "ue-render-lumennanite",
+          "source_kind": "sources",
+          "inbound_count": 2,
+          "confidence": "med",
+          "is_reverse_linked": false,
+          "missing": true
+        },
+        {
+          "source_slug": "ue-render-vr",
+          "source_kind": "sources",
+          "inbound_count": 2,
+          "confidence": "med",
+          "is_reverse_linked": false,
+          "missing": true
+        },
+        {
+          "source_slug": "pso-precache-platform-matrix",
+          "source_kind": "synthesis",
+          "inbound_count": 2,
+          "confidence": "low",
+          "is_reverse_linked": false,
+          "missing": true
+        },
+        {
+          "source_slug": "render-rdg-pass-standard-pattern",
+          "source_kind": "synthesis",
+          "inbound_count": 2,
+          "confidence": "low",
+          "is_reverse_linked": false,
+          "missing": true
+        }
+      ]
+    },
+    {
+      "slug": "ue-render-shader",
+      "kind": "sources",
+      "outbound": 8,
+      "inbound": 35,
+      "missing_count": 8,
+      "missing": [
+        {
+          "source_slug": "ue-render-meshdrawing",
+          "source_kind": "sources",
+          "inbound_count": 4,
+          "confidence": "high",
+          "is_reverse_linked": false,
+          "missing": true
+        },
+        {
+          "source_slug": "ue-render-sceneviewextension",
+          "source_kind": "sources",
+          "inbound_count": 3,
+          "confidence": "high",
+          "is_reverse_linked": false,
+          "missing": true
+        },
+        {
+          "source_slug": "cooked-first-frame-stability",
+          "source_kind": "synthesis",
+          "inbound_count": 3,
+          "confidence": "med",
+          "is_reverse_linked": false,
+          "missing": true
+        },
+        {
+          "source_slug": "PSO-Precache",
+          "source_kind": "concepts",
+          "inbound_count": 3,
+          "confidence": "med",
+          "is_reverse_linked": false,
+          "missing": true
+        },
+        {
+          "source_slug": "ue-render-mobile",
+          "source_kind": "sources",
+          "inbound_count": 2,
+          "confidence": "med",
+          "is_reverse_linked": false,
+          "missing": true
+        },
+        {
+          "source_slug": "ue-render-postprocess",
+          "source_kind": "sources",
+          "inbound_count": 2,
+          "confidence": "med",
+          "is_reverse_linked": false,
+          "missing": true
+        },
+        {
+          "source_slug": "pso-precache-platform-matrix",
+          "source_kind": "synthesis",
+          "inbound_count": 2,
+          "confidence": "low",
+          "is_reverse_linked": false,
+          "missing": true
+        },
+        {
+          "source_slug": "RDG-Pass",
+          "source_kind": "concepts",
+          "inbound_count": 2,
+          "confidence": "low",
+          "is_reverse_linked": false,
+          "missing": true
+        }
+      ]
+    },
+    {
+      "slug": "ue-subsystem-skill",
+      "kind": "sources",
+      "outbound": 7,
+      "inbound": 31,
+      "missing_count": 8,
+      "missing": [
+        {
+          "source_slug": "subsystem-5-types-decision-tree",
+          "source_kind": "synthesis",
+          "inbound_count": 4,
+          "confidence": "med",
+          "is_reverse_linked": false,
+          "missing": true
+        },
+        {
+          "source_slug": "mc-actor-spawn-subsystem-implementation",
+          "source_kind": "synthesis",
+          "inbound_count": 3,
+          "confidence": "med",
+          "is_reverse_linked": false,
+          "missing": true
+        },
+        {
+          "source_slug": "ue-editor-leveleditor",
+          "source_kind": "sources",
+          "inbound_count": 2,
+          "confidence": "med",
+          "is_reverse_linked": false,
+          "missing": true
+        },
+        {
+          "source_slug": "actor-pool-reset-pattern",
+          "source_kind": "synthesis",
+          "inbound_count": 2,
+          "confidence": "low",
+          "is_reverse_linked": false,
+          "missing": true
+        },
+        {
+          "source_slug": "mc-validation-policy-rollout",
+          "source_kind": "synthesis",
+          "inbound_count": 2,
+          "confidence": "low",
+          "is_reverse_linked": false,
+          "missing": true
+        },
+        {
+          "source_slug": "online-crossplay-gas-lobby",
+          "source_kind": "synthesis",
+          "inbound_count": 2,
+          "confidence": "low",
+          "is_reverse_linked": false,
+          "missing": true
+        },
+        {
+          "source_slug": "subsystem-advanced-patterns",
+          "source_kind": "synthesis",
+          "inbound_count": 2,
+          "confidence": "low",
+          "is_reverse_linked": false,
+          "missing": true
+        },
+        {
+          "source_slug": "subsystem-graph-online-wrapper",
+          "source_kind": "synthesis",
+          "inbound_count": 2,
+          "confidence": "low",
+          "is_reverse_linked": false,
+          "missing": true
+        }
+      ]
+    },
+    {
+      "slug": "ue-gameframework-actor",
+      "kind": "sources",
+      "outbound": 5,
+      "inbound": 18,
+      "missing_count": 7,
+      "missing": [
+        {
+          "source_slug": "actor-lifecycle-edge-cases",
+          "source_kind": "synthesis",
+          "inbound_count": 2,
+          "confidence": "low",
+          "is_reverse_linked": false,
+          "missing": true
+        },
+        {
+          "source_slug": "actor-pool-multiplayer-gc-integration",
+          "source_kind": "synthesis",
+          "inbound_count": 2,
+          "confidence": "low",
+          "is_reverse_linked": false,
+          "missing": true
+        },
+        {
+          "source_slug": "actor-pool-reset-pattern",
+          "source_kind": "synthesis",
+          "inbound_count": 2,
+          "confidence": "low",
+          "is_reverse_linked": false,
+          "missing": true
+        },
+        {
+          "source_slug": "bp-scs-preview-viewport-lifecycle",
+          "source_kind": "synthesis",
+          "inbound_count": 2,
+          "confidence": "low",
+          "is_reverse_linked": false,
+          "missing": true
+        },
+        {
+          "source_slug": "component-vs-actor-lifecycle-table",
+          "source_kind": "synthesis",
+          "inbound_count": 2,
+          "confidence": "low",
+          "is_reverse_linked": false,
+          "missing": true
+        },
+        {
+          "source_slug": "spawnactor-hitching-4-step-pattern",
+          "source_kind": "synthesis",
+          "inbound_count": 2,
+          "confidence": "low",
+          "is_reverse_linked": false,
+          "missing": true
+        },
+        {
+          "source_slug": "toctree2-worldpartition-pair-pattern",
+          "source_kind": "synthesis",
+          "inbound_count": 2,
+          "confidence": "low",
+          "is_reverse_linked": false,
+          "missing": true
+        }
+      ]
+    },
+    {
+      "slug": "ue-assetclasses-mesh",
+      "kind": "sources",
+      "outbound": 12,
+      "inbound": 28,
+      "missing_count": 6,
+      "missing": [
+        {
+          "source_slug": "lint-2026-05-10-mcsoft-components",
+          "source_kind": "synthesis",
+          "inbound_count": 5,
+          "confidence": "med",
+          "is_reverse_linked": false,
+          "missing": true
+        },
+        {
+          "source_slug": "spawnactor-hitching-4-step-pattern",
+          "source_kind": "synthesis",
+          "inbound_count": 4,
+          "confidence": "med",
+          "is_reverse_linked": false,
+          "missing": true
+        },
+        {
+          "source_slug": "ue-render-lumennanite",
+          "source_kind": "sources",
+          "inbound_count": 3,
+          "confidence": "high",
+          "is_reverse_linked": false,
+          "missing": true
+        },
+        {
+          "source_slug": "mc-character-hit-reaction-pipeline",
+          "source_kind": "synthesis",
+          "inbound_count": 3,
+          "confidence": "med",
+          "is_reverse_linked": false,
+          "missing": true
+        },
+        {
+          "source_slug": "mc-soft-asset-component-pattern",
+          "source_kind": "synthesis",
+          "inbound_count": 3,
+          "confidence": "med",
+          "is_reverse_linked": false,
+          "missing": true
+        },
+        {
+          "source_slug": "ue-ref-12-assetoptimizationpolicy",
+          "source_kind": "sources",
+          "inbound_count": 2,
+          "confidence": "med",
+          "is_reverse_linked": false,
+          "missing": true
+        }
+      ]
+    },
+    {
+      "slug": "ue-build-skill",
+      "kind": "sources",
+      "outbound": 5,
+      "inbound": 17,
+      "missing_count": 6,
+      "missing": [
+        {
+          "source_slug": "cooked-first-frame-stability",
+          "source_kind": "synthesis",
+          "inbound_count": 2,
+          "confidence": "low",
+          "is_reverse_linked": false,
+          "missing": true
+        },
+        {
+          "source_slug": "dlc-asset-migration-edge-cases",
+          "source_kind": "synthesis",
+          "inbound_count": 2,
+          "confidence": "low",
+          "is_reverse_linked": false,
+          "missing": true
+        },
+        {
+          "source_slug": "pso-precache-platform-matrix",
+          "source_kind": "synthesis",
+          "inbound_count": 2,
+          "confidence": "low",
+          "is_reverse_linked": false,
+          "missing": true
+        },
+        {
+          "source_slug": "pso-streaming-livepatch-tools",
+          "source_kind": "synthesis",
+          "inbound_count": 2,
+          "confidence": "low",
+          "is_reverse_linked": false,
+          "missing": true
+        },
+        {
+          "source_slug": "runtime-dlc-livepatch-rollout",
+          "source_kind": "synthesis",
+          "inbound_count": 2,
+          "confidence": "low",
+          "is_reverse_linked": false,
+          "missing": true
+        },
+        {
+          "source_slug": "subsystem-advanced-patterns",
+          "source_kind": "synthesis",
+          "inbound_count": 2,
+          "confidence": "low",
+          "is_reverse_linked": false,
+          "missing": true
+        }
+      ]
+    },
+    {
+      "slug": "ue-gameframework-gamemode",
+      "kind": "sources",
+      "outbound": 5,
+      "inbound": 14,
+      "missing_count": 6,
+      "missing": [
+        {
+          "source_slug": "cooked-first-frame-stability",
+          "source_kind": "synthesis",
+          "inbound_count": 2,
+          "confidence": "low",
+          "is_reverse_linked": false,
+          "missing": true
+        },
+        {
+          "source_slug": "gas-advanced-runtime-patterns",
+          "source_kind": "synthesis",
+          "inbound_count": 2,
+          "confidence": "low",
+          "is_reverse_linked": false,
+          "missing": true
+        },
+        {
+          "source_slug": "gas-pawn-vs-playerstate-decision",
+          "source_kind": "synthesis",
+          "inbound_count": 2,
+          "confidence": "low",
+          "is_reverse_linked": false,
+          "missing": true
+        },
+        {
+          "source_slug": "late-join-reconnect-state-sync",
+          "source_kind": "synthesis",
+          "inbound_count": 2,
+          "confidence": "low",
+          "is_reverse_linked": false,
+          "missing": true
+        },
+        {
+          "source_slug": "replication-graph-bandwidth-management",
+          "source_kind": "synthesis",
+          "inbound_count": 2,
+          "confidence": "low",
+          "is_reverse_linked": false,
+          "missing": true
+        },
+        {
+          "source_slug": "server-vs-client-rpc-decision-tree",
+          "source_kind": "synthesis",
+          "inbound_count": 2,
+          "confidence": "low",
+          "is_reverse_linked": false,
+          "missing": true
+        }
+      ]
+    },
+    {
+      "slug": "ue-gas-skill",
+      "kind": "sources",
+      "outbound": 7,
+      "inbound": 19,
+      "missing_count": 6,
+      "missing": [
+        {
+          "source_slug": "gas-pawn-vs-playerstate-decision",
+          "source_kind": "synthesis",
+          "inbound_count": 3,
+          "confidence": "med",
+          "is_reverse_linked": false,
+          "missing": true
+        },
+        {
+          "source_slug": "gameplaycue-cosmetic-boundary",
+          "source_kind": "synthesis",
+          "inbound_count": 2,
+          "confidence": "low",
+          "is_reverse_linked": false,
+          "missing": true
+        },
+        {
+          "source_slug": "gameplaycue-prediction-modifier-cdr",
+          "source_kind": "synthesis",
+          "inbound_count": 2,
+          "confidence": "low",
+          "is_reverse_linked": false,
+          "missing": true
+        },
+        {
+          "source_slug": "gas-advanced-runtime-patterns",
+          "source_kind": "synthesis",
+          "inbound_count": 2,
+          "confidence": "low",
+          "is_reverse_linked": false,
+          "missing": true
+        },
+        {
+          "source_slug": "late-join-reconnect-state-sync",
+          "source_kind": "synthesis",
+          "inbound_count": 2,
+          "confidence": "low",
+          "is_reverse_linked": false,
+          "missing": true
+        },
+        {
+          "source_slug": "online-crossplay-gas-lobby",
+          "source_kind": "synthesis",
+          "inbound_count": 2,
+          "confidence": "low",
+          "is_reverse_linked": false,
+          "missing": true
+        }
+      ]
+    },
+    {
+      "slug": "ue-significance-skill",
+      "kind": "sources",
+      "outbound": 15,
+      "inbound": 31,
+      "missing_count": 6,
+      "missing": [
+        {
+          "source_slug": "mc-actor-spawn-subsystem-implementation",
+          "source_kind": "synthesis",
+          "inbound_count": 5,
+          "confidence": "med",
+          "is_reverse_linked": false,
+          "missing": true
+        },
+        {
+          "source_slug": "toctree2-worldpartition-pair-pattern",
+          "source_kind": "synthesis",
+          "inbound_count": 3,
+          "confidence": "med",
+          "is_reverse_linked": false,
+          "missing": true
+        },
+        {
+          "source_slug": "ue-spatialpartition-skill",
+          "source_kind": "sources",
+          "inbound_count": 2,
+          "confidence": "med",
+          "is_reverse_linked": false,
+          "missing": true
+        },
+        {
+          "source_slug": "actor-pool-multiplayer-gc-integration",
+          "source_kind": "synthesis",
+          "inbound_count": 2,
+          "confidence": "low",
+          "is_reverse_linked": false,
+          "missing": true
+        },
+        {
+          "source_slug": "ai-npc-squad-coordination-tick-budget",
+          "source_kind": "synthesis",
+          "inbound_count": 2,
+          "confidence": "low",
+          "is_reverse_linked": false,
+          "missing": true
+        },
+        {
+          "source_slug": "mc-actor-spawn-subsystem-h1-measurement",
+          "source_kind": "synthesis",
+          "inbound_count": 2,
+          "confidence": "low",
+          "is_reverse_linked": false,
+          "missing": true
+        }
+      ]
+    },
+    {
+      "slug": "ue-components-physicscomponents",
+      "kind": "sources",
+      "outbound": 3,
+      "inbound": 21,
+      "missing_count": 5,
+      "missing": [
+        {
+          "source_slug": "mc-soft-skeletalmesh-ragdoll",
+          "source_kind": "sources",
+          "inbound_count": 7,
+          "confidence": "high",
+          "is_reverse_linked": false,
+          "missing": true
+        },
+        {
+          "source_slug": "lint-2026-05-10-mcsoft-components",
+          "source_kind": "synthesis",
+          "inbound_count": 4,
+          "confidence": "med",
+          "is_reverse_linked": false,
+          "missing": true
+        },
+        {
+          "source_slug": "mc-character-hit-reaction-pipeline",
+          "source_kind": "synthesis",
+          "inbound_count": 2,
+          "confidence": "low",
+          "is_reverse_linked": false,
+          "missing": true
+        },
+        {
+          "source_slug": "ragdoll-getup-anim-recovery",
+          "source_kind": "synthesis",
+          "inbound_count": 2,
+          "confidence": "low",
+          "is_reverse_linked": false,
+          "missing": true
+        },
+        {
+          "source_slug": "ragdoll-multiplayer-replication",
+          "source_kind": "synthesis",
+          "inbound_count": 2,
+          "confidence": "low",
+          "is_reverse_linked": false,
+          "missing": true
+        }
+      ]
+    },
+    {
+      "slug": "ue-coreuobject-cooking",
+      "kind": "sources",
+      "outbound": 5,
+      "inbound": 14,
+      "missing_count": 5,
+      "missing": [
+        {
+          "source_slug": "ue-ref-05-editoronlyindex",
+          "source_kind": "sources",
+          "inbound_count": 2,
+          "confidence": "med",
+          "is_reverse_linked": false,
+          "missing": true
+        },
+        {
+          "source_slug": "ue-ref-11-assetloadingpolicy",
+          "source_kind": "sources",
+          "inbound_count": 2,
+          "confidence": "med",
+          "is_reverse_linked": false,
+          "missing": true
+        },
+        {
+          "source_slug": "cooked-first-frame-stability",
+          "source_kind": "synthesis",
+          "inbound_count": 2,
+          "confidence": "low",
+          "is_reverse_linked": false,
+          "missing": true
+        },
+        {
+          "source_slug": "dlc-asset-migration-edge-cases",
+          "source_kind": "synthesis",
+          "inbound_count": 2,
+          "confidence": "low",
+          "is_reverse_linked": false,
+          "missing": true
+        },
+        {
+          "source_slug": "runtime-dlc-livepatch-rollout",
+          "source_kind": "synthesis",
+          "inbound_count": 2,
+          "confidence": "low",
+          "is_reverse_linked": false,
+          "missing": true
+        }
+      ]
+    },
+    {
+      "slug": "ue-gameframework-controller",
+      "kind": "sources",
+      "outbound": 6,
+      "inbound": 14,
+      "missing_count": 5,
+      "missing": [
+        {
+          "source_slug": "gas-pawn-vs-playerstate-decision",
+          "source_kind": "synthesis",
+          "inbound_count": 4,
+          "confidence": "med",
+          "is_reverse_linked": false,
+          "missing": true
+        },
+        {
+          "source_slug": "ai-npc-ragdoll-coordination",
+          "source_kind": "synthesis",
+          "inbound_count": 2,
+          "confidence": "low",
+          "is_reverse_linked": false,
+          "missing": true
+        },
+        {
+          "source_slug": "gas-advanced-runtime-patterns",
+          "source_kind": "synthesis",
+          "inbound_count": 2,
+          "confidence": "low",
+          "is_reverse_linked": false,
+          "missing": true
+        },
+        {
+          "source_slug": "late-join-reconnect-state-sync",
+          "source_kind": "synthesis",
+          "inbound_count": 2,
+          "confidence": "low",
+          "is_reverse_linked": false,
+          "missing": true
+        },
+        {
+          "source_slug": "server-vs-client-rpc-decision-tree",
+          "source_kind": "synthesis",
+          "inbound_count": 2,
+          "confidence": "low",
+          "is_reverse_linked": false,
+          "missing": true
+        }
+      ]
+    },
+    {
+      "slug": "ue-gameframework-pawncharacter",
+      "kind": "sources",
+      "outbound": 8,
+      "inbound": 14,
+      "missing_count": 5,
+      "missing": [
+        {
+          "source_slug": "ai-npc-ragdoll-coordination",
+          "source_kind": "synthesis",
+          "inbound_count": 2,
+          "confidence": "low",
+          "is_reverse_linked": false,
+          "missing": true
+        },
+        {
+          "source_slug": "ai-npc-squad-coordination-tick-budget",
+          "source_kind": "synthesis",
+          "inbound_count": 2,
+          "confidence": "low",
+          "is_reverse_linked": false,
+          "missing": true
+        },
+        {
+          "source_slug": "gas-pawn-vs-playerstate-decision",
+          "source_kind": "synthesis",
+          "inbound_count": 2,
+          "confidence": "low",
+          "is_reverse_linked": false,
+          "missing": true
+        },
+        {
+          "source_slug": "ragdoll-multiplayer-replication",
+          "source_kind": "synthesis",
+          "inbound_count": 2,
+          "confidence": "low",
+          "is_reverse_linked": false,
+          "missing": true
+        },
+        {
+          "source_slug": "server-vs-client-rpc-decision-tree",
+          "source_kind": "synthesis",
+          "inbound_count": 2,
+          "confidence": "low",
+          "is_reverse_linked": false,
+          "missing": true
+        }
+      ]
+    },
+    {
+      "slug": "ue-ref-04-overrideindex",
+      "kind": "sources",
+      "outbound": 19,
+      "inbound": 30,
+      "missing_count": 5,
+      "missing": [
+        {
+          "source_slug": "component-vs-actor-lifecycle-table",
+          "source_kind": "synthesis",
+          "inbound_count": 4,
+          "confidence": "med",
+          "is_reverse_linked": false,
+          "missing": true
+        },
+        {
+          "source_slug": "ue-coreuobject-uobject",
+          "source_kind": "sources",
+          "inbound_count": 2,
+          "confidence": "med",
+          "is_reverse_linked": false,
+          "missing": true
+        },
+        {
+          "source_slug": "ue-editor-editorsubsystem",
+          "source_kind": "sources",
+          "inbound_count": 2,
+          "confidence": "med",
+          "is_reverse_linked": false,
+          "missing": true
+        },
+        {
+          "source_slug": "ue-editor-unrealed-kismet2",
+          "source_kind": "sources",
+          "inbound_count": 2,
+          "confidence": "med",
+          "is_reverse_linked": false,
+          "missing": true
+        },
+        {
+          "source_slug": "ue-ref-15-evaluatorrecipe",
+          "source_kind": "sources",
+          "inbound_count": 2,
+          "confidence": "med",
+          "is_reverse_linked": false,
+          "missing": true
+        }
+      ]
+    },
+    {
+      "slug": "ue-render-rdg",
+      "kind": "sources",
+      "outbound": 7,
+      "inbound": 23,
+      "missing_count": 5,
+      "missing": [
+        {
+          "source_slug": "RDG-Pass",
+          "source_kind": "concepts",
+          "inbound_count": 3,
+          "confidence": "med",
+          "is_reverse_linked": false,
+          "missing": true
+        },
+        {
+          "source_slug": "ue-render-meshdrawing",
+          "source_kind": "sources",
+          "inbound_count": 2,
+          "confidence": "med",
+          "is_reverse_linked": false,
+          "missing": true
+        },
+        {
+          "source_slug": "ue-render-postprocess",
+          "source_kind": "sources",
+          "inbound_count": 2,
+          "confidence": "med",
+          "is_reverse_linked": false,
+          "missing": true
+        },
+        {
+          "source_slug": "component-renderstate-and-spawn-side-effects",
+          "source_kind": "synthesis",
+          "inbound_count": 2,
+          "confidence": "low",
+          "is_reverse_linked": false,
+          "missing": true
+        },
+        {
+          "source_slug": "Render-Thread-Safety",
+          "source_kind": "concepts",
+          "inbound_count": 2,
+          "confidence": "low",
+          "is_reverse_linked": false,
+          "missing": true
+        }
+      ]
+    },
+    {
+      "slug": "ue-render-vulkan",
+      "kind": "sources",
+      "outbound": 1,
+      "inbound": 13,
+      "missing_count": 5,
+      "missing": [
+        {
+          "source_slug": "ue-render-rhi",
+          "source_kind": "sources",
+          "inbound_count": 3,
+          "confidence": "high",
+          "is_reverse_linked": false,
+          "missing": true
+        },
+        {
+          "source_slug": "ue-render-mobile",
+          "source_kind": "sources",
+          "inbound_count": 2,
+          "confidence": "med",
+          "is_reverse_linked": false,
+          "missing": true
+        },
+        {
+          "source_slug": "ue-render-vr",
+          "source_kind": "sources",
+          "inbound_count": 2,
+          "confidence": "med",
+          "is_reverse_linked": false,
+          "missing": true
+        },
+        {
+          "source_slug": "pso-precache-platform-matrix",
+          "source_kind": "synthesis",
+          "inbound_count": 2,
+          "confidence": "low",
+          "is_reverse_linked": false,
+          "missing": true
+        },
+        {
+          "source_slug": "pso-streaming-livepatch-tools",
+          "source_kind": "synthesis",
+          "inbound_count": 2,
+          "confidence": "low",
+          "is_reverse_linked": false,
+          "missing": true
+        }
+      ]
+    },
+    {
+      "slug": "ue-components-actorcomponent",
+      "kind": "sources",
+      "outbound": 4,
+      "inbound": 12,
+      "missing_count": 4,
+      "missing": [
+        {
+          "source_slug": "bp-scs-preview-viewport-lifecycle",
+          "source_kind": "synthesis",
+          "inbound_count": 4,
+          "confidence": "med",
+          "is_reverse_linked": false,
+          "missing": true
+        },
+        {
+          "source_slug": "actor-lifecycle-edge-cases",
+          "source_kind": "synthesis",
+          "inbound_count": 2,
+          "confidence": "low",
+          "is_reverse_linked": false,
+          "missing": true
+        },
+        {
+          "source_slug": "actor-pool-reset-pattern",
+          "source_kind": "synthesis",
+          "inbound_count": 2,
+          "confidence": "low",
+          "is_reverse_linked": false,
+          "missing": true
+        },
+        {
+          "source_slug": "component-vs-actor-lifecycle-table",
+          "source_kind": "synthesis",
+          "inbound_count": 2,
+          "confidence": "low",
+          "is_reverse_linked": false,
+          "missing": true
+        }
+      ]
+    },
+    {
+      "slug": "ue-components-skill",
+      "kind": "sources",
+      "outbound": 29,
+      "inbound": 46,
+      "missing_count": 4,
+      "missing": [
+        {
+          "source_slug": "component-vs-actor-lifecycle-table",
+          "source_kind": "synthesis",
+          "inbound_count": 2,
+          "confidence": "low",
+          "is_reverse_linked": false,
+          "missing": true
+        },
+        {
+          "source_slug": "mc-soft-asset-component-pattern",
+          "source_kind": "synthesis",
+          "inbound_count": 2,
+          "confidence": "low",
+          "is_reverse_linked": false,
+          "missing": true
+        },
+        {
+          "source_slug": "mc-validation-policy-rollout",
+          "source_kind": "synthesis",
+          "inbound_count": 2,
+          "confidence": "low",
+          "is_reverse_linked": false,
+          "missing": true
+        },
+        {
+          "source_slug": "spawnactor-hitching-4-step-pattern",
+          "source_kind": "synthesis",
+          "inbound_count": 2,
+          "confidence": "low",
+          "is_reverse_linked": false,
+          "missing": true
+        }
+      ]
+    },
+    {
+      "slug": "ue-coreuobject-network",
+      "kind": "sources",
+      "outbound": 7,
+      "inbound": 15,
+      "missing_count": 4,
+      "missing": [
+        {
+          "source_slug": "ragdoll-multiplayer-replication",
+          "source_kind": "synthesis",
+          "inbound_count": 4,
+          "confidence": "med",
+          "is_reverse_linked": false,
+          "missing": true
+        },
+        {
+          "source_slug": "server-vs-client-rpc-decision-tree",
+          "source_kind": "synthesis",
+          "inbound_count": 3,
+          "confidence": "med",
+          "is_reverse_linked": false,
+          "missing": true
+        },
+        {
+          "source_slug": "late-join-reconnect-state-sync",
+          "source_kind": "synthesis",
+          "inbound_count": 2,
+          "confidence": "low",
+          "is_reverse_linked": false,
+          "missing": true
+        },
+        {
+          "source_slug": "replication-graph-bandwidth-management",
+          "source_kind": "synthesis",
+          "inbound_count": 2,
+          "confidence": "low",
+          "is_reverse_linked": false,
+          "missing": true
+        }
+      ]
+    },
+    {
+      "slug": "ue-docs-claude",
+      "kind": "sources",
+      "outbound": 0,
+      "inbound": 10,
+      "missing_count": 4,
+      "missing": [
+        {
+          "source_slug": "ue-editor-assettools",
+          "source_kind": "sources",
+          "inbound_count": 2,
+          "confidence": "med",
+          "is_reverse_linked": false,
+          "missing": true
+        },
+        {
+          "source_slug": "ue-editor-unrealed-asseteditortoolkit",
+          "source_kind": "sources",
+          "inbound_count": 2,
+          "confidence": "med",
+          "is_reverse_linked": false,
+          "missing": true
+        },
+        {
+          "source_slug": "ue-editor-unrealed-factories",
+          "source_kind": "sources",
+          "inbound_count": 2,
+          "confidence": "med",
+          "is_reverse_linked": false,
+          "missing": true
+        },
+        {
+          "source_slug": "ue-ref-05-editoronlyindex",
+          "source_kind": "sources",
+          "inbound_count": 2,
+          "confidence": "med",
+          "is_reverse_linked": false,
+          "missing": true
+        }
+      ]
+    },
+    {
+      "slug": "ue-gameframework-gameinstance",
+      "kind": "sources",
+      "outbound": 4,
+      "inbound": 10,
+      "missing_count": 4,
+      "missing": [
+        {
+          "source_slug": "online-crossplay-gas-lobby",
+          "source_kind": "synthesis",
+          "inbound_count": 2,
+          "confidence": "low",
+          "is_reverse_linked": false,
+          "missing": true
+        },
+        {
+          "source_slug": "subsystem-5-types-decision-tree",
+          "source_kind": "synthesis",
+          "inbound_count": 2,
+          "confidence": "low",
+          "is_reverse_linked": false,
+          "missing": true
+        },
+        {
+          "source_slug": "subsystem-advanced-patterns",
+          "source_kind": "synthesis",
+          "inbound_count": 2,
+          "confidence": "low",
+          "is_reverse_linked": false,
+          "missing": true
+        },
+        {
+          "source_slug": "subsystem-graph-online-wrapper",
+          "source_kind": "synthesis",
+          "inbound_count": 2,
+          "confidence": "low",
+          "is_reverse_linked": false,
+          "missing": true
+        }
+      ]
+    },
+    {
+      "slug": "ue-ref-05-editoronlyindex",
+      "kind": "sources",
+      "outbound": 38,
+      "inbound": 37,
+      "missing_count": 4,
+      "missing": [
+        {
+          "source_slug": "ue-editor-unrealed-asseteditortoolkit",
+          "source_kind": "sources",
+          "inbound_count": 2,
+          "confidence": "med",
+          "is_reverse_linked": false,
+          "missing": true
+        },
+        {
+          "source_slug": "ue-editor-unrealed-kismet2",
+          "source_kind": "sources",
+          "inbound_count": 2,
+          "confidence": "med",
+          "is_reverse_linked": false,
+          "missing": true
+        },
+        {
+          "source_slug": "ue-ref-01-layermap",
+          "source_kind": "sources",
+          "inbound_count": 2,
+          "confidence": "med",
+          "is_reverse_linked": false,
+          "missing": true
+        },
+        {
+          "source_slug": "editor-preview-scene-runtime-handoff",
+          "source_kind": "synthesis",
+          "inbound_count": 2,
+          "confidence": "low",
+          "is_reverse_linked": false,
+          "missing": true
+        }
+      ]
+    },
+    {
+      "slug": "ue-spatialpartition-toctree2",
+      "kind": "sources",
+      "outbound": 10,
+      "inbound": 24,
+      "missing_count": 4,
+      "missing": [
+        {
+          "source_slug": "toctree2-worldpartition-pair-pattern",
+          "source_kind": "synthesis",
+          "inbound_count": 5,
+          "confidence": "med",
+          "is_reverse_linked": false,
+          "missing": true
+        },
+        {
+          "source_slug": "mc-actor-spawn-subsystem-implementation",
+          "source_kind": "synthesis",
+          "inbound_count": 4,
+          "confidence": "med",
+          "is_reverse_linked": false,
+          "missing": true
+        },
+        {
+          "source_slug": "ue-ref-09-globaliteratorpolicy",
+          "source_kind": "sources",
+          "inbound_count": 2,
+          "confidence": "med",
+          "is_reverse_linked": false,
+          "missing": true
+        },
+        {
+          "source_slug": "mc-actor-spawn-subsystem-h1-measurement",
+          "source_kind": "synthesis",
+          "inbound_count": 2,
+          "confidence": "low",
+          "is_reverse_linked": false,
+          "missing": true
+        }
+      ]
+    },
+    {
+      "slug": "ue-subsystem-onlinesubsystem",
+      "kind": "sources",
+      "outbound": 1,
+      "inbound": 13,
+      "missing_count": 4,
+      "missing": [
+        {
+          "source_slug": "subsystem-5-types-decision-tree",
+          "source_kind": "synthesis",
+          "inbound_count": 4,
+          "confidence": "med",
+          "is_reverse_linked": false,
+          "missing": true
+        },
+        {
+          "source_slug": "subsystem-advanced-patterns",
+          "source_kind": "synthesis",
+          "inbound_count": 3,
+          "confidence": "med",
+          "is_reverse_linked": false,
+          "missing": true
+        },
+        {
+          "source_slug": "subsystem-graph-online-wrapper",
+          "source_kind": "synthesis",
+          "inbound_count": 3,
+          "confidence": "med",
+          "is_reverse_linked": false,
+          "missing": true
+        },
+        {
+          "source_slug": "online-crossplay-gas-lobby",
+          "source_kind": "synthesis",
+          "inbound_count": 2,
+          "confidence": "low",
+          "is_reverse_linked": false,
+          "missing": true
+        }
+      ]
+    },
+    {
+      "slug": "ue-ai-skill",
+      "kind": "sources",
+      "outbound": 7,
+      "inbound": 13,
+      "missing_count": 3,
+      "missing": [
+        {
+          "source_slug": "ai-npc-ragdoll-coordination",
+          "source_kind": "synthesis",
+          "inbound_count": 2,
+          "confidence": "low",
+          "is_reverse_linked": false,
+          "missing": true
+        },
+        {
+          "source_slug": "ai-npc-squad-coordination-tick-budget",
+          "source_kind": "synthesis",
+          "inbound_count": 2,
+          "confidence": "low",
+          "is_reverse_linked": false,
+          "missing": true
+        },
+        {
+          "source_slug": "character-many-npc-5-fold-optimization",
+          "source_kind": "synthesis",
+          "inbound_count": 2,
+          "confidence": "low",
+          "is_reverse_linked": false,
+          "missing": true
+        }
+      ]
+    },
+    {
+      "slug": "ue-animation-optimization",
+      "kind": "sources",
+      "outbound": 6,
+      "inbound": 10,
+      "missing_count": 3,
+      "missing": [
+        {
+          "source_slug": "character-many-npc-5-fold-optimization",
+          "source_kind": "synthesis",
+          "inbound_count": 3,
+          "confidence": "med",
+          "is_reverse_linked": false,
+          "missing": true
+        },
+        {
+          "source_slug": "ai-npc-squad-coordination-tick-budget",
+          "source_kind": "synthesis",
+          "inbound_count": 2,
+          "confidence": "low",
+          "is_reverse_linked": false,
+          "missing": true
+        },
+        {
+          "source_slug": "ragdoll-getup-anim-recovery",
+          "source_kind": "synthesis",
+          "inbound_count": 2,
+          "confidence": "low",
+          "is_reverse_linked": false,
+          "missing": true
+        }
+      ]
+    },
+    {
+      "slug": "ue-assetclasses-assetuserdata",
+      "kind": "sources",
+      "outbound": 17,
+      "inbound": 12,
+      "missing_count": 3,
+      "missing": [
+        {
+          "source_slug": "editor-preview-scene-runtime-handoff",
+          "source_kind": "synthesis",
+          "inbound_count": 2,
+          "confidence": "low",
+          "is_reverse_linked": false,
+          "missing": true
+        },
+        {
+          "source_slug": "mc-character-hit-reaction-pipeline",
+          "source_kind": "synthesis",
+          "inbound_count": 2,
+          "confidence": "low",
+          "is_reverse_linked": false,
+          "missing": true
+        },
+        {
+          "source_slug": "mc-soft-asset-component-pattern",
+          "source_kind": "synthesis",
+          "inbound_count": 2,
+          "confidence": "low",
+          "is_reverse_linked": false,
+          "missing": true
+        }
+      ]
+    },
+    {
+      "slug": "ue-blueprint-skill",
+      "kind": "sources",
+      "outbound": 5,
+      "inbound": 13,
+      "missing_count": 3,
+      "missing": [
+        {
+          "source_slug": "dlc-asset-migration-edge-cases",
+          "source_kind": "synthesis",
+          "inbound_count": 2,
+          "confidence": "low",
+          "is_reverse_linked": false,
+          "missing": true
+        },
+        {
+          "source_slug": "mc-validation-policy-rollout",
+          "source_kind": "synthesis",
+          "inbound_count": 2,
+          "confidence": "low",
+          "is_reverse_linked": false,
+          "missing": true
+        },
+        {
+          "source_slug": "runtime-dlc-livepatch-rollout",
+          "source_kind": "synthesis",
+          "inbound_count": 2,
+          "confidence": "low",
+          "is_reverse_linked": false,
+          "missing": true
+        }
+      ]
+    },
+    {
+      "slug": "ue-components-meshcomponents",
+      "kind": "sources",
+      "outbound": 9,
+      "inbound": 12,
+      "missing_count": 3,
+      "missing": [
+        {
+          "source_slug": "component-renderstate-and-spawn-side-effects",
+          "source_kind": "synthesis",
+          "inbound_count": 3,
+          "confidence": "med",
+          "is_reverse_linked": false,
+          "missing": true
+        },
+        {
+          "source_slug": "character-many-npc-5-fold-optimization",
+          "source_kind": "synthesis",
+          "inbound_count": 2,
+          "confidence": "low",
+          "is_reverse_linked": false,
+          "missing": true
+        },
+        {
+          "source_slug": "mc-soft-asset-component-pattern",
+          "source_kind": "synthesis",
+          "inbound_count": 2,
+          "confidence": "low",
+          "is_reverse_linked": false,
+          "missing": true
+        }
+      ]
+    },
+    {
+      "slug": "ue-coreuobject-objecthandles",
+      "kind": "sources",
+      "outbound": 4,
+      "inbound": 9,
+      "missing_count": 3,
+      "missing": [
+        {
+          "source_slug": "ue-ref-11-assetloadingpolicy",
+          "source_kind": "sources",
+          "inbound_count": 2,
+          "confidence": "med",
+          "is_reverse_linked": false,
+          "missing": true
+        },
+        {
+          "source_slug": "instanced-subobject-customization-bypass",
+          "source_kind": "synthesis",
+          "inbound_count": 2,
+          "confidence": "low",
+          "is_reverse_linked": false,
+          "missing": true
+        },
+        {
+          "source_slug": "mc-soft-asset-component-pattern",
+          "source_kind": "synthesis",
+          "inbound_count": 2,
+          "confidence": "low",
+          "is_reverse_linked": false,
+          "missing": true
+        }
+      ]
+    },
+    {
+      "slug": "ue-coreuobject-package",
+      "kind": "sources",
+      "outbound": 4,
+      "inbound": 9,
+      "missing_count": 3,
+      "missing": [
+        {
+          "source_slug": "ue-ref-11-assetloadingpolicy",
+          "source_kind": "sources",
+          "inbound_count": 2,
+          "confidence": "med",
+          "is_reverse_linked": false,
+          "missing": true
+        },
+        {
+          "source_slug": "dlc-asset-migration-edge-cases",
+          "source_kind": "synthesis",
+          "inbound_count": 2,
+          "confidence": "low",
+          "is_reverse_linked": false,
+          "missing": true
+        },
+        {
+          "source_slug": "spawnactor-hitching-4-step-pattern",
+          "source_kind": "synthesis",
+          "inbound_count": 2,
+          "confidence": "low",
+          "is_reverse_linked": false,
+          "missing": true
+        }
+      ]
+    },
+    {
+      "slug": "ue-editor-editorsubsystem",
+      "kind": "sources",
+      "outbound": 14,
+      "inbound": 11,
+      "missing_count": 3,
+      "missing": [
+        {
+          "source_slug": "bp-scs-preview-viewport-lifecycle",
+          "source_kind": "synthesis",
+          "inbound_count": 4,
+          "confidence": "med",
+          "is_reverse_linked": false,
+          "missing": true
+        },
+        {
+          "source_slug": "editor-preview-scene-runtime-handoff",
+          "source_kind": "synthesis",
+          "inbound_count": 2,
+          "confidence": "low",
+          "is_reverse_linked": false,
+          "missing": true
+        },
+        {
+          "source_slug": "subsystem-5-types-decision-tree",
+          "source_kind": "synthesis",
+          "inbound_count": 2,
+          "confidence": "low",
+          "is_reverse_linked": false,
+          "missing": true
+        }
+      ]
+    },
+    {
+      "slug": "ue-meta-confidence-tags",
+      "kind": "sources",
+      "outbound": 9,
+      "inbound": 16,
+      "missing_count": 3,
+      "missing": [
+        {
+          "source_slug": "ue-ref-02-verificationlog",
+          "source_kind": "sources",
+          "inbound_count": 3,
+          "confidence": "high",
+          "is_reverse_linked": false,
+          "missing": true
+        },
+        {
+          "source_slug": "ue-ref-19-externalsourcesguide",
+          "source_kind": "sources",
+          "inbound_count": 3,
+          "confidence": "high",
+          "is_reverse_linked": false,
+          "missing": true
+        },
+        {
+          "source_slug": "ue-meta-improvement-roadmap",
+          "source_kind": "sources",
+          "inbound_count": 2,
+          "confidence": "med",
+          "is_reverse_linked": false,
+          "missing": true
+        }
+      ]
+    },
+    {
+      "slug": "ue-ref-10-componentpolicies",
+      "kind": "sources",
+      "outbound": 14,
+      "inbound": 23,
+      "missing_count": 3,
+      "missing": [
+        {
+          "source_slug": "component-vs-actor-lifecycle-table",
+          "source_kind": "synthesis",
+          "inbound_count": 3,
+          "confidence": "med",
+          "is_reverse_linked": false,
+          "missing": true
+        },
+        {
+          "source_slug": "ue-ref-15-evaluatorrecipe",
+          "source_kind": "sources",
+          "inbound_count": 2,
+          "confidence": "med",
+          "is_reverse_linked": false,
+          "missing": true
+        },
+        {
+          "source_slug": "ue-ref-17-qualitycriteria",
+          "source_kind": "sources",
+          "inbound_count": 2,
+          "confidence": "med",
+          "is_reverse_linked": false,
+          "missing": true
+        }
+      ]
+    },
+    {
+      "slug": "ue-ref-15-evaluatorrecipe",
+      "kind": "sources",
+      "outbound": 16,
+      "inbound": 18,
+      "missing_count": 3,
+      "missing": [
+        {
+          "source_slug": "mc-validation-automation-tooling",
+          "source_kind": "synthesis",
+          "inbound_count": 3,
+          "confidence": "med",
+          "is_reverse_linked": false,
+          "missing": true
+        },
+        {
+          "source_slug": "validation-static-analysis-ide-integration",
+          "source_kind": "synthesis",
+          "inbound_count": 3,
+          "confidence": "med",
+          "is_reverse_linked": false,
+          "missing": true
+        },
+        {
+          "source_slug": "ue-meta-governance",
+          "source_kind": "sources",
+          "inbound_count": 2,
+          "confidence": "med",
+          "is_reverse_linked": false,
+          "missing": true
+        }
+      ]
+    },
+    {
+      "slug": "ue-render-rhi",
+      "kind": "sources",
+      "outbound": 9,
+      "inbound": 13,
+      "missing_count": 3,
+      "missing": [
+        {
+          "source_slug": "PSO-Precache",
+          "source_kind": "concepts",
+          "inbound_count": 3,
+          "confidence": "med",
+          "is_reverse_linked": false,
+          "missing": true
+        },
+        {
+          "source_slug": "render-rdg-pass-standard-pattern",
+          "source_kind": "synthesis",
+          "inbound_count": 2,
+          "confidence": "low",
+          "is_reverse_linked": false,
+          "missing": true
+        },
+        {
+          "source_slug": "Render-Thread-Safety",
+          "source_kind": "concepts",
+          "inbound_count": 2,
+          "confidence": "low",
+          "is_reverse_linked": false,
+          "missing": true
+        }
+      ]
+    },
+    {
+      "slug": "character-many-npc-5-fold-optimization",
+      "kind": "synthesis",
+      "outbound": 23,
+      "inbound": 18,
+      "missing_count": 3,
+      "missing": [
+        {
+          "source_slug": "mc-actor-spawn-subsystem-h1-measurement",
+          "source_kind": "synthesis",
+          "inbound_count": 3,
+          "confidence": "high",
+          "is_reverse_linked": false,
+          "missing": true
+        },
+        {
+          "source_slug": "ragdoll-getup-anim-recovery",
+          "source_kind": "synthesis",
+          "inbound_count": 2,
+          "confidence": "med",
+          "is_reverse_linked": false,
+          "missing": true
+        },
+        {
+          "source_slug": "replication-graph-bandwidth-management",
+          "source_kind": "synthesis",
+          "inbound_count": 2,
+          "confidence": "med",
+          "is_reverse_linked": false,
+          "missing": true
+        }
+      ]
+    },
+    {
+      "slug": "cooked-first-frame-stability",
+      "kind": "synthesis",
+      "outbound": 25,
+      "inbound": 18,
+      "missing_count": 3,
+      "missing": [
+        {
+          "source_slug": "ue-render-rhi",
+          "source_kind": "sources",
+          "inbound_count": 3,
+          "confidence": "med",
+          "is_reverse_linked": false,
+          "missing": true
+        },
+        {
+          "source_slug": "dlc-asset-migration-edge-cases",
+          "source_kind": "synthesis",
+          "inbound_count": 2,
+          "confidence": "med",
+          "is_reverse_linked": false,
+          "missing": true
+        },
+        {
+          "source_slug": "pso-streaming-livepatch-tools",
+          "source_kind": "synthesis",
+          "inbound_count": 2,
+          "confidence": "med",
+          "is_reverse_linked": false,
+          "missing": true
+        }
+      ]
+    },
+    {
+      "slug": "mc-character-hit-reaction-pipeline",
+      "kind": "synthesis",
+      "outbound": 29,
+      "inbound": 19,
+      "missing_count": 3,
+      "missing": [
+        {
+          "source_slug": "lint-2026-05-10-mcsoft-components",
+          "source_kind": "synthesis",
+          "inbound_count": 2,
+          "confidence": "med",
+          "is_reverse_linked": false,
+          "missing": true
+        },
+        {
+          "source_slug": "ragdoll-getup-anim-recovery",
+          "source_kind": "synthesis",
+          "inbound_count": 2,
+          "confidence": "med",
+          "is_reverse_linked": false,
+          "missing": true
+        },
+        {
+          "source_slug": "ragdoll-multiplayer-replication",
+          "source_kind": "synthesis",
+          "inbound_count": 2,
+          "confidence": "med",
+          "is_reverse_linked": false,
+          "missing": true
+        }
+      ]
+    },
+    {
+      "slug": "mc-soft-asset-component-pattern",
+      "kind": "synthesis",
+      "outbound": 29,
+      "inbound": 18,
+      "missing_count": 3,
+      "missing": [
+        {
+          "source_slug": "bp-scs-preview-viewport-lifecycle",
+          "source_kind": "synthesis",
+          "inbound_count": 4,
+          "confidence": "high",
+          "is_reverse_linked": false,
+          "missing": true
+        },
+        {
+          "source_slug": "lint-2026-05-10-mcsoft-components",
+          "source_kind": "synthesis",
+          "inbound_count": 2,
+          "confidence": "med",
+          "is_reverse_linked": false,
+          "missing": true
+        },
+        {
+          "source_slug": "vfx-audio-soft-pool-significance",
+          "source_kind": "synthesis",
+          "inbound_count": 2,
+          "confidence": "med",
+          "is_reverse_linked": false,
+          "missing": true
+        }
+      ]
+    },
+    {
+      "slug": "pso-streaming-livepatch-tools",
+      "kind": "synthesis",
+      "outbound": 13,
+      "inbound": 11,
+      "missing_count": 3,
+      "missing": [
+        {
+          "source_slug": "ue-render-postprocess",
+          "source_kind": "sources",
+          "inbound_count": 2,
+          "confidence": "low",
+          "is_reverse_linked": false,
+          "missing": true
+        },
+        {
+          "source_slug": "ue-render-rhi",
+          "source_kind": "sources",
+          "inbound_count": 2,
+          "confidence": "low",
+          "is_reverse_linked": false,
+          "missing": true
+        },
+        {
+          "source_slug": "PSO-Precache",
+          "source_kind": "concepts",
+          "inbound_count": 2,
+          "confidence": "low",
+          "is_reverse_linked": false,
+          "missing": true
+        }
+      ]
+    },
+    {
+      "slug": "ue-animation-skill",
+      "kind": "sources",
+      "outbound": 20,
+      "inbound": 29,
+      "missing_count": 2,
+      "missing": [
+        {
+          "source_slug": "character-many-npc-5-fold-optimization",
+          "source_kind": "synthesis",
+          "inbound_count": 2,
+          "confidence": "low",
+          "is_reverse_linked": false,
+          "missing": true
+        },
+        {
+          "source_slug": "ragdoll-getup-anim-recovery",
+          "source_kind": "synthesis",
+          "inbound_count": 2,
+          "confidence": "low",
+          "is_reverse_linked": false,
+          "missing": true
+        }
+      ]
+    },
+    {
+      "slug": "ue-components-charactermovementdeep",
+      "kind": "sources",
+      "outbound": 2,
+      "inbound": 8,
+      "missing_count": 2,
+      "missing": [
+        {
+          "source_slug": "mc-soft-skeletalmesh-ragdoll",
+          "source_kind": "sources",
+          "inbound_count": 2,
+          "confidence": "med",
+          "is_reverse_linked": false,
+          "missing": true
+        },
+        {
+          "source_slug": "ragdoll-getup-anim-recovery",
+          "source_kind": "synthesis",
+          "inbound_count": 2,
+          "confidence": "low",
+          "is_reverse_linked": false,
+          "missing": true
+        }
+      ]
+    },
+    {
+      "slug": "ue-components-particlecomponents",
+      "kind": "sources",
+      "outbound": 4,
+      "inbound": 5,
+      "missing_count": 2,
+      "missing": [
+        {
+          "source_slug": "editor-preview-scene-runtime-handoff",
+          "source_kind": "synthesis",
+          "inbound_count": 2,
+          "confidence": "low",
+          "is_reverse_linked": false,
+          "missing": true
+        },
+        {
+          "source_slug": "vfx-audio-soft-pool-significance",
+          "source_kind": "synthesis",
+          "inbound_count": 2,
+          "confidence": "low",
+          "is_reverse_linked": false,
+          "missing": true
+        }
+      ]
+    },
+    {
+      "slug": "ue-components-primitivecomponent",
+      "kind": "sources",
+      "outbound": 3,
+      "inbound": 10,
+      "missing_count": 2,
+      "missing": [
+        {
+          "source_slug": "component-renderstate-and-spawn-side-effects",
+          "source_kind": "synthesis",
+          "inbound_count": 5,
+          "confidence": "med",
+          "is_reverse_linked": false,
+          "missing": true
+        },
+        {
+          "source_slug": "mc-soft-skeletalmesh-ragdoll",
+          "source_kind": "sources",
+          "inbound_count": 2,
+          "confidence": "med",
+          "is_reverse_linked": false,
+          "missing": true
+        }
+      ]
+    },
+    {
+      "slug": "ue-coreuobject-serialization",
+      "kind": "sources",
+      "outbound": 4,
+      "inbound": 7,
+      "missing_count": 2,
+      "missing": [
+        {
+          "source_slug": "dlc-asset-migration-edge-cases",
+          "source_kind": "synthesis",
+          "inbound_count": 2,
+          "confidence": "low",
+          "is_reverse_linked": false,
+          "missing": true
+        },
+        {
+          "source_slug": "runtime-dlc-livepatch-rollout",
+          "source_kind": "synthesis",
+          "inbound_count": 2,
+          "confidence": "low",
+          "is_reverse_linked": false,
+          "missing": true
+        }
+      ]
+    },
+    {
+      "slug": "ue-editor-eventbinding",
+      "kind": "sources",
+      "outbound": 5,
+      "inbound": 8,
+      "missing_count": 2,
+      "missing": [
+        {
+          "source_slug": "ue-editor-asseteditorapi",
+          "source_kind": "sources",
+          "inbound_count": 2,
+          "confidence": "med",
+          "is_reverse_linked": false,
+          "missing": true
+        },
+        {
+          "source_slug": "instanced-subobject-customization-bypass",
+          "source_kind": "synthesis",
+          "inbound_count": 2,
+          "confidence": "low",
+          "is_reverse_linked": false,
+          "missing": true
+        }
+      ]
+    },
+    {
+      "slug": "ue-editor-leveleditor",
+      "kind": "sources",
+      "outbound": 17,
+      "inbound": 12,
+      "missing_count": 2,
+      "missing": [
+        {
+          "source_slug": "bp-scs-preview-viewport-lifecycle",
+          "source_kind": "synthesis",
+          "inbound_count": 4,
+          "confidence": "med",
+          "is_reverse_linked": false,
+          "missing": true
+        },
+        {
+          "source_slug": "ue-editor-editorframework",
+          "source_kind": "sources",
+          "inbound_count": 2,
+          "confidence": "med",
+          "is_reverse_linked": false,
+          "missing": true
+        }
+      ]
+    },
+    {
+      "slug": "ue-editor-propertyeditor",
+      "kind": "sources",
+      "outbound": 24,
+      "inbound": 34,
+      "missing_count": 2,
+      "missing": [
+        {
+          "source_slug": "mc-combo-editor-levelsequence-lite",
+          "source_kind": "synthesis",
+          "inbound_count": 3,
+          "confidence": "med",
+          "is_reverse_linked": false,
+          "missing": true
+        },
+        {
+          "source_slug": "editor-preview-scene-runtime-handoff",
+          "source_kind": "synthesis",
+          "inbound_count": 2,
+          "confidence": "low",
+          "is_reverse_linked": false,
+          "missing": true
+        }
+      ]
+    },
+    {
+      "slug": "ue-editor-toolmenus",
+      "kind": "sources",
+      "outbound": 13,
+      "inbound": 17,
+      "missing_count": 2,
+      "missing": [
+        {
+          "source_slug": "mc-character-hit-reaction-pipeline",
+          "source_kind": "synthesis",
+          "inbound_count": 4,
+          "confidence": "med",
+          "is_reverse_linked": false,
+          "missing": true
+        },
+        {
+          "source_slug": "ue-editor-unrealed-asseteditortoolkit",
+          "source_kind": "sources",
+          "inbound_count": 2,
+          "confidence": "med",
+          "is_reverse_linked": false,
+          "missing": true
+        }
+      ]
+    },
+    {
+      "slug": "ue-editor-unrealed-asseteditortoolkit",
+      "kind": "sources",
+      "outbound": 21,
+      "inbound": 23,
+      "missing_count": 2,
+      "missing": [
+        {
+          "source_slug": "editor-preview-scene-runtime-handoff",
+          "source_kind": "synthesis",
+          "inbound_count": 2,
+          "confidence": "low",
+          "is_reverse_linked": false,
+          "missing": true
+        },
+        {
+          "source_slug": "instanced-subobject-customization-bypass",
+          "source_kind": "synthesis",
+          "inbound_count": 2,
+          "confidence": "low",
+          "is_reverse_linked": false,
+          "missing": true
+        }
+      ]
+    },
+    {
+      "slug": "ue-editor-unrealed-factories",
+      "kind": "sources",
+      "outbound": 13,
+      "inbound": 10,
+      "missing_count": 2,
+      "missing": [
+        {
+          "source_slug": "mc-combo-editor-levelsequence-lite",
+          "source_kind": "synthesis",
+          "inbound_count": 3,
+          "confidence": "med",
+          "is_reverse_linked": false,
+          "missing": true
+        },
+        {
+          "source_slug": "ue-editor-unrealed-misc",
+          "source_kind": "sources",
+          "inbound_count": 2,
+          "confidence": "med",
+          "is_reverse_linked": false,
+          "missing": true
+        }
+      ]
+    },
+    {
+      "slug": "ue-editor-unrealed-subsystems",
+      "kind": "sources",
+      "outbound": 12,
+      "inbound": 16,
+      "missing_count": 2,
+      "missing": [
+        {
+          "source_slug": "editor-preview-scene-runtime-handoff",
+          "source_kind": "synthesis",
+          "inbound_count": 3,
+          "confidence": "med",
+          "is_reverse_linked": false,
+          "missing": true
+        },
+        {
+          "source_slug": "ue-editor-unrealed-asseteditortoolkit",
+          "source_kind": "sources",
+          "inbound_count": 2,
+          "confidence": "med",
+          "is_reverse_linked": false,
+          "missing": true
+        }
+      ]
+    },
+    {
+      "slug": "ue-gameframework-world",
+      "kind": "sources",
+      "outbound": 4,
+      "inbound": 7,
+      "missing_count": 2,
+      "missing": [
+        {
+          "source_slug": "subsystem-5-types-decision-tree",
+          "source_kind": "synthesis",
+          "inbound_count": 2,
+          "confidence": "low",
+          "is_reverse_linked": false,
+          "missing": true
+        },
+        {
+          "source_slug": "toctree2-worldpartition-pair-pattern",
+          "source_kind": "synthesis",
+          "inbound_count": 2,
+          "confidence": "low",
+          "is_reverse_linked": false,
+          "missing": true
+        }
+      ]
+    },
+    {
+      "slug": "ue-input-subsystem",
+      "kind": "sources",
+      "outbound": 3,
+      "inbound": 5,
+      "missing_count": 2,
+      "missing": [
+        {
+          "source_slug": "subsystem-5-types-decision-tree",
+          "source_kind": "synthesis",
+          "inbound_count": 2,
+          "confidence": "low",
+          "is_reverse_linked": false,
+          "missing": true
+        },
+        {
+          "source_slug": "subsystem-advanced-patterns",
+          "source_kind": "synthesis",
+          "inbound_count": 2,
+          "confidence": "low",
+          "is_reverse_linked": false,
+          "missing": true
+        }
+      ]
+    },
+    {
+      "slug": "ue-levelsequence-moviescene",
+      "kind": "sources",
+      "outbound": 9,
+      "inbound": 16,
+      "missing_count": 2,
+      "missing": [
+        {
+          "source_slug": "mc-combo-editor-levelsequence-lite",
+          "source_kind": "synthesis",
+          "inbound_count": 4,
+          "confidence": "med",
+          "is_reverse_linked": false,
+          "missing": true
+        },
+        {
+          "source_slug": "ue-coreuobject-uobject",
+          "source_kind": "sources",
+          "inbound_count": 2,
+          "confidence": "med",
+          "is_reverse_linked": false,
+          "missing": true
+        }
+      ]
+    },
+    {
+      "slug": "ue-measure-readme",
+      "kind": "sources",
+      "outbound": 0,
+      "inbound": 10,
+      "missing_count": 2,
+      "missing": [
+        {
+          "source_slug": "ue-measure-instancedsubobject-2026-05-12",
+          "source_kind": "sources",
+          "inbound_count": 4,
+          "confidence": "high",
+          "is_reverse_linked": false,
+          "missing": true
+        },
+        {
+          "source_slug": "mc-actor-spawn-subsystem-h1-measurement",
+          "source_kind": "synthesis",
+          "inbound_count": 3,
+          "confidence": "med",
+          "is_reverse_linked": false,
+          "missing": true
+        }
+      ]
+    },
+    {
+      "slug": "ue-measure-summary",
+      "kind": "sources",
+      "outbound": 0,
+      "inbound": 14,
+      "missing_count": 2,
+      "missing": [
+        {
+          "source_slug": "mc-actor-spawn-subsystem-h1-measurement",
+          "source_kind": "synthesis",
+          "inbound_count": 5,
+          "confidence": "med",
+          "is_reverse_linked": false,
+          "missing": true
+        },
+        {
+          "source_slug": "ue-measure-instancedsubobject-2026-05-12",
+          "source_kind": "sources",
+          "inbound_count": 2,
+          "confidence": "med",
+          "is_reverse_linked": false,
+          "missing": true
+        }
+      ]
+    },
+    {
+      "slug": "ue-meta-corrections",
+      "kind": "sources",
+      "outbound": 11,
+      "inbound": 16,
+      "missing_count": 2,
+      "missing": [
+        {
+          "source_slug": "ue-ref-19-externalsourcesguide",
+          "source_kind": "sources",
+          "inbound_count": 3,
+          "confidence": "high",
+          "is_reverse_linked": false,
+          "missing": true
+        },
+        {
+          "source_slug": "ue-meta-improvement-roadmap",
+          "source_kind": "sources",
+          "inbound_count": 2,
+          "confidence": "med",
+          "is_reverse_linked": false,
+          "missing": true
+        }
+      ]
+    },
+    {
+      "slug": "ue-meta-honest-limits",
+      "kind": "sources",
+      "outbound": 11,
+      "inbound": 27,
+      "missing_count": 2,
+      "missing": [
+        {
+          "source_slug": "ue-ref-00-readme",
+          "source_kind": "sources",
+          "inbound_count": 3,
+          "confidence": "high",
+          "is_reverse_linked": false,
+          "missing": true
+        },
+        {
+          "source_slug": "instanced-subobject-customization-bypass",
+          "source_kind": "synthesis",
+          "inbound_count": 2,
+          "confidence": "low",
+          "is_reverse_linked": false,
+          "missing": true
+        }
+      ]
+    },
+    {
+      "slug": "ue-ref-09-globaliteratorpolicy",
+      "kind": "sources",
+      "outbound": 16,
+      "inbound": 20,
+      "missing_count": 2,
+      "missing": [
+        {
+          "source_slug": "ue-ref-15-evaluatorrecipe",
+          "source_kind": "sources",
+          "inbound_count": 2,
+          "confidence": "med",
+          "is_reverse_linked": false,
+          "missing": true
+        },
+        {
+          "source_slug": "mc-actor-spawn-subsystem-h1-measurement",
+          "source_kind": "synthesis",
+          "inbound_count": 2,
+          "confidence": "low",
+          "is_reverse_linked": false,
+          "missing": true
+        }
+      ]
+    },
+    {
+      "slug": "ue-ref-12-assetoptimizationpolicy",
+      "kind": "sources",
+      "outbound": 21,
+      "inbound": 21,
+      "missing_count": 2,
+      "missing": [
+        {
+          "source_slug": "ue-ref-15-evaluatorrecipe",
+          "source_kind": "sources",
+          "inbound_count": 2,
+          "confidence": "med",
+          "is_reverse_linked": false,
+          "missing": true
+        },
+        {
+          "source_slug": "ue-ref-17-qualitycriteria",
+          "source_kind": "sources",
+          "inbound_count": 2,
+          "confidence": "med",
+          "is_reverse_linked": false,
+          "missing": true
+        }
+      ]
+    },
+    {
+      "slug": "ue-ref-18-modelevolutionaudit",
+      "kind": "sources",
+      "outbound": 7,
+      "inbound": 15,
+      "missing_count": 2,
+      "missing": [
+        {
+          "source_slug": "ue-meta-governance",
+          "source_kind": "sources",
+          "inbound_count": 3,
+          "confidence": "high",
+          "is_reverse_linked": false,
+          "missing": true
+        },
+        {
+          "source_slug": "ue-ref-19-externalsourcesguide",
+          "source_kind": "sources",
+          "inbound_count": 2,
+          "confidence": "med",
+          "is_reverse_linked": false,
+          "missing": true
+        }
+      ]
+    },
+    {
+      "slug": "ue-render-meshdrawing",
+      "kind": "sources",
+      "outbound": 7,
+      "inbound": 9,
+      "missing_count": 2,
+      "missing": [
+        {
+          "source_slug": "component-renderstate-and-spawn-side-effects",
+          "source_kind": "synthesis",
+          "inbound_count": 3,
+          "confidence": "med",
+          "is_reverse_linked": false,
+          "missing": true
+        },
+        {
+          "source_slug": "render-rdg-pass-standard-pattern",
+          "source_kind": "synthesis",
+          "inbound_count": 2,
+          "confidence": "low",
+          "is_reverse_linked": false,
+          "missing": true
+        }
+      ]
+    },
+    {
+      "slug": "ue-render-mobile",
+      "kind": "sources",
+      "outbound": 10,
+      "inbound": 13,
+      "missing_count": 2,
+      "missing": [
+        {
+          "source_slug": "pso-precache-platform-matrix",
+          "source_kind": "synthesis",
+          "inbound_count": 2,
+          "confidence": "low",
+          "is_reverse_linked": false,
+          "missing": true
+        },
+        {
+          "source_slug": "pso-streaming-livepatch-tools",
+          "source_kind": "synthesis",
+          "inbound_count": 2,
+          "confidence": "low",
+          "is_reverse_linked": false,
+          "missing": true
+        }
+      ]
+    },
+    {
+      "slug": "ue-slate-skill",
+      "kind": "sources",
+      "outbound": 17,
+      "inbound": 27,
+      "missing_count": 2,
+      "missing": [
+        {
+          "source_slug": "ue-ref-05-editoronlyindex",
+          "source_kind": "sources",
+          "inbound_count": 3,
+          "confidence": "high",
+          "is_reverse_linked": false,
+          "missing": true
+        },
+        {
+          "source_slug": "instanced-subobject-customization-bypass",
+          "source_kind": "synthesis",
+          "inbound_count": 2,
+          "confidence": "low",
+          "is_reverse_linked": false,
+          "missing": true
+        }
+      ]
+    },
+    {
+      "slug": "ue-slatecore-drawing",
+      "kind": "sources",
+      "outbound": 4,
+      "inbound": 11,
+      "missing_count": 2,
+      "missing": [
+        {
+          "source_slug": "mc-combo-editor-levelsequence-lite",
+          "source_kind": "synthesis",
+          "inbound_count": 4,
+          "confidence": "med",
+          "is_reverse_linked": false,
+          "missing": true
+        },
+        {
+          "source_slug": "ue-ref-deep-invalidationhotspots",
+          "source_kind": "sources",
+          "inbound_count": 3,
+          "confidence": "high",
+          "is_reverse_linked": false,
+          "missing": true
+        }
+      ]
+    },
+    {
+      "slug": "ue-spatialpartition-worldpartitionruntime",
+      "kind": "sources",
+      "outbound": 6,
+      "inbound": 13,
+      "missing_count": 2,
+      "missing": [
+        {
+          "source_slug": "toctree2-worldpartition-pair-pattern",
+          "source_kind": "synthesis",
+          "inbound_count": 4,
+          "confidence": "med",
+          "is_reverse_linked": false,
+          "missing": true
+        },
+        {
+          "source_slug": "ue-editor-leveleditor",
+          "source_kind": "sources",
+          "inbound_count": 2,
+          "confidence": "med",
+          "is_reverse_linked": false,
+          "missing": true
+        }
+      ]
+    },
+    {
+      "slug": "late-join-reconnect-state-sync",
+      "kind": "synthesis",
+      "outbound": 21,
+      "inbound": 9,
+      "missing_count": 2,
+      "missing": [
+        {
+          "source_slug": "gameplaycue-cosmetic-boundary",
+          "source_kind": "synthesis",
+          "inbound_count": 2,
+          "confidence": "med",
+          "is_reverse_linked": false,
+          "missing": true
+        },
+        {
+          "source_slug": "gameplaycue-prediction-modifier-cdr",
+          "source_kind": "synthesis",
+          "inbound_count": 2,
+          "confidence": "med",
+          "is_reverse_linked": false,
+          "missing": true
+        }
+      ]
+    },
+    {
+      "slug": "mc-validation-automation-tooling",
+      "kind": "synthesis",
+      "outbound": 9,
+      "inbound": 9,
+      "missing_count": 2,
+      "missing": [
+        {
+          "source_slug": "lint-2026-05-10-mcsoft-components",
+          "source_kind": "synthesis",
+          "inbound_count": 4,
+          "confidence": "high",
+          "is_reverse_linked": false,
+          "missing": true
+        },
+        {
+          "source_slug": "validation-static-analysis-ide-integration",
+          "source_kind": "synthesis",
+          "inbound_count": 2,
+          "confidence": "med",
+          "is_reverse_linked": false,
+          "missing": true
+        }
+      ]
+    },
+    {
+      "slug": "runtime-dlc-livepatch-rollout",
+      "kind": "synthesis",
+      "outbound": 21,
+      "inbound": 7,
+      "missing_count": 2,
+      "missing": [
+        {
+          "source_slug": "pso-precache-platform-matrix",
+          "source_kind": "synthesis",
+          "inbound_count": 2,
+          "confidence": "med",
+          "is_reverse_linked": false,
+          "missing": true
+        },
+        {
+          "source_slug": "pso-streaming-livepatch-tools",
+          "source_kind": "synthesis",
+          "inbound_count": 2,
+          "confidence": "med",
+          "is_reverse_linked": false,
+          "missing": true
+        }
+      ]
+    },
+    {
+      "slug": "ue-agent-audit",
+      "kind": "sources",
+      "outbound": 0,
+      "inbound": 4,
+      "missing_count": 1,
+      "missing": [
+        {
+          "source_slug": "cycle-5m-audit-report-2026-q2",
+          "source_kind": "synthesis",
+          "inbound_count": 2,
+          "confidence": "low",
+          "is_reverse_linked": false,
+          "missing": true
+        }
+      ]
+    },
+    {
+      "slug": "ue-agent-components",
+      "kind": "sources",
+      "outbound": 0,
+      "inbound": 3,
+      "missing_count": 1,
+      "missing": [
+        {
+          "source_slug": "ue-agent-spatial-partition",
+          "source_kind": "sources",
+          "inbound_count": 2,
+          "confidence": "med",
+          "is_reverse_linked": false,
+          "missing": true
+        }
+      ]
+    },
+    {
+      "slug": "ue-agent-evaluator",
+      "kind": "sources",
+      "outbound": 4,
+      "inbound": 19,
+      "missing_count": 1,
+      "missing": [
+        {
+          "source_slug": "ue-measure-instancedsubobject-2026-05-12",
+          "source_kind": "sources",
+          "inbound_count": 2,
+          "confidence": "med",
+          "is_reverse_linked": false,
+          "missing": true
+        }
+      ]
+    },
+    {
+      "slug": "ue-agent-gameframework",
+      "kind": "sources",
+      "outbound": 0,
+      "inbound": 3,
+      "missing_count": 1,
+      "missing": [
+        {
+          "source_slug": "ue-agent-spatial-partition",
+          "source_kind": "sources",
+          "inbound_count": 2,
+          "confidence": "med",
+          "is_reverse_linked": false,
+          "missing": true
+        }
+      ]
+    },
+    {
+      "slug": "ue-agent-plugin",
+      "kind": "sources",
+      "outbound": 0,
+      "inbound": 3,
+      "missing_count": 1,
+      "missing": [
+        {
+          "source_slug": "ue-agent-spatial-partition",
+          "source_kind": "sources",
+          "inbound_count": 2,
+          "confidence": "med",
+          "is_reverse_linked": false,
+          "missing": true
+        }
+      ]
+    },
+    {
+      "slug": "ue-agent-render",
+      "kind": "sources",
+      "outbound": 0,
+      "inbound": 3,
+      "missing_count": 1,
+      "missing": [
+        {
+          "source_slug": "ue-agent-spatial-partition",
+          "source_kind": "sources",
+          "inbound_count": 2,
+          "confidence": "med",
+          "is_reverse_linked": false,
+          "missing": true
+        }
+      ]
+    },
+    {
+      "slug": "ue-animation-animinstance",
+      "kind": "sources",
+      "outbound": 4,
+      "inbound": 5,
+      "missing_count": 1,
+      "missing": [
+        {
+          "source_slug": "ue-levelsequence-tracks",
+          "source_kind": "sources",
+          "inbound_count": 2,
+          "confidence": "med",
+          "is_reverse_linked": false,
+          "missing": true
+        }
+      ]
+    },
+    {
+      "slug": "ue-animation-animnotify",
+      "kind": "sources",
+      "outbound": 3,
+      "inbound": 3,
+      "missing_count": 1,
+      "missing": [
+        {
+          "source_slug": "ai-npc-squad-coordination-tick-budget",
+          "source_kind": "synthesis",
+          "inbound_count": 2,
+          "confidence": "low",
+          "is_reverse_linked": false,
+          "missing": true
+        }
+      ]
+    },
+    {
+      "slug": "ue-animation-rootmotion",
+      "kind": "sources",
+      "outbound": 3,
+      "inbound": 4,
+      "missing_count": 1,
+      "missing": [
+        {
+          "source_slug": "ragdoll-getup-anim-recovery",
+          "source_kind": "synthesis",
+          "inbound_count": 2,
+          "confidence": "low",
+          "is_reverse_linked": false,
+          "missing": true
+        }
+      ]
+    },
+    {
+      "slug": "ue-assetclasses-audio-metasound",
+      "kind": "sources",
+      "outbound": 2,
+      "inbound": 4,
+      "missing_count": 1,
+      "missing": [
+        {
+          "source_slug": "vfx-audio-soft-pool-significance",
+          "source_kind": "synthesis",
+          "inbound_count": 3,
+          "confidence": "med",
+          "is_reverse_linked": false,
+          "missing": true
+        }
+      ]
+    },
+    {
+      "slug": "ue-assetclasses-audio",
+      "kind": "sources",
+      "outbound": 4,
+      "inbound": 7,
+      "missing_count": 1,
+      "missing": [
+        {
+          "source_slug": "vfx-audio-soft-pool-significance",
+          "source_kind": "synthesis",
+          "inbound_count": 3,
+          "confidence": "med",
+          "is_reverse_linked": false,
+          "missing": true
+        }
+      ]
+    },
+    {
+      "slug": "ue-assetclasses-vfx",
+      "kind": "sources",
+      "outbound": 4,
+      "inbound": 3,
+      "missing_count": 1,
+      "missing": [
+        {
+          "source_slug": "vfx-audio-soft-pool-significance",
+          "source_kind": "synthesis",
+          "inbound_count": 2,
+          "confidence": "low",
+          "is_reverse_linked": false,
+          "missing": true
+        }
+      ]
+    },
+    {
+      "slug": "ue-catalog-editordevindex",
+      "kind": "sources",
+      "outbound": 0,
+      "inbound": 4,
+      "missing_count": 1,
+      "missing": [
+        {
+          "source_slug": "ue-ref-02-verificationlog",
+          "source_kind": "sources",
+          "inbound_count": 2,
+          "confidence": "med",
+          "is_reverse_linked": false,
+          "missing": true
+        }
+      ]
+    },
+    {
+      "slug": "ue-catalog-runtimeindex",
+      "kind": "sources",
+      "outbound": 0,
+      "inbound": 4,
+      "missing_count": 1,
+      "missing": [
+        {
+          "source_slug": "ue-ref-01-layermap",
+          "source_kind": "sources",
+          "inbound_count": 2,
+          "confidence": "med",
+          "is_reverse_linked": false,
+          "missing": true
+        }
+      ]
+    },
+    {
+      "slug": "ue-components-audiocomponent",
+      "kind": "sources",
+      "outbound": 3,
+      "inbound": 6,
+      "missing_count": 1,
+      "missing": [
+        {
+          "source_slug": "vfx-audio-soft-pool-significance",
+          "source_kind": "synthesis",
+          "inbound_count": 2,
+          "confidence": "low",
+          "is_reverse_linked": false,
+          "missing": true
+        }
+      ]
+    },
+    {
+      "slug": "ue-components-scenecomponent",
+      "kind": "sources",
+      "outbound": 4,
+      "inbound": 4,
+      "missing_count": 1,
+      "missing": [
+        {
+          "source_slug": "bp-scs-preview-viewport-lifecycle",
+          "source_kind": "synthesis",
+          "inbound_count": 2,
+          "confidence": "low",
+          "is_reverse_linked": false,
+          "missing": true
+        }
+      ]
+    },
+    {
+      "slug": "ue-coreuobject-gc",
+      "kind": "sources",
+      "outbound": 4,
+      "inbound": 7,
+      "missing_count": 1,
+      "missing": [
+        {
+          "source_slug": "actor-pool-multiplayer-gc-integration",
+          "source_kind": "synthesis",
+          "inbound_count": 2,
+          "confidence": "low",
+          "is_reverse_linked": false,
+          "missing": true
+        }
+      ]
+    },
+    {
+      "slug": "ue-editor-advancedpreviewscene",
+      "kind": "sources",
+      "outbound": 5,
+      "inbound": 6,
+      "missing_count": 1,
+      "missing": [
+        {
+          "source_slug": "ue-editor-asseteditorapi",
+          "source_kind": "sources",
+          "inbound_count": 2,
+          "confidence": "med",
+          "is_reverse_linked": false,
+          "missing": true
+        }
+      ]
+    },
+    {
+      "slug": "ue-editor-assetregistry",
+      "kind": "sources",
+      "outbound": 17,
+      "inbound": 10,
+      "missing_count": 1,
+      "missing": [
+        {
+          "source_slug": "runtime-dlc-livepatch-rollout",
+          "source_kind": "synthesis",
+          "inbound_count": 2,
+          "confidence": "low",
+          "is_reverse_linked": false,
+          "missing": true
+        }
+      ]
+    },
+    {
+      "slug": "ue-editor-editorframework",
+      "kind": "sources",
+      "outbound": 12,
+      "inbound": 10,
+      "missing_count": 1,
+      "missing": [
+        {
+          "source_slug": "ue-editor-unrealed-factories",
+          "source_kind": "sources",
+          "inbound_count": 2,
+          "confidence": "med",
+          "is_reverse_linked": false,
+          "missing": true
+        }
+      ]
+    },
+    {
+      "slug": "ue-editor-skill",
+      "kind": "sources",
+      "outbound": 32,
+      "inbound": 41,
+      "missing_count": 1,
+      "missing": [
+        {
+          "source_slug": "ue-editor-staticmesheditor",
+          "source_kind": "sources",
+          "inbound_count": 2,
+          "confidence": "med",
+          "is_reverse_linked": false,
+          "missing": true
+        }
+      ]
+    },
+    {
+      "slug": "ue-gameframework-characteroptimization",
+      "kind": "sources",
+      "outbound": 5,
+      "inbound": 6,
+      "missing_count": 1,
+      "missing": [
+        {
+          "source_slug": "character-many-npc-5-fold-optimization",
+          "source_kind": "synthesis",
+          "inbound_count": 3,
+          "confidence": "med",
+          "is_reverse_linked": false,
+          "missing": true
+        }
+      ]
+    },
+    {
+      "slug": "ue-gameframework-skill",
+      "kind": "sources",
+      "outbound": 20,
+      "inbound": 27,
+      "missing_count": 1,
+      "missing": [
+        {
+          "source_slug": "UCharacterMovementComponent",
+          "source_kind": "entities",
+          "inbound_count": 2,
+          "confidence": "low",
+          "is_reverse_linked": false,
+          "missing": true
+        }
+      ]
+    },
+    {
+      "slug": "ue-levelsequence-sequencer",
+      "kind": "sources",
+      "outbound": 8,
+      "inbound": 5,
+      "missing_count": 1,
+      "missing": [
+        {
+          "source_slug": "mc-combo-editor-levelsequence-lite",
+          "source_kind": "synthesis",
+          "inbound_count": 2,
+          "confidence": "low",
+          "is_reverse_linked": false,
+          "missing": true
+        }
+      ]
+    },
+    {
+      "slug": "ue-levelsequence-tracks",
+      "kind": "sources",
+      "outbound": 8,
+      "inbound": 12,
+      "missing_count": 1,
+      "missing": [
+        {
+          "source_slug": "mc-combo-editor-levelsequence-lite",
+          "source_kind": "synthesis",
+          "inbound_count": 2,
+          "confidence": "low",
+          "is_reverse_linked": false,
+          "missing": true
+        }
+      ]
+    },
+    {
+      "slug": "ue-measure-instancedsubobject-2026-05-12",
+      "kind": "sources",
+      "outbound": 17,
+      "inbound": 12,
+      "missing_count": 1,
+      "missing": [
+        {
+          "source_slug": "mc-actor-spawn-subsystem-h1-measurement",
+          "source_kind": "synthesis",
+          "inbound_count": 3,
+          "confidence": "med",
+          "is_reverse_linked": false,
+          "missing": true
+        }
+      ]
+    },
+    {
+      "slug": "ue-measure-renderpostprocess-2026-05-08",
+      "kind": "sources",
+      "outbound": 0,
+      "inbound": 3,
+      "missing_count": 1,
+      "missing": [
+        {
+          "source_slug": "render-rdg-pass-standard-pattern",
+          "source_kind": "synthesis",
+          "inbound_count": 2,
+          "confidence": "low",
+          "is_reverse_linked": false,
+          "missing": true
+        }
+      ]
+    },
+    {
+      "slug": "ue-meta-baseline-grep-system",
+      "kind": "sources",
+      "outbound": 31,
+      "inbound": 3,
+      "missing_count": 1,
+      "missing": [
+        {
+          "source_slug": "cycle-5m-audit-report-2026-q2",
+          "source_kind": "synthesis",
+          "inbound_count": 2,
+          "confidence": "low",
+          "is_reverse_linked": false,
+          "missing": true
+        }
+      ]
+    },
+    {
+      "slug": "ue-ref-14-taskhandofftemplate",
+      "kind": "sources",
+      "outbound": 10,
+      "inbound": 8,
+      "missing_count": 1,
+      "missing": [
+        {
+          "source_slug": "ue-meta-governance",
+          "source_kind": "sources",
+          "inbound_count": 2,
+          "confidence": "med",
+          "is_reverse_linked": false,
+          "missing": true
+        }
+      ]
+    },
+    {
+      "slug": "ue-ref-17-qualitycriteria",
+      "kind": "sources",
+      "outbound": 13,
+      "inbound": 12,
+      "missing_count": 1,
+      "missing": [
+        {
+          "source_slug": "ue-meta-governance",
+          "source_kind": "sources",
+          "inbound_count": 2,
+          "confidence": "med",
+          "is_reverse_linked": false,
+          "missing": true
+        }
+      ]
+    },
+    {
+      "slug": "ue-render-materialexpression",
+      "kind": "sources",
+      "outbound": 11,
+      "inbound": 14,
+      "missing_count": 1,
+      "missing": [
+        {
+          "source_slug": "ue-editor-unrealed-materialeditor",
+          "source_kind": "sources",
+          "inbound_count": 3,
+          "confidence": "high",
+          "is_reverse_linked": false,
+          "missing": true
+        }
+      ]
+    },
+    {
+      "slug": "ue-render-skill",
+      "kind": "sources",
+      "outbound": 13,
+      "inbound": 31,
+      "missing_count": 1,
+      "missing": [
+        {
+          "source_slug": "render-rdg-pass-standard-pattern",
+          "source_kind": "synthesis",
+          "inbound_count": 2,
+          "confidence": "low",
+          "is_reverse_linked": false,
+          "missing": true
+        }
+      ]
+    },
+    {
+      "slug": "ue-render-vr",
+      "kind": "sources",
+      "outbound": 10,
+      "inbound": 14,
+      "missing_count": 1,
+      "missing": [
+        {
+          "source_slug": "pso-precache-platform-matrix",
+          "source_kind": "synthesis",
+          "inbound_count": 2,
+          "confidence": "low",
+          "is_reverse_linked": false,
+          "missing": true
+        }
+      ]
+    },
+    {
+      "slug": "ue-slate-application",
+      "kind": "sources",
+      "outbound": 3,
+      "inbound": 5,
+      "missing_count": 1,
+      "missing": [
+        {
+          "source_slug": "mc-combo-editor-levelsequence-lite",
+          "source_kind": "synthesis",
+          "inbound_count": 3,
+          "confidence": "med",
+          "is_reverse_linked": false,
+          "missing": true
+        }
+      ]
+    },
+    {
+      "slug": "ue-slate-docking",
+      "kind": "sources",
+      "outbound": 6,
+      "inbound": 8,
+      "missing_count": 1,
+      "missing": [
+        {
+          "source_slug": "ue-editor-unrealed-asseteditortoolkit",
+          "source_kind": "sources",
+          "inbound_count": 2,
+          "confidence": "med",
+          "is_reverse_linked": false,
+          "missing": true
+        }
+      ]
+    },
+    {
+      "slug": "ue-slate-grapheditor",
+      "kind": "sources",
+      "outbound": 3,
+      "inbound": 7,
+      "missing_count": 1,
+      "missing": [
+        {
+          "source_slug": "ue-editor-unrealed-materialeditor",
+          "source_kind": "sources",
+          "inbound_count": 2,
+          "confidence": "med",
+          "is_reverse_linked": false,
+          "missing": true
+        }
+      ]
+    },
+    {
+      "slug": "ue-slate-liststrees",
+      "kind": "sources",
+      "outbound": 2,
+      "inbound": 4,
+      "missing_count": 1,
+      "missing": [
+        {
+          "source_slug": "instanced-subobject-customization-bypass",
+          "source_kind": "synthesis",
+          "inbound_count": 2,
+          "confidence": "low",
+          "is_reverse_linked": false,
+          "missing": true
+        }
+      ]
+    },
+    {
+      "slug": "ue-slate-uedgraphapi",
+      "kind": "sources",
+      "outbound": 2,
+      "inbound": 3,
+      "missing_count": 1,
+      "missing": [
+        {
+          "source_slug": "ue-editor-unrealed-materialeditor",
+          "source_kind": "sources",
+          "inbound_count": 2,
+          "confidence": "med",
+          "is_reverse_linked": false,
+          "missing": true
+        }
+      ]
+    },
+    {
+      "slug": "ue-slatecore-trace",
+      "kind": "sources",
+      "outbound": 1,
+      "inbound": 5,
+      "missing_count": 1,
+      "missing": [
+        {
+          "source_slug": "ue-ref-06-invalidationhotspots",
+          "source_kind": "sources",
+          "inbound_count": 2,
+          "confidence": "med",
+          "is_reverse_linked": false,
+          "missing": true
+        }
+      ]
+    },
+    {
+      "slug": "ue-spatialpartition-skill",
+      "kind": "sources",
+      "outbound": 15,
+      "inbound": 16,
+      "missing_count": 1,
+      "missing": [
+        {
+          "source_slug": "toctree2-worldpartition-pair-pattern",
+          "source_kind": "synthesis",
+          "inbound_count": 4,
+          "confidence": "med",
+          "is_reverse_linked": false,
+          "missing": true
+        }
+      ]
+    },
+    {
+      "slug": "ue-spatialpartition-staticspatialindex",
+      "kind": "sources",
+      "outbound": 4,
+      "inbound": 7,
+      "missing_count": 1,
+      "missing": [
+        {
+          "source_slug": "toctree2-worldpartition-pair-pattern",
+          "source_kind": "synthesis",
+          "inbound_count": 2,
+          "confidence": "low",
+          "is_reverse_linked": false,
+          "missing": true
+        }
+      ]
+    },
+    {
+      "slug": "ue-umg-uuserwidget",
+      "kind": "sources",
+      "outbound": 4,
+      "inbound": 9,
+      "missing_count": 1,
+      "missing": [
+        {
+          "source_slug": "ue-ref-deep-invalidationhotspots",
+          "source_kind": "sources",
+          "inbound_count": 2,
+          "confidence": "med",
+          "is_reverse_linked": false,
+          "missing": true
+        }
+      ]
+    },
+    {
+      "slug": "agent-boundary-cycles-2026-q2",
+      "kind": "synthesis",
+      "outbound": 6,
+      "inbound": 2,
+      "missing_count": 1,
+      "missing": [
+        {
+          "source_slug": "cycle-5m-audit-report-2026-q2",
+          "source_kind": "synthesis",
+          "inbound_count": 2,
+          "confidence": "med",
+          "is_reverse_linked": false,
+          "missing": true
+        }
+      ]
+    },
+    {
+      "slug": "component-vs-actor-lifecycle-table",
+      "kind": "synthesis",
+      "outbound": 26,
+      "inbound": 9,
+      "missing_count": 1,
+      "missing": [
+        {
+          "source_slug": "actor-lifecycle-edge-cases",
+          "source_kind": "synthesis",
+          "inbound_count": 2,
+          "confidence": "med",
+          "is_reverse_linked": false,
+          "missing": true
+        }
+      ]
+    },
+    {
+      "slug": "gas-advanced-runtime-patterns",
+      "kind": "synthesis",
+      "outbound": 17,
+      "inbound": 7,
+      "missing_count": 1,
+      "missing": [
+        {
+          "source_slug": "online-crossplay-gas-lobby",
+          "source_kind": "synthesis",
+          "inbound_count": 2,
+          "confidence": "med",
+          "is_reverse_linked": false,
+          "missing": true
+        }
+      ]
+    },
+    {
+      "slug": "gas-pawn-vs-playerstate-decision",
+      "kind": "synthesis",
+      "outbound": 19,
+      "inbound": 9,
+      "missing_count": 1,
+      "missing": [
+        {
+          "source_slug": "subsystem-graph-online-wrapper",
+          "source_kind": "synthesis",
+          "inbound_count": 2,
+          "confidence": "med",
+          "is_reverse_linked": false,
+          "missing": true
+        }
+      ]
+    },
+    {
+      "slug": "instanced-subobject-customization-bypass",
+      "kind": "synthesis",
+      "outbound": 22,
+      "inbound": 19,
+      "missing_count": 1,
+      "missing": [
+        {
+          "source_slug": "ue-editor-staticmesheditor",
+          "source_kind": "sources",
+          "inbound_count": 3,
+          "confidence": "med",
+          "is_reverse_linked": false,
+          "missing": true
+        }
+      ]
+    },
+    {
+      "slug": "mc-validation-policy-rollout",
+      "kind": "synthesis",
+      "outbound": 18,
+      "inbound": 8,
+      "missing_count": 1,
+      "missing": [
+        {
+          "source_slug": "mc-validation-automation-tooling",
+          "source_kind": "synthesis",
+          "inbound_count": 2,
+          "confidence": "med",
+          "is_reverse_linked": false,
+          "missing": true
+        }
+      ]
+    },
+    {
+      "slug": "ragdoll-getup-anim-recovery",
+      "kind": "synthesis",
+      "outbound": 22,
+      "inbound": 5,
+      "missing_count": 1,
+      "missing": [
+        {
+          "source_slug": "ai-npc-squad-coordination-tick-budget",
+          "source_kind": "synthesis",
+          "inbound_count": 2,
+          "confidence": "med",
+          "is_reverse_linked": false,
+          "missing": true
+        }
+      ]
+    },
+    {
+      "slug": "ragdoll-multiplayer-replication",
+      "kind": "synthesis",
+      "outbound": 20,
+      "inbound": 6,
+      "missing_count": 1,
+      "missing": [
+        {
+          "source_slug": "ai-npc-ragdoll-coordination",
+          "source_kind": "synthesis",
+          "inbound_count": 3,
+          "confidence": "high",
+          "is_reverse_linked": false,
+          "missing": true
+        }
+      ]
+    },
+    {
+      "slug": "render-rdg-pass-standard-pattern",
+      "kind": "synthesis",
+      "outbound": 20,
+      "inbound": 10,
+      "missing_count": 1,
+      "missing": [
+        {
+          "source_slug": "RDG-Pass",
+          "source_kind": "concepts",
+          "inbound_count": 3,
+          "confidence": "med",
+          "is_reverse_linked": false,
+          "missing": true
+        }
+      ]
+    },
+    {
+      "slug": "replication-graph-bandwidth-management",
+      "kind": "synthesis",
+      "outbound": 15,
+      "inbound": 3,
+      "missing_count": 1,
+      "missing": [
+        {
+          "source_slug": "actor-pool-multiplayer-gc-integration",
+          "source_kind": "synthesis",
+          "inbound_count": 2,
+          "confidence": "med",
+          "is_reverse_linked": false,
+          "missing": true
+        }
+      ]
+    },
+    {
+      "slug": "server-vs-client-rpc-decision-tree",
+      "kind": "synthesis",
+      "outbound": 18,
+      "inbound": 8,
+      "missing_count": 1,
+      "missing": [
+        {
+          "source_slug": "ragdoll-multiplayer-replication",
+          "source_kind": "synthesis",
+          "inbound_count": 2,
+          "confidence": "med",
+          "is_reverse_linked": false,
+          "missing": true
+        }
+      ]
+    },
+    {
+      "slug": "spawnactor-hitching-4-step-pattern",
+      "kind": "synthesis",
+      "outbound": 23,
+      "inbound": 14,
+      "missing_count": 1,
+      "missing": [
+        {
+          "source_slug": "cooked-first-frame-stability",
+          "source_kind": "synthesis",
+          "inbound_count": 3,
+          "confidence": "high",
+          "is_reverse_linked": false,
+          "missing": true
+        }
+      ]
+    },
+    {
+      "slug": "subsystem-5-types-decision-tree",
+      "kind": "synthesis",
+      "outbound": 18,
+      "inbound": 7,
+      "missing_count": 1,
+      "missing": [
+        {
+          "source_slug": "subsystem-advanced-patterns",
+          "source_kind": "synthesis",
+          "inbound_count": 2,
+          "confidence": "med",
+          "is_reverse_linked": false,
+          "missing": true
+        }
+      ]
+    },
+    {
+      "slug": "subsystem-advanced-patterns",
+      "kind": "synthesis",
+      "outbound": 15,
+      "inbound": 4,
+      "missing_count": 1,
+      "missing": [
+        {
+          "source_slug": "subsystem-graph-online-wrapper",
+          "source_kind": "synthesis",
+          "inbound_count": 3,
+          "confidence": "high",
+          "is_reverse_linked": false,
+          "missing": true
+        }
+      ]
+    },
+    {
+      "slug": "toctree2-worldpartition-pair-pattern",
+      "kind": "synthesis",
+      "outbound": 13,
+      "inbound": 6,
+      "missing_count": 1,
+      "missing": [
+        {
+          "source_slug": "mc-actor-spawn-subsystem-implementation",
+          "source_kind": "synthesis",
+          "inbound_count": 3,
+          "confidence": "high",
+          "is_reverse_linked": false,
+          "missing": true
+        }
+      ]
+    },
+    {
+      "slug": "vfx-audio-soft-pool-significance",
+      "kind": "synthesis",
+      "outbound": 19,
+      "inbound": 7,
+      "missing_count": 1,
+      "missing": [
+        {
+          "source_slug": "actor-pool-reset-pattern",
+          "source_kind": "synthesis",
+          "inbound_count": 2,
+          "confidence": "med",
+          "is_reverse_linked": false,
+          "missing": true
+        }
+      ]
+    }
+  ]
+}

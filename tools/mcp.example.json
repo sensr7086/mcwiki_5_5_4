@@ -1,0 +1,38 @@
+{
+  "_comment": "Copy the relevant entry into ~/.claude.json's mcpServers (Claude Code) or %APPDATA%/Claude/claude_desktop_config.json (Claude Desktop). Pick ONE of the variants below.",
+
+  "mcpServers": {
+
+    "mcwiki": {
+      "_variant": "Windows native python",
+      "command": "python",
+      "args": ["E:\\MCWiki\\tools\\mcp_server.py"],
+      "env": {
+        "MCWIKI_ROOT": "E:\\MCWiki"
+      }
+    },
+
+    "mcwiki-venv": {
+      "_variant": "Recommended — pinned venv",
+      "command": "E:\\MCWiki\\.venv\\Scripts\\python.exe",
+      "args": ["E:\\MCWiki\\tools\\mcp_server.py"],
+      "env": {
+        "MCWIKI_ROOT": "E:\\MCWiki"
+      }
+    },
+
+    "mcwiki-wsl": {
+      "_variant": "WSL — vault accessed via /mnt/e",
+      "command": "wsl",
+      "args": [
+        "-e",
+        "python3",
+        "/mnt/e/MCWiki/tools/mcp_server.py"
+      ],
+      "env": {
+        "MCWIKI_ROOT": "/mnt/e/MCWiki"
+      }
+    }
+
+  }
+}

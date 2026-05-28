@@ -1,0 +1,8 @@
+{
+  "tool": "find_stale_baseline",
+  "threshold_days": 90,
+  "stale_count": 0,
+  "aged_50%": 0,
+  "total": 5,
+  "results": []
+}

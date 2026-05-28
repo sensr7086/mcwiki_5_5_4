@@ -1,0 +1,11 @@
+# MCWiki tools — Python deps
+# Core lint/stats/search/ingest scripts use stdlib only.
+# This file is for the optional MCP server (tools/mcp_server.py).
+
+mcp>=1.0.0
+
+# Optional — search.py BM25 mode
+# rank-bm25>=0.2.2
+
+# Optional — youtube_to_raw.py
+# youtube-transcript-api>=0.6.0

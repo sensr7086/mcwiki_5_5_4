@@ -1,0 +1,40 @@
+{
+  "tool": "find_cross_link_broken",
+  "pages_with_broken": 1,
+  "broken_total": 3,
+  "links_total": 4448,
+  "results": [
+    {
+      "slug": "agent-boundary-cycles-2026-q2",
+      "kind": "synthesis",
+      "total_wikilinks": 10,
+      "broken_count": 3,
+      "broken_links": [
+        {
+          "target": "CLAUDE.md#§5.4",
+          "line_number": 18,
+          "section_path": "§5.4 Agent Boundary Cycles — 2026 Q2",
+          "target_kind": null,
+          "target_slug": "CLAUDE.md#§5.4",
+          "reason": "page not found in any kind"
+        },
+        {
+          "target": "00_meta/07_AgentBoundaryProtocol#§2.4",
+          "line_number": 47,
+          "section_path": "2. Cycle 측정 항목 — 6 단계 self-check 매트릭스 (2026-05-13 확장)",
+          "target_kind": "00_meta",
+          "target_slug": "07_AgentBoundaryProtocol#§2.4",
+          "reason": "page not found"
+        },
+        {
+          "target": "CLAUDE.md#§5.4",
+          "line_number": 283,
+          "section_path": "9. cross-link",
+          "target_kind": null,
+          "target_slug": "CLAUDE.md#§5.4",
+          "reason": "page not found in any kind"
+        }
+      ]
+    }
+  ]
+}

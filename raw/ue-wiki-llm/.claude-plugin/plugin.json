@@ -1,0 +1,9 @@
+{
+  "name": "ue-wiki-llm",
+  "version": "2.0.0",
+  "description": "Unreal Engine 5.7.4 LLM Wiki — 22 카테고리 + 145+ sub-skill (Animation 8 / AssetClasses 10 / Render 12 / Editor 19 / Subsystem 2 / SpatialPartition 4 / LevelSequence 10 신규) + 15 횡단 인덱스 + 14 specialist. ULevelSequence + ALevelSequenceActor + ULevelSequencePlayer (UMovieSceneSequencePlayer 30+ API) + UMovieScene 베이스 + Tracks 43종 + UCineCameraComponent (Filmback/Focus/Aperture) + UMoviePipeline Render Queue 5.x + 5.x ECS 평가 (FMovieSceneEntityManager) + BP Director Event Track + TemplateSequence 재사용. UMG/UWidgetAnimation 동일 베이스 통합 + AssetClasses/Camera/UCameraAnimationSequence 페어.",
+  "author": {"name": "민철", "email": "sensr7086@naver.com"},
+  "homepage": "https://github.com/sensr7086/ue-wiki-llm",
+  "license": "MIT",
+  "keywords": ["unreal-engine", "ue5", "ue-5.7", "cpp", "gamedev", "slate", "umg", "components", "gameframework", "subsystem", "editor", "animation", "ragdoll", "blueprint", "networking", "ai", "build", "metasound", "render", "rdg", "shader", "lumen", "nanite", "rhi", "vulkan", "mobile", "vr", "online", "asset-user-data", "spatial-partition", "octree", "quadtree", "material-expression", "level-sequence", "movie-scene", "sequencer", "cinematic", "cine-camera", "movie-render-queue", "ecs", "wiki", "evaluator", "korean"]
+}

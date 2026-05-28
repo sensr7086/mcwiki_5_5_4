@@ -1,0 +1,200 @@
+{
+  "tool": "suggest_missing_cross_link",
+  "min_inbound": 2,
+  "pages_with_missing": 2,
+  "missing_total": 22,
+  "results": [
+    {
+      "slug": "mc-asset-validation-policy",
+      "kind": "sources",
+      "outbound_count": 15,
+      "inbound_count": 34,
+      "missing": [
+        {
+          "source_slug": "actor-lifecycle-edge-cases",
+          "source_kind": "synthesis",
+          "inbound_count": 2,
+          "confidence": "low",
+          "is_reverse_linked": false,
+          "missing": true
+        },
+        {
+          "source_slug": "actor-pool-reset-pattern",
+          "source_kind": "synthesis",
+          "inbound_count": 2,
+          "confidence": "low",
+          "is_reverse_linked": false,
+          "missing": true
+        },
+        {
+          "source_slug": "gameplaycue-cosmetic-boundary",
+          "source_kind": "synthesis",
+          "inbound_count": 2,
+          "confidence": "low",
+          "is_reverse_linked": false,
+          "missing": true
+        },
+        {
+          "source_slug": "lint-2026-05-10-mcsoft-components",
+          "source_kind": "synthesis",
+          "inbound_count": 2,
+          "confidence": "low",
+          "is_reverse_linked": false,
+          "missing": true
+        },
+        {
+          "source_slug": "mc-soft-asset-component-pattern",
+          "source_kind": "synthesis",
+          "inbound_count": 2,
+          "confidence": "low",
+          "is_reverse_linked": false,
+          "missing": true
+        },
+        {
+          "source_slug": "runtime-dlc-livepatch-rollout",
+          "source_kind": "synthesis",
+          "inbound_count": 2,
+          "confidence": "low",
+          "is_reverse_linked": false,
+          "missing": true
+        },
+        {
+          "source_slug": "validation-static-analysis-ide-integration",
+          "source_kind": "synthesis",
+          "inbound_count": 2,
+          "confidence": "low",
+          "is_reverse_linked": false,
+          "missing": true
+        },
+        {
+          "source_slug": "vfx-audio-soft-pool-significance",
+          "source_kind": "synthesis",
+          "inbound_count": 2,
+          "confidence": "low",
+          "is_reverse_linked": false,
+          "missing": true
+        }
+      ]
+    },
+    {
+      "slug": "mc-soft-skeletalmesh-ragdoll",
+      "kind": "sources",
+      "outbound_count": 16,
+      "inbound_count": 43,
+      "missing": [
+        {
+          "source_slug": "ragdoll-getup-anim-recovery",
+          "source_kind": "synthesis",
+          "inbound_count": 5,
+          "confidence": "med",
+          "is_reverse_linked": false,
+          "missing": true
+        },
+        {
+          "source_slug": "mc-soft-asset-component-pattern",
+          "source_kind": "synthesis",
+          "inbound_count": 3,
+          "confidence": "med",
+          "is_reverse_linked": false,
+          "missing": true
+        },
+        {
+          "source_slug": "spawnactor-hitching-4-step-pattern",
+          "source_kind": "synthesis",
+          "inbound_count": 3,
+          "confidence": "med",
+          "is_reverse_linked": false,
+          "missing": true
+        },
+        {
+          "source_slug": "ai-npc-ragdoll-coordination",
+          "source_kind": "synthesis",
+          "inbound_count": 2,
+          "confidence": "low",
+          "is_reverse_linked": false,
+          "missing": true
+        },
+        {
+          "source_slug": "ai-npc-squad-coordination-tick-budget",
+          "source_kind": "synthesis",
+          "inbound_count": 2,
+          "confidence": "low",
+          "is_reverse_linked": false,
+          "missing": true
+        },
+        {
+          "source_slug": "cooked-first-frame-stability",
+          "source_kind": "synthesis",
+          "inbound_count": 2,
+          "confidence": "low",
+          "is_reverse_linked": false,
+          "missing": true
+        },
+        {
+          "source_slug": "late-join-reconnect-state-sync",
+          "source_kind": "synthesis",
+          "inbound_count": 2,
+          "confidence": "low",
+          "is_reverse_linked": false,
+          "missing": true
+        },
+        {
+          "source_slug": "lint-2026-05-10-mcsoft-components",
+          "source_kind": "synthesis",
+          "inbound_count": 2,
+          "confidence": "low",
+          "is_reverse_linked": false,
+          "missing": true
+        },
+        {
+          "source_slug": "mc-character-hit-reaction-pipeline",
+          "source_kind": "synthesis",
+          "inbound_count": 2,
+          "confidence": "low",
+          "is_reverse_linked": false,
+          "missing": true
+        },
+        {
+          "source_slug": "mc-validation-automation-tooling",
+          "source_kind": "synthesis",
+          "inbound_count": 2,
+          "confidence": "low",
+          "is_reverse_linked": false,
+          "missing": true
+        },
+        {
+          "source_slug": "mc-validation-policy-rollout",
+          "source_kind": "synthesis",
+          "inbound_count": 2,
+          "confidence": "low",
+          "is_reverse_linked": false,
+          "missing": true
+        },
+        {
+          "source_slug": "ragdoll-multiplayer-replication",
+          "source_kind": "synthesis",
+          "inbound_count": 2,
+          "confidence": "low",
+          "is_reverse_linked": false,
+          "missing": true
+        },
+        {
+          "source_slug": "replication-graph-bandwidth-management",
+          "source_kind": "synthesis",
+          "inbound_count": 2,
+          "confidence": "low",
+          "is_reverse_linked": false,
+          "missing": true
+        },
+        {
+          "source_slug": "validation-static-analysis-ide-integration",
+          "source_kind": "synthesis",
+          "inbound_count": 2,
+          "confidence": "low",
+          "is_reverse_linked": false,
+          "missing": true
+        }
+      ]
+    }
+  ]
+}

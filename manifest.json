@@ -1,0 +1,142 @@
+{
+  "$schema": "https://github.com/anthropics/mcpb/blob/main/MANIFEST.md",
+  "manifest_version": "0.2",
+  "name": "mcwiki-5_5_4",
+  "display_name": "MCWiki - UE 5.5.4 Knowledge Vault",
+  "version": "0.6.0",
+  "description": "v0.6.0 (2026-05-27 fork): UE 5.5.4 vault target — 'mcwiki-5_5_4' MCP server (5.7.4 mcwiki MCP 와 공존). user_config.vault_root default = E:\\\\MCWiki_5_5_4. Karpathy-style LLM wiki vault for UE 5.5.4 (222 sources / 79 entities / 46 concepts / 44 synthesis / 8 governance meta). 20 tools - read_page / read_raw / read_index / read_log / list_pages / search / lint / stats / ingest_seed / write_page / append_log / synthesis_seed / synthesis_finalize / query_recap / git_status / git_pull / find_cross_link_broken / suggest_missing_cross_link / find_claim_conflict / find_stale_baseline. v0.5.5 (Cycle 5p #1): find_claim_conflict 한국어 단위 명사 (종/개/함정/대/회/호스트) false positive 자동 강등 — 숫자+단위 직전 객체 명사 추출 후 (keyword, object) 페어 매칭. 객체 명사 다르면 conflict 제외, 미식별 시 severity=low+note. Cycle 5m audit 4 false positive 자동 해결. v0.5.4 누적: kind enum '00_meta' alias. v0.5.3: suggest_missing 백링크 캐시 (60x). v0.5.2: find_cross_link_broken v0.3.3. v0.5.1: LLM mode rollback.",
+  "long_description": "MCWiki is a personal knowledge vault built on the Karpathy LLM-wiki pattern (raw / wiki / schema 3-layer). The bundled MCP server exposes the vault to any MCP-aware client as resources plus 20 tools, including the full Baseline Grep System (Cycle 5j+5k+5l). v0.5.1 = heuristic only — 외부 의존성 없음. Vault covers Unreal Engine 5.5.4 (21 categories).",
+  "author": {
+    "name": "민철",
+    "email": "sensr7086@naver.com"
+  },
+  "homepage": "https://github.com/<USER>/MCWiki",
+  "documentation": "https://github.com/<USER>/MCWiki/blob/main/docs/mcp-setup.md",
+  "support": "https://github.com/<USER>/MCWiki/issues",
+  "server": {
+    "type": "python",
+    "entry_point": "tools/mcp_server.py",
+    "mcp_config": {
+      "command": "python",
+      "args": [
+        "${__dirname}/tools/mcp_server.py"
+      ],
+      "env": {
+        "MCWIKI_ROOT": "${user_config.vault_root}"
+      }
+    }
+  },
+  "tools": [
+    {
+      "name": "list_pages",
+      "description": "List slugs in a wiki kind directory."
+    },
+    {
+      "name": "search",
+      "description": "Substring search across wiki/ (or wiki/+raw/)."
+    },
+    {
+      "name": "lint",
+      "description": "Run tools/lint.py."
+    },
+    {
+      "name": "stats",
+      "description": "Run tools/stats.py."
+    },
+    {
+      "name": "read_page",
+      "description": "Return the full markdown of a wiki page."
+    },
+    {
+      "name": "read_raw",
+      "description": "Return the full content of a file under raw/."
+    },
+    {
+      "name": "read_index",
+      "description": "Return wiki/index.md."
+    },
+    {
+      "name": "read_log",
+      "description": "Return wiki/log.md."
+    },
+    {
+      "name": "ingest_seed",
+      "description": "Scaffold a new wiki/sources/<slug>.md."
+    },
+    {
+      "name": "write_page",
+      "description": "Create or update a wiki page (sources/entities/concepts/synthesis/index)."
+    },
+    {
+      "name": "append_log",
+      "description": "Append entry to wiki/log.md."
+    },
+    {
+      "name": "synthesis_seed",
+      "description": "Auto-discover related content for synthesis."
+    },
+    {
+      "name": "synthesis_finalize",
+      "description": "Validate + update index.md + log entry."
+    },
+    {
+      "name": "query_recap",
+      "description": "Capsule a Q&A and route filing-back."
+    },
+    {
+      "name": "git_status",
+      "description": "Show vault git status."
+    },
+    {
+      "name": "git_pull",
+      "description": "Fast-forward pull main from origin."
+    },
+    {
+      "name": "find_cross_link_broken",
+      "description": "Validate [[wikilink]] targets. v0.3.3 (Cycle 5n #1): CLAUDE.md vault root .md 파일 인식 + #anchor 분리. v0.3.2: 00_meta + raw/docs prefix (lint.py 정합). Baseline Grep tool #1."
+    },
+    {
+      "name": "suggest_missing_cross_link",
+      "description": "Backlink-based cross-link recommendation. v0.5.3 (Cycle 5n #3): 모듈 레벨 백링크 인덱스 캐시 — vault signature check 후 cache hit 시 ~60x 빠름 (vault 전체 batch 5초). confidence: high/med/low. Baseline Grep tool #2."
+    },
+    {
+      "name": "find_claim_conflict",
+      "description": "Heuristic claim conflict detector. 4 claim 패턴 + 3 충돌 카테고리. v0.5.5 (Cycle 5p #1): 한국어 단위 명사 (종/개/함정/대/회/호스트) false positive 자동 강등 — 객체 명사 추출 후 (keyword, object) 페어 매칭. v0.5.1: LLM mode 제거 — heuristic only. Baseline Grep tool #3."
+    },
+    {
+      "name": "find_stale_baseline",
+      "description": "Staleness detector. last_updated + dependent pages graph (default 90-day threshold). Baseline Grep tool #4."
+    }
+  ],
+  "user_config": {
+    "vault_root": {
+      "type": "directory",
+      "title": "Vault root",
+      "description": "Absolute path to the MCWiki vault root.",
+      "required": true,
+      "default": "E:\\MCWiki_5_5_4"
+    }
+  },
+  "compatibility": {
+    "claude_desktop": ">=0.10.0",
+    "platforms": [
+      "win32",
+      "darwin",
+      "linux"
+    ],
+    "runtimes": {
+      "python": ">=3.10"
+    }
+  },
+  "keywords": [
+    "mcp",
+    "wiki",
+    "obsidian",
+    "ue5",
+    "unreal-engine",
+    "knowledge-base",
+    "karpathy",
+    "baseline-grep"
+  ],
+  "license": "MIT"
+}
