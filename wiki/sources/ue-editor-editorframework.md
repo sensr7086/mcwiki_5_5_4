@@ -6,7 +6,8 @@ source_path: raw/ue-wiki-llm/skills/Editor/references/EditorFramework.md
 source_kind: text
 source_date: 2026-05-09
 ingested: 2026-05-09
-last_updated: 2026-05-12
+last_updated: 2026-05-28
+audit_5_5_4: pass-minor-numeric  # 2026-05-28 Phase 2-B remaining audit
 related_entities:
   - "[[entities/IToolkit]]"
   - "[[entities/UEdMode]]"
@@ -97,3 +98,12 @@ PrivatePublicDependencyModuleNames.AddRange(new[] {
 - 페어: [[sources/ue-editor-unrealed-asseteditortoolkit]] (Toolkit 구현체) / [[sources/ue-editor-unrealed-elements]] (5.x Typed Element) / [[sources/ue-editor-unrealed-subsystems]] (UAssetEditorSubsystem 페어)
 - 횡단: [[sources/ue-ref-04-overrideindex]] §6 (Super 규약) · [[sources/ue-ref-05-editoronlyindex]]
 - 5.x InteractiveTools: [[sources/ue-editor-leveleditor]] (Element System)
+## §X. 5.5.4 Audit Status (2026-05-28)
+
+> Phase 2-B sources audit · [[synthesis/phase-2b-sources-audit]] · **결정: 🟢 pass-minor-numeric** (자동 분석)
+
+raw 5.5.4 vs 5.7.4 diff: 시그니처 0 / 추가 1 / 제거 0 / 수치 0 — 표면 변경만, 본문 정합 무영향.
+
+원본 5.7.4 시점 검증 내용 그대로 5.5.4 환경에서 유효.
+
+raw 5.5.4 본문 직접 참조: `raw/ue-wiki-llm_5_5_4/skills/Editor/references/EditorFramework.md` · 5.7.4 vintage 비교: `raw/ue-wiki-llm/skills/Editor/references/EditorFramework.md`

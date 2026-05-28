@@ -6,7 +6,8 @@ source_path: raw/ue-wiki-llm/agents/ue-spatial-partition-specialist.md
 source_kind: text
 source_date: 2026-05-12
 ingested: 2026-05-13
-last_updated: 2026-05-16
+last_updated: 2026-05-28
+audit_5_5_4: pass-label-only  # 2026-05-28 Phase 2-B auto-classified
 related_concepts:
   - "[[concepts/Profiling-Scope-Rule]]"
   - "[[concepts/Component-Policies-6]]"
@@ -150,3 +151,10 @@ raw 가 명시 — `[verified]` / `[grep-listed]` / `[inferred]` 3 단계 사용
 |------|------|
 | 2026-05-13 | 14번째 agent slim card 작성 (Cycle #11 카테고리 신설 동시 — 정밀 10 claims) |
 | **2026-05-16 (Cycle 5o #1)** | ⭐⭐⭐ **§3 Baseline Grep 의무 § 신규 추가** (Cycle 5h #4 patch + Cycle 5o 일관화) — Pre-write 3단 + Post-write 3단 + 본 agent 함정 키워드 + governance §8.4 매트릭스 통합 + 신규 도구 v0.5.1 활용. + §5 변경 이력 §추가. last_updated 갱신 (2026-05-13 → 2026-05-16) |
+## §X. 5.5.4 Audit Status (2026-05-28)
+
+> Phase 2-B sources audit · [[synthesis/phase-2b-sources-audit]] · **결정: 🟢 label-only**
+
+raw 5.5.4 vs 5.7.4 diff 자동 분류 결과: **label-only**. 5.5↔5.7 raw diff 가 버전 라벨 (5.7.4 ↔ 5.5.4 문자열) 변경만 — 본문 정합 무영향.
+
+원본 5.7.4 시점 검증 내용 그대로 5.5.4 환경에서 유효. 본 페이지의 `raw/ue-wiki-llm/...` 인용은 5.7.4 vintage 표기 보존 — 신규 인용은 `raw/ue-wiki-llm_5_5_4/...` 사용 (CLAUDE.md §0.1).

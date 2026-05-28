@@ -6,7 +6,8 @@ source_path: raw/ue-wiki-llm/skills/LevelSequence/references/EntitySystemECS.md
 source_kind: text
 source_date: 2026-05-13
 ingested: 2026-05-14
-last_updated: 2026-05-15
+last_updated: 2026-05-28
+audit_5_5_4: pass-body-reconciled  # 2026-05-28 Phase 2-C body-reconciliation
 related_concepts:
   - "[[concepts/Profiling-Scope-Rule]]"
 tags: [ue, levelsequence, ecs, performance, enriched, verified]
@@ -16,7 +17,7 @@ citation_disclosure: "🟢 8 / 🟡 2 / 🔴 5 · raw verified · Cycle #13.7 en
 # UE LevelSequence — EntitySystem ECS (5.x)
 
 > Source: [[raw/ue-wiki-llm/skills/LevelSequence/references/EntitySystemECS.md]] (390L)
-> Parent: [[sources/ue-levelsequence-skill]] · 위치: `Engine/Source/Runtime/MovieScene/Public/EntitySystem/` (75 헤더)
+> Parent: [[sources/ue-levelsequence-skill]] · 위치: `Engine/Source/Runtime/MovieScene/Public/EntitySystem/` (64 헤더)
 
 ## 1. Summary
 
@@ -261,3 +262,32 @@ enum class ESystemPhase : uint8 {
 - 페어: [[sources/ue-levelsequence-tracks]] (Entity 생성 진입) · [[sources/ue-levelsequence-levelsequenceplayer]] (Player::Tick → ECS Update)
 - 정책: 🚨 [[concepts/Profiling-Scope-Rule]] (System OnRun 의무)
 - 베이스: [[sources/ue-coreuobject-reflection]] (UPROPERTY Interp meta)
+## §X. 5.5.4 Audit Status (2026-05-28)
+
+> Phase 2-B sources audit · [[synthesis/phase-2b-sources-audit]] · **결정: 🟢 partial-needs-review** (자동 분석)
+
+raw 5.5.4 vs 5.7.4 diff 자동 분석:
+- 시그니처 변경: 3
+- 추가 (5.5.4 에만): 0
+- 제거 (5.7.4 에만, 5.5.4 에 없음): 0
+- 수치 변경: 1
+
+**주요 시그니처**:
+- `> - **EntitySystem 루트** — `Engine/Source/Runtime/MovieScene/Public/EntitySystem/ → > - **EntitySystem 루트** — `Engine/Source/Runtime/MovieScene/Public/EntitySystem/`
+- `| EntitySystem 폴더 75 헤더 | **[verified]** ✅ | `Source/Runtime/MovieScene/Public/E → | EntitySystem 폴더 64 헤더 | **[verified]** ✅ | `Source/Runtime/MovieScene/Public/E`
+- `| 2026-05-13 | 최초 작성. **5.x ECS 평가 4단계 (Instantiation/Evaluation/Blending/Applic → | 2026-05-13 | 최초 작성. **5.x ECS 평가 4단계 (Instantiation/Evaluation/Blending/Applic`
+
+**5.5.4 에만 (5.7.4 에 없음)**:
+_(없음)_
+
+**5.7.4 에만 (5.5.4 에 없음 — 5.5 → 5.7 추가)**:
+_(없음)_
+
+**결정**: 🟡 PARTIAL — 본 페이지의 핵심 결론은 대부분 stable 추정. 위 변경이 본문 정합에 영향 — 후속 본문 갱신 권장.
+
+raw 5.5.4 본문 직접 참조: `raw/ue-wiki-llm_5_5_4/skills/LevelSequence/references/EntitySystemECS.md` · 5.7.4 vintage 비교: `raw/ue-wiki-llm/skills/LevelSequence/references/EntitySystemECS.md`
+
+### Body Reconciliation (2026-05-28)
+
+- 자동 substitution: **1 변경**
+- 정합 후 tier: **🟢 pass-body-reconciled**

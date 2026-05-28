@@ -1,6 +1,6 @@
 # Wiki Index
 
-> Last updated: 2026-05-27 · **5.5.4 active vault (forked from 5.7.4 archive)** · 인계 통계 (5.7.4 vintage): 227 sources / 97 entities / 75 concepts / 61 synthesis (2 신규 — migration fork + Phase 2 audit) · ⚠️ 5.7-specific content audit 진행 중
+> Last updated: 2026-05-27 · **5.5.4 active vault (forked from 5.7.4 archive)** · 인계 통계 (5.7.4 vintage): 227 sources / 97 entities / 75 concepts / 63 synthesis (4 신규 — migration + Phase 2-A + Phase 2-B + Phase 2-C) · ⚠️ 5.7-specific content audit 진행 중
 
 매 ingest 후 LLM 이 자동 갱신. CLAUDE.md §5.2 step 1 의 진입점.
 
@@ -276,11 +276,13 @@
 
 ---
 
-## Synthesis (61)
+## Synthesis (63)
 
-### Migration / Schema-change / Audit (2) ⭐⭐⭐
+### Migration / Schema-change / Audit (4) ⭐⭐⭐
 - [[synthesis/migrated-from-5-7-4-to-5-5-4]] — **2026-05-27 fork 기록** · UE 5.7.4 → 5.5.4 vault 분기 · 인계 자산 + audit 로드맵 + Phase 1~3 계획
-- [[synthesis/phase-2-audit-14-concepts]] — **2026-05-27 Phase 2 audit** · 14 concept tier 재검토 · 🟢 6 pass / 🟡 8 engine-grep-pending
+- [[synthesis/phase-2-audit-14-concepts]] — **2026-05-27 Phase 2-A audit** · 14 concept tier 재검토 · 🟢 12 pass / 🟡 2 partial / 0 🔴
+- [[synthesis/phase-2b-sources-audit]] — **2026-05-28 Phase 2-B sources audit** · 142 wiki/sources/ × 5.5.4 raw 충돌 검토 · 75 cosmetic + 18 priority + 51 잔여
+- [[synthesis/phase-2c-body-reconciliation]] — **2026-05-28 Phase 2-C body recon** · 43 partial 모두 🟢 promote · Phase 2 (A+B+C) 158 / 156 pass (98.7%)
 
 ### Actor / Lifecycle (3)
 - [[synthesis/actor-lifecycle-edge-cases]] · [[synthesis/component-vs-actor-lifecycle-table]] · [[synthesis/spawnactor-hitching-4-step-pattern]]
@@ -398,7 +400,7 @@ raw/ue-wiki-llm/ — 9 phase 완료 + Cycle 5a~5p+7 + Phase 5a-8.2.2 + MCMateria
 sources:    227
 entities:    97
 concepts:    75
-synthesis:   61
+synthesis:   63
 orphans:      0
 broken:       0
 stale (>90d): 0

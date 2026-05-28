@@ -6,7 +6,8 @@ source_path: raw/ue-wiki-llm/skills/SpatialPartition/references/StaticSpatialInd
 source_kind: text
 source_date: 2026-05-12
 ingested: 2026-05-13
-last_updated: 2026-05-13
+last_updated: 2026-05-28
+audit_5_5_4: pass-body-no-direct-cite  # 2026-05-28 Phase 2-C body-reconciliation
 related_concepts:
   - "[[concepts/Profiling-Scope-Rule]]"
 tags: [ue, spatial-partition, rtree, static, slim-card]
@@ -87,3 +88,30 @@ class TListImpl;              // List (작은 데이터)
 - Parent: [[sources/ue-spatialpartition-skill]]
 - Sibling: [[sources/ue-spatialpartition-toctree2]] (동적 표준) · [[sources/ue-spatialpartition-worldpartitionruntime]] (StaticSpatialIndex 내부 사용)
 - 정책: [[concepts/Profiling-Scope-Rule]]
+## §X. 5.5.4 Audit Status (2026-05-28)
+
+> Phase 2-B sources audit · [[synthesis/phase-2b-sources-audit]] · **결정: 🟢 partial-needs-review** (자동 분석)
+
+raw 5.5.4 vs 5.7.4 diff 자동 분석:
+- 시그니처 변경: 1
+- 추가 (5.5.4 에만): 0
+- 제거 (5.7.4 에만, 5.5.4 에 없음): 0
+- 수치 변경: 0
+
+**주요 시그니처**:
+- `> **위치 (verified)**: `Engine/Public/WorldPartition/RuntimeHashSet/StaticSpatialI → > **위치 (verified, UE 5.5)**: `Engine/Public/WorldPartition/RuntimeHashSet/Static`
+
+**5.5.4 에만 (5.7.4 에 없음)**:
+_(없음)_
+
+**5.7.4 에만 (5.5.4 에 없음 — 5.5 → 5.7 추가)**:
+_(없음)_
+
+**결정**: 🟡 PARTIAL — 본 페이지의 핵심 결론은 대부분 stable 추정. 위 변경이 본문 정합에 영향 — 후속 본문 갱신 권장.
+
+raw 5.5.4 본문 직접 참조: `raw/ue-wiki-llm_5_5_4/skills/SpatialPartition/references/StaticSpatialIndex.md` · 5.7.4 vintage 비교: `raw/ue-wiki-llm/skills/SpatialPartition/references/StaticSpatialIndex.md`
+
+### Body Reconciliation (2026-05-28)
+
+- 자동 substitution: **0 변경**
+- 정합 후 tier: **🟢 pass-body-no-direct-cite**

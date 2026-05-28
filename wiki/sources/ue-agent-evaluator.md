@@ -6,7 +6,8 @@ source_path: raw/ue-wiki-llm/agents/ue-evaluator.md
 source_kind: text
 source_date: 2026-05-11
 ingested: 2026-05-11
-last_updated: 2026-05-17
+last_updated: 2026-05-28
+audit_5_5_4: pass-label-only  # 2026-05-28 Phase 2-B auto-classified
 related_entities: []
 related_concepts:
   - "[[concepts/Editor-Only-4-Tier-Separation]]"
@@ -200,3 +201,10 @@ Performance 35 + Memory 25 + Network 15 + Maintainability 25 = 100
 | **2026-05-15 (Cycle 5n Round 1)** | ⭐⭐⭐ **stub + §3 → 정밀 11 절 (~280L)**. raw 본문 통합 — §2 핵심 원칙 / §3 자동 로드 / §4 8단계 매트릭스 / §5 채점 / §6 출력 형식 / §7 Self-correction (기존 유지 + 7.1-7.3 재구조) / §8 Baseline Grep 의무 / §9 거부 조건 / §10 Cross-link (5 카테고리). raw 본문 (~120L) + 기존 §3 (~100L) 통합 정밀 카탈로그 |
 | **2026-05-17 (Cycle 5p)** | **§4 평가 8단계 매트릭스 갱신 — Stage 2.X Engine Authority Verification 추가** ([[00_meta/03_EvaluatorRecipe]] §1.5). UPROPERTY templated container / TArray cross-type / TObjectPtr / bitfield / DEPRECATED / Custom Serialize / Slate API 7 항목 (A~G) Engine 본가 grep 재검증. KMCProject Phase 2 postmortem 기반. |
 | **2026-05-17 (Cycle 5p+1)** | ⚠ **정책 변경 — 사용자 수동 호출 전용** (auto-evaluator 호출 제거 — timeout 심각 89~193s/call). §1 Summary + §4 매트릭스 + §8.4 row #4 user-triggered framing 갱신. 사용자가 명시적으로 `/evaluate` 또는 Task tool 로 호출 시만 활성. |
+## §X. 5.5.4 Audit Status (2026-05-28)
+
+> Phase 2-B sources audit · [[synthesis/phase-2b-sources-audit]] · **결정: 🟢 label-only**
+
+raw 5.5.4 vs 5.7.4 diff 자동 분류 결과: **label-only**. 5.5↔5.7 raw diff 가 버전 라벨 (5.7.4 ↔ 5.5.4 문자열) 변경만 — 본문 정합 무영향.
+
+원본 5.7.4 시점 검증 내용 그대로 5.5.4 환경에서 유효. 본 페이지의 `raw/ue-wiki-llm/...` 인용은 5.7.4 vintage 표기 보존 — 신규 인용은 `raw/ue-wiki-llm_5_5_4/...` 사용 (CLAUDE.md §0.1).

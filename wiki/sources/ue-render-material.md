@@ -6,7 +6,8 @@ source_path: raw/ue-wiki-llm/skills/Render/references/Material.md
 source_kind: text
 source_date: 2026-05-09
 ingested: 2026-05-10
-last_updated: 2026-05-12
+last_updated: 2026-05-28
+audit_5_5_4: pass-minor-numeric  # 2026-05-28 Phase 2-B priority audit
 related_entities:
   - "[[entities/UMaterial]]"
 related_concepts:
@@ -60,3 +61,12 @@ Material Domain 7 (Surface / DeferredDecal / LightFunction / Volume / PostProces
 
 - [[sources/ue-render-meshdrawing]] (inbound=3, suggest_missing_cross_link high confidence)
 - [[sources/ue-render-mobile]] (inbound=3, suggest_missing_cross_link high confidence)
+## §X. 5.5.4 Audit Status (2026-05-28)
+
+> Phase 2-B sources audit · [[synthesis/phase-2b-sources-audit]] · **결정: 🟢 pass-minor-numeric** (자동 분석)
+
+raw 5.5.4 vs 5.7.4 diff: 시그니처 변경 0 / 추가 0 / 제거 0 — 단순 수치 또는 미세 변경만. 본문 정합 무영향.
+
+원본 5.7.4 시점 검증 내용 그대로 5.5.4 환경에서 유효.
+
+raw 5.5.4 본문 직접 참조: [[raw/ue-wiki-llm_5_5_4/skills/Render/references/Material.md]] · 5.7.4 vintage 비교: [[raw/ue-wiki-llm/skills/Render/references/Material.md]]

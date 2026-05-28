@@ -84,3 +84,12 @@ UE 의 모든 게임 로직 + 시각/물리/오디오/입력 동작이 컴포넌
 
 - **자산 페어**:
   - [[sources/ue-assetclasses-mesh]] — StaticMesh + SkeletalMesh + Skeleton + PhysicsAsset 자산 정의. §3 시각/메시 sub-skill (meshcomponents) 의 호스트↔자산 페어.
+## §X. 5.5.4 Audit Status (2026-05-28)
+
+> Phase 2-B sources audit · [[synthesis/phase-2b-sources-audit]] · **결정: 🟢 pass-minor-numeric** (자동 분석)
+
+raw 5.5.4 vs 5.7.4 diff: 시그니처 0 / 추가 0 / 제거 0 / 수치 0 — 표면 변경만, 본문 정합 무영향.
+
+원본 5.7.4 시점 검증 내용 그대로 5.5.4 환경에서 유효.
+
+raw 5.5.4 본문 직접 참조: `raw/ue-wiki-llm_5_5_4/skills/Components/SKILL.md` · 5.7.4 vintage 비교: `raw/ue-wiki-llm/skills/Components/SKILL.md`

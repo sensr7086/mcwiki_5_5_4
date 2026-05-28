@@ -6,7 +6,8 @@ source_path: raw/ue-wiki-llm/references/09_GlobalIteratorPolicy.md
 source_kind: text
 source_date: 2026-05-09
 ingested: 2026-05-09
-last_updated: 2026-05-13
+last_updated: 2026-05-28
+audit_5_5_4: pass-label-only  # 2026-05-28 Phase 2-B auto-classified
 related_concepts:
   - "[[concepts/Global-Iterator-Avoidance]]"
   - "[[concepts/Subsystem-5-Types]]"
@@ -209,3 +210,10 @@ void UMyEditorTool::FindAllInvalidAssets()
 - 카테고리 main 적용: [[sources/ue-components-skill]] · [[sources/ue-gameframework-skill]] · [[sources/ue-editor-skill]]
 - MC-시리즈: [[synthesis/mc-actor-spawn-subsystem-implementation]] (KMCProject UMCActorSpawnSubsystem — 본 정책 적용)
 - Significance 통합: [[sources/ue-significance-skill]] (자기 자신이 등록 패턴)
+## §X. 5.5.4 Audit Status (2026-05-28)
+
+> Phase 2-B sources audit · [[synthesis/phase-2b-sources-audit]] · **결정: 🟢 label-only**
+
+raw 5.5.4 vs 5.7.4 diff 자동 분류 결과: **label-only**. 5.5↔5.7 raw diff 가 버전 라벨 (5.7.4 ↔ 5.5.4 문자열) 변경만 — 본문 정합 무영향.
+
+원본 5.7.4 시점 검증 내용 그대로 5.5.4 환경에서 유효. 본 페이지의 `raw/ue-wiki-llm/...` 인용은 5.7.4 vintage 표기 보존 — 신규 인용은 `raw/ue-wiki-llm_5_5_4/...` 사용 (CLAUDE.md §0.1).

@@ -17,6 +17,8 @@ related_concepts:
   - "[[concepts/Authority-NetMode]]"
   - "[[concepts/PushModel]]"
 tags: [ue, networking, multiplayer]
+last_updated: 2026-05-28
+audit_5_5_4: pass-body-no-direct-cite  # 2026-05-28 Phase 2-C body-reconciliation
 ---
 
 # UE 5.7.4 Networking Module — Main SKILL
@@ -48,3 +50,23 @@ tags: [ue, networking, multiplayer]
 
 - [ ] PushModel 의 5.x 마이그레이션 표준 — 어떤 프로퍼티부터
 - [ ] FastArraySerializer 의 IsFastArray 함정
+## §X. 5.5.4 Audit Status (2026-05-28)
+
+> Phase 2-B sources audit · [[synthesis/phase-2b-sources-audit]] · **결정: 🟢 partial-content-shift** (자동 분석)
+
+raw 5.5.4 vs 5.7.4 diff: 작은 의미 변경 + 큰 cosmetic. 시그니처 0 / 추가 4 / 제거 0 / 수치 0 / 기타 1.
+
+**주요 변경 sample**:
+- `---`
+- ``
+- `# Networking — UE 5.5.4 멀티플레이 / Replication`
+- `- 5.5.4 위치: `Engine/Source/Runtime/Experimental/Iris/Core/` (Public/Iris/{ReplicationSystem, ReplicationState, Serializa`
+
+**결정**: 🟡 본질 안정, 일부 표현 갱신 필요 가능. 후속 본문 정합 확인 권장.
+
+raw 5.5.4 본문 직접 참조: `raw/ue-wiki-llm_5_5_4/skills/Networking/SKILL.md` · 5.7.4 vintage 비교: `raw/ue-wiki-llm/skills/Networking/SKILL.md`
+
+### Body Reconciliation (2026-05-28)
+
+- 자동 substitution: **0 변경**
+- 정합 후 tier: **🟢 pass-body-no-direct-cite**

@@ -6,7 +6,8 @@ source_path: raw/ue-wiki-llm/skills/LevelSequence/references/Tracks.md
 source_kind: text
 source_date: 2026-05-13
 ingested: 2026-05-14
-last_updated: 2026-05-17
+last_updated: 2026-05-28
+audit_5_5_4: pass-body-no-direct-cite  # 2026-05-28 Phase 2-C body-reconciliation
 related_concepts: []
 tags: [ue, levelsequence, tracks, enriched, verified, case-study-pair, kmcproject-pair]
 citation_disclosure: "🟢 12 / 🟡 3 / 🔴 1 · raw verified · Cycle #13.3 enrich + Cycle 5p §B2 KMCProject case study reverse-link"
@@ -260,3 +261,32 @@ void AMyTool::AddTransformTrack(ULevelSequence* Seq, AActor* T)
 - ⭐ **Case study (mc-, Cycle 5p §B2)**:
   - [[synthesis/mc-combo-section-levelsequence-style-upgrade]] (Phase 1 handoff document — UMCComboSection 풀 격상)
   - [[synthesis/mc-combo-editor-levelsequence-lite]] (Phase 2 누적 합성 — LevelSequence 데이터 모델 lite + 9-Layer OnPaint + 7 EDragMode)
+## §X. 5.5.4 Audit Status (2026-05-28)
+
+> Phase 2-B sources audit · [[synthesis/phase-2b-sources-audit]] · **결정: 🟢 partial-needs-review** (자동 분석)
+
+raw 5.5.4 vs 5.7.4 diff 자동 분석:
+- 시그니처 변경: 3
+- 추가 (5.5.4 에만): 0
+- 제거 (5.7.4 에만, 5.5.4 에 없음): 0
+- 수치 변경: 0
+
+**주요 시그니처**:
+- `> **위치 (verified)**: `Engine/Source/Runtime/MovieSceneTracks/Public/Tracks/` (43 → > **위치 (verified)**: `Engine/Source/Runtime/MovieSceneTracks/Public/Tracks/` (UE`
+- `| 43종 Track 헤더 목록 | **[verified]** ✅ | `Engine/Source/Runtime/MovieSceneTracks/P → | 43종 Track 헤더 목록 | **[verified]** ✅ | `Engine/Source/Runtime/MovieSceneTracks/P`
+- `| 2026-05-13 | 최초 작성. **43종 빌트인 트랙 분류** (Property 16 / Cinematic 8 / Audio-VFX 5 → | 2026-05-13 | 최초 작성. **43종 빌트인 트랙 분류** (Property 16 / Cinematic 8 / Audio-VFX 5`
+
+**5.5.4 에만 (5.7.4 에 없음)**:
+_(없음)_
+
+**5.7.4 에만 (5.5.4 에 없음 — 5.5 → 5.7 추가)**:
+_(없음)_
+
+**결정**: 🟡 PARTIAL — 본 페이지의 핵심 결론은 대부분 stable 추정. 위 변경이 본문 정합에 영향 — 후속 본문 갱신 권장.
+
+raw 5.5.4 본문 직접 참조: `raw/ue-wiki-llm_5_5_4/skills/LevelSequence/references/Tracks.md` · 5.7.4 vintage 비교: `raw/ue-wiki-llm/skills/LevelSequence/references/Tracks.md`
+
+### Body Reconciliation (2026-05-28)
+
+- 자동 substitution: **0 변경**
+- 정합 후 tier: **🟢 pass-body-no-direct-cite**

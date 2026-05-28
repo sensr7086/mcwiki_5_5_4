@@ -6,7 +6,8 @@ source_path: raw/ue-wiki-llm/meta/confidence-tags.md
 source_kind: text
 source_date: 2026-05-09
 ingested: 2026-05-09
-last_updated: 2026-05-15
+last_updated: 2026-05-28
+audit_5_5_4: pass-label-only  # 2026-05-28 Phase 2-B auto-classified
 tags: [ue, meta, governance, citation, confidence, three-tier, self-eval-bias]
 citation_disclosure: "본 카드 = 🟢 vault 직시 (3 tier 체계가 00_meta/06_VaultCitationRule + ue-meta-honest-limits §2 self-eval bias 사례 2건 + Cycle 5d 1차 evaluator 평균 89.5 / 2차 §2.11.1 격상 실측 모두 vault 내). raw 원본 slim → vault-side 정밀화."
 ---
@@ -140,3 +141,10 @@ citation_disclosure: "본 카드 = 🟢 vault 직시 (3 tier 체계가 00_meta/0
 | -- | -- |
 | 2026-05-09 | 카드 작성 (raw ingest, slim) |
 | **2026-05-15 (Cycle 5d 2차)** | **정밀 enrich** — §2 3 tier 매트릭스 (raw `[verified]/[grep-listed]/[inferred]` ↔ 06_VaultCitationRule `🟢/🟡/🔴` 매핑) + §3 의무 운영 흐름 알고리즘 + §4 격상 / 강등 절차 (Cycle 5d 2차 §2.11.1 실측 사례) + §5 Cycle 5a~5d 격상 / 강등 매트릭스 (5건 중 4건 격상) + §6 self-eval bias 페어 + §7 Cross-link 4종 권위. raw slim → vault-side 정밀화. 🟢 vault 직시 (모든 격상 사례가 vault 안 페어 페이지로 검증 가능). |
+## §X. 5.5.4 Audit Status (2026-05-28)
+
+> Phase 2-B sources audit · [[synthesis/phase-2b-sources-audit]] · **결정: 🟢 label-only**
+
+raw 5.5.4 vs 5.7.4 diff 자동 분류 결과: **label-only**. 5.5↔5.7 raw diff 가 버전 라벨 (5.7.4 ↔ 5.5.4 문자열) 변경만 — 본문 정합 무영향.
+
+원본 5.7.4 시점 검증 내용 그대로 5.5.4 환경에서 유효. 본 페이지의 `raw/ue-wiki-llm/...` 인용은 5.7.4 vintage 표기 보존 — 신규 인용은 `raw/ue-wiki-llm_5_5_4/...` 사용 (CLAUDE.md §0.1).

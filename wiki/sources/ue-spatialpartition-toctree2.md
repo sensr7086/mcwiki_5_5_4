@@ -6,7 +6,8 @@ source_path: raw/ue-wiki-llm/skills/SpatialPartition/references/TOctree2.md
 source_kind: text
 source_date: 2026-05-12
 ingested: 2026-05-13
-last_updated: 2026-05-13
+last_updated: 2026-05-28
+audit_5_5_4: pass-body-reconciled  # 2026-05-28 Phase 2-C body-reconciliation
 related_concepts:
   - "[[concepts/Profiling-Scope-Rule]]"
   - "[[concepts/Component-Policies-6]]"
@@ -19,7 +20,7 @@ citation_disclosure: "🟢 14 / 🟡 0 / 🔴 0 · 보너스 발견 1건 (UWorld
 # UE SpatialPartition — TOctree2 ⭐⭐⭐
 
 > Source: [[raw/ue-wiki-llm/skills/SpatialPartition/references/TOctree2.md]] (655L)
-> Parent: [[sources/ue-spatialpartition-skill]] · Engine 검증: `PrimitiveSceneInfo.h:239` (`FScenePrimitiveOctree`)
+> Parent: [[sources/ue-spatialpartition-skill]] · Engine 검증: `PrimitiveSceneInfo.h` 사용 (`FScenePrimitiveOctree`)
 > **가장 권장** — 다수 NPC 매 프레임 "내 주변 N미터 적" 조회 등 가장 흔한 시나리오.
 
 ## 1. Summary
@@ -158,3 +159,33 @@ void AMyEnemy::EndPlay(const EEndPlayReason::Type R)
 - 페어: [[sources/ue-significance-skill]] (거리 LOD 결합)
 - Engine 검증: [[sources/ue-render-meshdrawing]] §FScenePrimitiveOctree
 - 정책: [[concepts/Profiling-Scope-Rule]] · [[concepts/Component-Policies-6]] §3 · [[concepts/Subsystem-5-Types]]
+## §X. 5.5.4 Audit Status (2026-05-28)
+
+> Phase 2-B sources audit · [[synthesis/phase-2b-sources-audit]] · **결정: 🟢 partial-needs-review** (자동 분석)
+
+raw 5.5.4 vs 5.7.4 diff 자동 분석:
+- 시그니처 변경: 4
+- 추가 (5.5.4 에만): 1
+- 제거 (5.7.4 에만, 5.5.4 에 없음): 0
+- 수치 변경: 0
+
+**주요 시그니처**:
+- `description: TOctree2<T, Semantics> 기반 AActor 트래커 deep 표준 — Semantics 정의 + UWorl → description: TOctree2<T, Semantics> 기반 AActor 트래커 deep 표준 — Semantics 정의 + UWorl`
+- `>   - Renderer/Public/PrimitiveSceneInfo.h:46, 239, 808 — FScenePrimitiveOctr → >   - Renderer/Public/PrimitiveSceneInfo.h:259, 828 — FScenePrimitiveOctree `
+- `FPrimitiveOctreeSemantics ([PrimitiveSceneInfo.h:808-840](../../Render/refer → FPrimitiveOctreeSemantics ([PrimitiveSceneInfo.h:828-852](../../Render/refer`
+- `| FOctreeElementId2 SetElementId 패턴 | **[verified]** ✅ | Renderer/Public/Primit → | FOctreeElementId2 SetElementId 패턴 | **[verified]** ✅ | Renderer/Public/Primit`
+
+**5.5.4 에만 (5.7.4 에 없음)**:
+- `| FPrimitiveOctreeSemantics 6 요소 패턴 | **[verified]** ✅ | Renderer/Public/PrimitiveSceneInfo.h:828-852 (5.5) |`
+
+**5.7.4 에만 (5.5.4 에 없음 — 5.5 → 5.7 추가)**:
+_(없음)_
+
+**결정**: 🟡 PARTIAL — 본 페이지의 핵심 결론은 대부분 stable 추정. 위 변경이 본문 정합에 영향 — 후속 본문 갱신 권장.
+
+raw 5.5.4 본문 직접 참조: `raw/ue-wiki-llm_5_5_4/skills/SpatialPartition/references/TOctree2.md · 5.7.4 vintage 비교: raw/ue-wiki-llm/skills/SpatialPartition/references/TOctree2.md`
+
+### Body Reconciliation (2026-05-28)
+
+- 자동 substitution: **1 변경**
+- 정합 후 tier: **🟢 pass-body-reconciled**

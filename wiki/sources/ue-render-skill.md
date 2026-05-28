@@ -6,7 +6,8 @@ source_path: raw/ue-wiki-llm/skills/Render/SKILL.md
 source_kind: text
 source_date: 2026-05-09
 ingested: 2026-05-10
-last_updated: 2026-05-12
+last_updated: 2026-05-28
+audit_5_5_4: pass-body-no-direct-cite  # 2026-05-28 Phase 2-C body-reconciliation
 related_concepts:
   - "[[concepts/Profiling-Scope-Rule]]"
 tags: [ue, render, gpu]
@@ -46,3 +47,33 @@ UE 5.x **GPU 측 코드 작성** 카테고리. RenderCore (RDG/Shader/Material/M
 
 - 🚨 [[sources/ue-ref-07-profilingscopeRule]] — 모든 Render 측 콜백 (BeginRenderViewFamily/SetupView/PreRenderView_RenderThread/PostRenderViewFamily_RenderThread 등) 첫 줄 `TRACE_CPUPROFILER_EVENT_SCOPE` 의무. 3 축 분리 (Game/Render/RHI) 의 각 측면에서 적용. §1 의 frontmatter `Profiling-Scope-Rule` 연계.
 - [[sources/ue-ref-01-layermap]] — L1~L7 의존 계층. Render 카테고리는 L5~L6 (RHI 위, PostProcess 아래).
+## §X. 5.5.4 Audit Status (2026-05-28)
+
+> Phase 2-B sources audit · [[synthesis/phase-2b-sources-audit]] · **결정: 🟢 partial-needs-review** (자동 분석)
+
+raw 5.5.4 vs 5.7.4 diff 자동 분석:
+- 시그니처 변경: 3
+- 추가 (5.5.4 에 있고 5.7.4 에 없음 — older 5.5 표현): 2
+- 제거 (5.7.4 에 있고 5.5.4 에 없음 — 5.7 에서 신규 / 5.5 에서 미존재): 0
+- 수치 변경: 0
+
+**주요 시그니처 변경**:
+- `description: UE 5.7.4 Render 카테고리 — RenderCore (RDG / Shader / Material / Materi → description: UE 5.5.4 Render 카테고리 — RenderCore (RDG / Shader / Material / Materi`
+- `> - **Renderer**: `Engine/Source/Runtime/Renderer/Public/` (47 헤더 — MeshDrawing  → > - **RenderCore**: `Engine/Source/Runtime/RenderCore/Public/` (99 헤더 — 5.5.4 — `
+- `| [`MaterialEditingLibrary`](./references/MaterialEditingLibrary.md) 🛠 | **Edito → | [`MaterialExpression`](./references/MaterialExpression.md) ⭐ | **표현식 깊이** — Cu`
+
+**5.5.4 표현 (5.7.4 에 없음)**:
+- `> - **Renderer**: `Engine/Source/Runtime/Renderer/Public/` (44 헤더 — 5.5.4 — MeshDrawing / PostProcess)`
+- `| [`MaterialEditingLibrary`](./references/MaterialEditingLibrary.md) 🛠 | **Editor 자동화** (Python/BP) — 56 UFUNCTION (5.5.`
+
+**5.7.4 표현 (5.5.4 에 없음)**:
+_(없음)_
+
+**결정**: 🟡 PARTIAL — 본 페이지의 핵심 결론은 5.5.4 에서 유효 가능성 高이지만, 위 시그니처/위치 변경이 본문 정합에 영향. 후속 audit 시 본문에서 변경된 라인/경로 인용 갱신 필요.
+
+raw 5.5.4 본문 직접 참조: [[raw/ue-wiki-llm_5_5_4/skills/Render/SKILL.md]] · 5.7.4 vintage 비교: [[raw/ue-wiki-llm/skills/Render/SKILL.md]]
+
+### Body Reconciliation (2026-05-28)
+
+- 자동 substitution 적용: **0 변경** (47 → 44 헤더 / 97 → 99 RenderCore)
+- 정합 후 tier: **pass-body-no-direct-cite**

@@ -6,7 +6,8 @@ source_path: raw/ue-wiki-llm/skills/AssetClasses/references/Mesh.md
 source_kind: text
 source_date: 2026-05-09
 ingested: 2026-05-09
-last_updated: 2026-05-14
+last_updated: 2026-05-28
+audit_5_5_4: pass-minor-numeric  # 2026-05-28 Phase 2-B priority audit
 related_entities:
   - "[[entities/UStaticMesh]]"
   - "[[entities/USkeletalMesh]]"
@@ -204,3 +205,12 @@ EDataValidationResult UMyData::IsDataValid(FDataValidationContext& Context) cons
 | §3.3 / §3.4 다른 const 오버로드 매트릭스 | 🟡 | 일반 패턴 추정 — 일부 함수 시그니처 미인용 |
 | §3.5 KMCProject 검증 사례 | 🟢 | log entry `[2026-05-14] fix` + 코드 인용 |
 | §3.6 체크리스트 | 🟢 | KMCProject 적용 검증 |
+## §X. 5.5.4 Audit Status (2026-05-28)
+
+> Phase 2-B sources audit · [[synthesis/phase-2b-sources-audit]] · **결정: 🟢 pass-minor-numeric** (자동 분석)
+
+raw 5.5.4 vs 5.7.4 diff: 시그니처 변경 0 / 추가 0 / 제거 0 — 단순 수치 또는 미세 변경만. 본문 정합 무영향.
+
+원본 5.7.4 시점 검증 내용 그대로 5.5.4 환경에서 유효.
+
+raw 5.5.4 본문 직접 참조: [[raw/ue-wiki-llm_5_5_4/skills/AssetClasses/references/Mesh.md]] · 5.7.4 vintage 비교: [[raw/ue-wiki-llm/skills/AssetClasses/references/Mesh.md]]

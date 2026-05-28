@@ -6,7 +6,8 @@ source_path: raw/ue-wiki-llm/agents/ue-asset-specialist.md
 source_kind: text
 source_date: 2026-05-11
 ingested: 2026-05-11
-last_updated: 2026-05-15
+last_updated: 2026-05-28
+audit_5_5_4: pass-label-only  # 2026-05-28 Phase 2-B auto-classified
 related_entities: []
 related_concepts:
   - "[[concepts/Asset-Loading-Policy]]"
@@ -101,3 +102,10 @@ citation_disclosure: "🟢 raw verified · Cycle 5n Round 2 enrich"
 |------|------|
 | 2026-05-11 | stub 카드 |
 | 2026-05-15 (Cycle 5n Round 2) | ⭐⭐⭐ stub → 정밀 10 절. 10 자산 결정 + SpawnActor 4단 + 5대 최적화 + Soft/Hard 매트릭스 |
+## §X. 5.5.4 Audit Status (2026-05-28)
+
+> Phase 2-B sources audit · [[synthesis/phase-2b-sources-audit]] · **결정: 🟢 label-only**
+
+raw 5.5.4 vs 5.7.4 diff 자동 분류 결과: **label-only**. 5.5↔5.7 raw diff 가 버전 라벨 (5.7.4 ↔ 5.5.4 문자열) 변경만 — 본문 정합 무영향.
+
+원본 5.7.4 시점 검증 내용 그대로 5.5.4 환경에서 유효. 본 페이지의 `raw/ue-wiki-llm/...` 인용은 5.7.4 vintage 표기 보존 — 신규 인용은 `raw/ue-wiki-llm_5_5_4/...` 사용 (CLAUDE.md §0.1).

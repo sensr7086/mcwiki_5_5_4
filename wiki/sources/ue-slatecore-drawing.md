@@ -12,6 +12,8 @@ related_entities:
 related_concepts:
   - "[[concepts/Slate-Paint-Cycle]]"
 tags: [ue, slate, ui, rendering]
+last_updated: 2026-05-28
+audit_5_5_4: raw  # 2026-05-28 Phase 2-B (regression-fix)
 ---
 
 # UE SlateCore — Drawing sub-skill
@@ -37,3 +39,10 @@ OnPaint + [[entities/FSlateDrawElement]]::MakeBox/Lines/Text + FPaintArgs + Laye
 ### Cycle 5o reverse-link 보강 (high confidence missing)
 
 - [[sources/ue-ref-deep-invalidationhotspots]] (inbound=3, suggest_missing_cross_link high confidence)
+## §X. 5.5.4 Audit Status (2026-05-28)
+
+> Phase 2-B sources audit · [[synthesis/phase-2b-sources-audit]] · **결정: 🟢 mostly-cosmetic**
+
+raw 5.5.4 vs 5.7.4 diff 자동 분류 결과: **mostly-cosmetic**. 5.5↔5.7 raw diff 가 대부분 cosmetic (whitespace / formatting) + 소수 (≤2) 의미 변경 — 본문 본질 안정.
+
+원본 5.7.4 시점 검증 내용 그대로 5.5.4 환경에서 유효. 본 페이지의 `raw/ue-wiki-llm/...` 인용은 5.7.4 vintage 표기 보존 — 신규 인용은 `raw/ue-wiki-llm_5_5_4/...` 사용 (CLAUDE.md §0.1).

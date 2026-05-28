@@ -33,3 +33,12 @@ UDataAsset + UPrimaryDataAsset (Bundle 표준) + UDataTable (552) + UCurveTable 
 
 - [ ] UDataTable 의 BP 노출 vs C++ 직접 접근 결정
 - [ ] PrimaryAsset Bundle 의 분리 표준 패턴
+## §X. 5.5.4 Audit Status (2026-05-28)
+
+> Phase 2-B sources audit · [[synthesis/phase-2b-sources-audit]] · **결정: 🟢 pass-minor-numeric** (자동 분석)
+
+raw 5.5.4 vs 5.7.4 diff: 시그니처 변경 0 / 추가 0 / 제거 0 — 단순 수치 또는 미세 변경만. 본문 정합 무영향.
+
+원본 5.7.4 시점 검증 내용 그대로 5.5.4 환경에서 유효.
+
+raw 5.5.4 본문 직접 참조: [[raw/ue-wiki-llm_5_5_4/skills/AssetClasses/references/Data.md]] · 5.7.4 vintage 비교: [[raw/ue-wiki-llm/skills/AssetClasses/references/Data.md]]

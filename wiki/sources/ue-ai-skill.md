@@ -15,6 +15,8 @@ related_entities:
 related_concepts:
   - "[[concepts/Asset-Optimization-Policy]]"
 tags: [ue, ai, plugin]
+last_updated: 2026-05-28
+audit_5_5_4: pass-body-no-direct-cite  # 2026-05-28 Phase 2-C body-reconciliation
 ---
 
 # UE 5.7.4 AI Module — Main SKILL
@@ -43,3 +45,22 @@ tags: [ue, ai, plugin]
 
 - [ ] BT vs StateTree 5.x 결정 트리
 - [ ] EQS Generator/Test 의 비용 분석
+## §X. 5.5.4 Audit Status (2026-05-28)
+
+> Phase 2-B sources audit · [[synthesis/phase-2b-sources-audit]] · **결정: 🟢 partial-content-shift** (자동 분석)
+
+raw 5.5.4 vs 5.7.4 diff: 작은 의미 변경 + 큰 cosmetic. 시그니처 0 / 추가 3 / 제거 0 / 수치 0 / 기타 1.
+
+**주요 변경 sample**:
+- `---`
+- ``
+- `# AI — UE 5.5.4 AI 시스템 / Behavior Tree / Navigation`
+
+**결정**: 🟡 본질 안정, 일부 표현 갱신 필요 가능. 후속 본문 정합 확인 권장.
+
+raw 5.5.4 본문 직접 참조: `raw/ue-wiki-llm_5_5_4/skills/AI/SKILL.md` · 5.7.4 vintage 비교: `raw/ue-wiki-llm/skills/AI/SKILL.md`
+
+### Body Reconciliation (2026-05-28)
+
+- 자동 substitution: **0 변경**
+- 정합 후 tier: **🟢 pass-body-no-direct-cite**

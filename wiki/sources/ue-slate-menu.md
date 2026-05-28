@@ -9,6 +9,8 @@ ingested: 2026-05-09
 related_entities:
   - "[[entities/UToolMenus]]"
 tags: [ue, slate, editor, ui]
+last_updated: 2026-05-28
+audit_5_5_4: raw  # 2026-05-28 Phase 2-B (regression-fix)
 ---
 
 # UE Slate — Menu sub-skill
@@ -28,3 +30,10 @@ tags: [ue, slate, editor, ui]
 - 5.x [[entities/UToolMenus]] 권장: 더 강력 + Editor Utility Widget 통합 + 동적 등록.
 - FUICommandList 와 페어 — `MenuBuilder.AddMenuEntry(MyCommands.MyCommand)`.
 - 표준 메뉴 path: MainFrame.MainMenu.* / LevelEditor.MainMenu.*.
+## §X. 5.5.4 Audit Status (2026-05-28)
+
+> Phase 2-B sources audit · [[synthesis/phase-2b-sources-audit]] · **결정: 🟢 lineshift-only**
+
+raw 5.5.4 vs 5.7.4 diff 자동 분류 결과: **lineshift-only**. 5.5↔5.7 raw diff 가 라인 번호 shift 만 — 본문 의미 무영향.
+
+원본 5.7.4 시점 검증 내용 그대로 5.5.4 환경에서 유효. 본 페이지의 `raw/ue-wiki-llm/...` 인용은 5.7.4 vintage 표기 보존 — 신규 인용은 `raw/ue-wiki-llm_5_5_4/...` 사용 (CLAUDE.md §0.1).

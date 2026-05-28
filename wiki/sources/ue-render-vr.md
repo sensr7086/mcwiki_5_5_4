@@ -6,7 +6,8 @@ source_path: raw/ue-wiki-llm/skills/Render/references/VR.md
 source_kind: text
 source_date: 2026-05-09
 ingested: 2026-05-10
-last_updated: 2026-05-12
+last_updated: 2026-05-28
+audit_5_5_4: pass-body-already-accurate  # 2026-05-28 Phase 2-C body-reconciliation promote
 related_entities: []
 related_concepts: ["[[concepts/Profiling-Scope-Rule]]", "[[concepts/Motion-To-Photon-Latency]]", "[[concepts/PSO-Precache]]"]
 tags: [ue, render, gpu, vr, openxr, quest, foveated]
@@ -175,3 +176,31 @@ raw VR.md 자체는 잘 정리됐으나, 다음 5개는 vault 화 시 추가 가
 
 - **2026-05-10** stub 생성 (29 L, 7 claims)
 - **2026-05-12** Cycle #10 slim enrich — frontmatter §13 tier / 10 claims / 함정 10대 + 매트릭스 / 코드 3블록 / cross-link 6 / 신뢰도 매트릭스 / 보너스 발견 5
+## §X. 5.5.4 Audit Status (2026-05-28)
+
+> Phase 2-B sources audit · [[synthesis/phase-2b-sources-audit]] · **결정: 🟢 partial-needs-review** (자동 분석)
+
+raw 5.5.4 vs 5.7.4 diff 자동 분석:
+- 시그니처 변경: 1
+- 추가 (5.5.4 에 있고 5.7.4 에 없음 — older 5.5 표현): 1
+- 제거 (5.7.4 에 있고 5.5.4 에 없음 — 5.7 에서 신규 / 5.5 에서 미존재): 0
+- 수치 변경: 0
+
+**주요 시그니처 변경**:
+- `> **위치**: `Engine/Plugins/Runtime/OpenXR/` + `Engine/Plugins/Runtime/OculusVR/`  → > **위치**: `Engine/Plugins/Runtime/OpenXR/` + `Engine/Source/Runtime/Renderer/``
+
+**5.5.4 표현 (5.7.4 에 없음)**:
+- `> **5.5.4 주의**: `OculusVR` 엔진 플러그인은 5.5 빌트인에서 제거됨 — Meta XR (Oculus) 통합은 `Engine/Plugins/Runtime/OpenXR/` 위에 Meta 측 외부 플`
+
+**5.7.4 표현 (5.5.4 에 없음)**:
+_(없음)_
+
+**결정**: 🟡 PARTIAL — 본 페이지의 핵심 결론은 5.5.4 에서 유효 가능성 高이지만, 위 시그니처/위치 변경이 본문 정합에 영향. 후속 audit 시 본문에서 변경된 라인/경로 인용 갱신 필요.
+
+raw 5.5.4 본문 직접 참조: [[raw/ue-wiki-llm_5_5_4/skills/Render/references/VR.md]] · 5.7.4 vintage 비교: [[raw/ue-wiki-llm/skills/Render/references/VR.md]]
+
+### Body Reconciliation (2026-05-28 — promoted)
+
+- 자동 substitution + §X 외 본문 grep 검토 완료
+- **본문 정합 OK**: OculusVR 본문 3건 잔존하나 모두 "5.4+ 부터 제거" deprecation 명시 — 이미 5.5.4 정합 (false partial)
+- 정합 후 tier: **🟢 pass-body-already-accurate** (promoted from partial-needs-manual-review)

@@ -6,7 +6,8 @@ source_path: raw/ue-wiki-llm/skills/Editor/references/ToolMenus.md
 source_kind: text
 source_date: 2026-05-09
 ingested: 2026-05-09
-last_updated: 2026-05-14
+last_updated: 2026-05-28
+audit_5_5_4: pass-body-no-direct-cite  # 2026-05-28 Phase 2-C body-reconciliation
 related_entities:
   - "[[entities/UToolMenus]]"
   - "[[entities/SWidget]]"
@@ -372,3 +373,30 @@ ToolMenus->ExtendMenu("AssetEditor.AnimationSequenceEditor.MainMenu.Window");   
 - [ ] 5.x `FToolMenuProfile` — 프로파일 정의 + 가시성 적용 시점
 - [ ] §2.4 `AssetEditor.<X>.ToolBar` — Toolbar 도 ToolMenus 인지 검증 (SkeletalMeshEditor::ExtendToolbar)
 - [ ] §2.9.5 다른 호스트의 OnRegisterTabs delegate (Blueprint Editor / Material Editor / Niagara Editor 등) (🔴 INFERRED)
+## §X. 5.5.4 Audit Status (2026-05-28)
+
+> Phase 2-B sources audit · [[synthesis/phase-2b-sources-audit]] · **결정: 🟢 partial-needs-review** (자동 분석)
+
+raw 5.5.4 vs 5.7.4 diff 자동 분석:
+- 시그니처 변경: 1
+- 추가 (5.5.4 에만): 0
+- 제거 (5.7.4 에만, 5.5.4 에 없음): 0
+- 수치 변경: 0
+
+**주요 시그니처**:
+- `> **위치 주의**: UE 5.7 에서 `Engine/Source/Developer/ToolMenus/` (Developer). Editor  → > **위치 주의**: UE 5.5 에서 `Engine/Source/Developer/ToolMenus/` (Developer). Editor `
+
+**5.5.4 에만 (5.7.4 에 없음)**:
+_(없음)_
+
+**5.7.4 에만 (5.5.4 에 없음 — 5.5 → 5.7 추가)**:
+_(없음)_
+
+**결정**: 🟡 PARTIAL — 본 페이지의 핵심 결론은 대부분 stable 추정. 위 변경이 본문 정합에 영향 — 후속 본문 갱신 권장.
+
+raw 5.5.4 본문 직접 참조: `raw/ue-wiki-llm_5_5_4/skills/Editor/references/ToolMenus.md` · 5.7.4 vintage 비교: `raw/ue-wiki-llm/skills/Editor/references/ToolMenus.md`
+
+### Body Reconciliation (2026-05-28)
+
+- 자동 substitution: **0 변경**
+- 정합 후 tier: **🟢 pass-body-no-direct-cite**

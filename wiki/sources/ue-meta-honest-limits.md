@@ -6,7 +6,8 @@ source_path: raw/ue-wiki-llm/meta/CLAUDE-wiki-honest-limits.md
 source_kind: text
 source_date: 2026-05-09
 ingested: 2026-05-09
-last_updated: 2026-05-15
+last_updated: 2026-05-28
+audit_5_5_4: pass-minor-numeric  # 2026-05-28 Phase 2-B remaining audit
 tags: [ue, meta, governance, honest, self-eval-bias, six-essential-limits]
 citation_disclosure: "본 카드 자체 = 🟢 vault 직시 (§2 Self-eval bias 사례 2건이 [[sources/ue-meta-corrections]] §2.4 + [[sources/ue-agent-evaluator]] §3 filing-back + Cycle 5d 2차 §2.11.1 격상으로 모두 vault 안 검증 가능). raw 본문 갱신은 별도 단계."
 ---
@@ -109,3 +110,12 @@ citation_disclosure: "본 카드 자체 = 🟢 vault 직시 (§2 Self-eval bias 
 | 2026-05-09 | 카드 작성 (raw ingest) |
 | 2026-05-12 | **§2 Self-eval bias 사례 누적 신규** — (1) vault 평가자가 vault 함정 9 를 권고한 사례 (외부 에이전트 Journey 실증, filing-back 완료). (2) 우리 측 비교 매트릭스의 self-eval bias 사례 (외부 자료 1건으로 보정, ⭐⭐ 측정 페이지로 정착). §2.3 일반 패턴 — 4 사이트별 self-eval 회피 의무. raw 본문 갱신은 별도 단계. |
 | **2026-05-15 (Cycle 5d 2차)** | **citation_disclosure 갱신** (🟡 → 🟢) — §2 self-eval bias 사례 2건이 corrections.md §2.4 (PI 매크로) + agent-evaluator §3 (Generator-Evaluator 분리) + §2.11.1 격상 (single-case → 일반 패턴) 3 사이트로 모두 vault 안 검증 가능. tags + last_updated 갱신. Cycle 5e 후보 풀 cross-link 추가 (§3 권위). |
+## §X. 5.5.4 Audit Status (2026-05-28)
+
+> Phase 2-B sources audit · [[synthesis/phase-2b-sources-audit]] · **결정: 🟢 pass-minor-numeric** (자동 분석)
+
+raw 5.5.4 vs 5.7.4 diff: 시그니처 0 / 추가 0 / 제거 0 / 수치 0 — 표면 변경만, 본문 정합 무영향.
+
+원본 5.7.4 시점 검증 내용 그대로 5.5.4 환경에서 유효.
+
+raw 5.5.4 본문 직접 참조: `raw/ue-wiki-llm_5_5_4/meta/CLAUDE-wiki-honest-limits.md` · 5.7.4 vintage 비교: `raw/ue-wiki-llm/meta/CLAUDE-wiki-honest-limits.md`

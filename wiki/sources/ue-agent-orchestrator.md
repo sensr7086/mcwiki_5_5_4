@@ -6,7 +6,8 @@ source_path: raw/ue-wiki-llm/agents/ue-orchestrator.md
 source_kind: text
 source_date: 2026-05-11
 ingested: 2026-05-11
-last_updated: 2026-05-17
+last_updated: 2026-05-28
+audit_5_5_4: pass-label-only  # 2026-05-28 Phase 2-B auto-classified
 related_entities: []
 related_concepts:
   - "[[concepts/Editor-Only-4-Tier-Separation]]"
@@ -227,3 +228,10 @@ Orchestrator:
 | 2026-05-15 (Cycle 5n Round 1) | ⭐⭐⭐ stub → 정밀 14 절 (~340L). 15 prefix → 13 specialist 라우팅 매트릭스 + Workflow 2 Parallelization + §10 §5.4 Agent Boundary Protocol (Plugin-less) + Baseline Grep 통합 |
 | **2026-05-17 (Cycle 5p)** | **Pre-Flight Engine Grep Batch 의무 통합** ([[00_meta/07_AgentBoundaryProtocol]] §2.5). §1 Summary + §2 핵심 역할 추가. multi-step specialist 호출 *전* 1회 batch grep (7 항목 A~G) + 결과 prompt 사전 첨부. KMCProject Phase 2 postmortem 기반 — refactor 사이클 ~605s (37%) 단축 예측. |
 | **2026-05-17 (Cycle 5p+1)** | ⚠ **정책 변경 — auto-evaluator 호출 제거** (timeout 심각 89~193s/call). §1 Summary + §2 핵심 역할 + §5 작업 패턴 + §8 평가 § + §9 출력 형식 모두 user-triggered framing 갱신. 평가 = 사용자 수동 호출 시만. → [[synthesis/cycle-5p-postmortem-remediation]] §6 참조. |
+## §X. 5.5.4 Audit Status (2026-05-28)
+
+> Phase 2-B sources audit · [[synthesis/phase-2b-sources-audit]] · **결정: 🟢 label-only**
+
+raw 5.5.4 vs 5.7.4 diff 자동 분류 결과: **label-only**. 5.5↔5.7 raw diff 가 버전 라벨 (5.7.4 ↔ 5.5.4 문자열) 변경만 — 본문 정합 무영향.
+
+원본 5.7.4 시점 검증 내용 그대로 5.5.4 환경에서 유효. 본 페이지의 `raw/ue-wiki-llm/...` 인용은 5.7.4 vintage 표기 보존 — 신규 인용은 `raw/ue-wiki-llm_5_5_4/...` 사용 (CLAUDE.md §0.1).

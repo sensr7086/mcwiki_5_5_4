@@ -6,7 +6,8 @@ source_path: raw/ue-wiki-llm/agents/ue-wiki-maintainer.md
 source_kind: text
 source_date: 2026-05-11
 ingested: 2026-05-11
-last_updated: 2026-05-19
+last_updated: 2026-05-28
+audit_5_5_4: pass-label-only  # 2026-05-28 Phase 2-B auto-classified
 related_entities: []
 related_concepts:
   - "[[concepts/Editor-Only-4-Tier-Separation]]"
@@ -240,3 +241,10 @@ model: opus
 | 2026-05-15 (Cycle 5n Round 1) | ⭐⭐⭐ **stub → 정밀 11 절 (~270L)**. raw 본문 통합 — §2 자동 로드 5 / §3 5단 의무 (전/중/후) / §4 작업 패턴 8 단계 / §5 SKILL.md template + 인용 규약 / §6 거부 조건 / §7 Baseline Grep 의무 + **§7.3 vault path discipline ⭐** (Cycle 5e/5f vault path 논의 해소 반영) / §8 관계 / §9 Cross-link (4 카테고리) |
 | **2026-05-18 (Cycle 5p+2 — MCP 도구 의무 강화)** | **§1 Summary 안 도구 매트릭스 명시 (mcwiki MCP 9 도구 추가) + Cycle 5p+2 트리거 명시. §2.2 ⭐⭐⭐ MCP 도구 권한 확인 (작업 0 단계 의무) 신규 — tools 매트릭스 안 9 도구 포함 여부 확인 + 미포함 시 즉시 거부 + main 위임. §3 5단 의무에 Cycle 5p+2 신규 sub-bullet 3건 추가 (§2.1/§2.2/§2.3 각각). §4 작업 패턴 8 → 9 단계 (0 단계 신규 + §2 영향도 측정 / §4 작성 / §6 검증 로그 / §8 Post-write 검증에 mcwiki MCP 직접 호출 명시). §4.1 Cowork mount 부재 우회 (Cycle 5p+2 신규) — mcwiki MCP 서버가 vault path 추상화하므로 cowork mount 와 독립적. §5.1 SKILL.md template 안 메타 agent 4종 도구 매트릭스 명시 (mcwiki MCP 9 도구 추가 사양). §6 거부 조건 추가 (도구 미포함 시 즉시 거부). §7.1/§7.2 Pre/Post-write 단계에 "mcwiki MCP 직접 호출 의무" + "Glob/Read fallback 절대 금지" 명시. §7.3 vault path discipline 정정 (mcwiki MCP server 가 vault path 추상화). §7.5 신규 — Cycle 5p+2 결함 회고 (Cowork mount 차단 시 mcwiki MCP fallback) — 증상 / 원인 3건 / 해결 3건. §8 4 메타 agent 모두 도구 의무 공유 명시. §9 Cross-link 안 [[synthesis/mc-combo-editor-levelsequence-lite]] Cycle 5p+1 결함 발견 trigger 추가. frontmatter — last_updated 2026-05-15 → 2026-05-18 / tags `mcp-tool-mandatory` + `cowork-mount-bypass` 추가 / citation_disclosure Cycle 5p+2 MCP 도구 의무 강화 사유 추가.** |
 | **2026-05-19 (Cycle 5p+1 — §6.2 log entry 표준 엄격화)** | ⭐ **CLAUDE.md §6.2.1~§6.2.5 신설 (entry 양식 + 크기 가이드 + 안티패턴 + filing-back + archive 정책) — log.md 비대화 (564 KB → 257 KB) 후속 정정. raw wiki-maintainer.md 에 `§6.2 log.md 표준 (CLAUDE.md §6.2 미러)` 추가 — 표준 양식 / 크기 가이드 / 안티패턴 / filing-back 의무 / archive 정책. 5단 의무 §2.4 신규 추가 (append_log entry ≤ 500 bytes, verbose detail → synthesis/sources). lint.py `is_log_or_archive()` skip 패턴 도입 — `archive/` 디렉토리 자동 lint skip. 본 강화 = Cycle 5p+1 log compaction Option D 의 정책적 일반화.** |
+## §X. 5.5.4 Audit Status (2026-05-28)
+
+> Phase 2-B sources audit · [[synthesis/phase-2b-sources-audit]] · **결정: 🟢 label-only**
+
+raw 5.5.4 vs 5.7.4 diff 자동 분류 결과: **label-only**. 5.5↔5.7 raw diff 가 버전 라벨 (5.7.4 ↔ 5.5.4 문자열) 변경만 — 본문 정합 무영향.
+
+원본 5.7.4 시점 검증 내용 그대로 5.5.4 환경에서 유효. 본 페이지의 `raw/ue-wiki-llm/...` 인용은 5.7.4 vintage 표기 보존 — 신규 인용은 `raw/ue-wiki-llm_5_5_4/...` 사용 (CLAUDE.md §0.1).

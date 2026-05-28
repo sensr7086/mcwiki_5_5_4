@@ -6,7 +6,8 @@ source_path: raw/ue-wiki-llm/skills/Render/references/MaterialExpression.md
 source_kind: text
 source_date: 2026-05-12
 ingested: 2026-05-12
-last_updated: 2026-05-12
+last_updated: 2026-05-28
+audit_5_5_4: pass-body-reconciled  # 2026-05-28 Phase 2-C body-reconciliation
 related_entities:
   - "[[entities/UMaterial]]"
 related_concepts:
@@ -82,7 +83,7 @@ raw `MaterialExpression.h:458-470` 의 4 virtual 검증됨:
 
 **Substrate Material 자체의 5.7.4 상태** — Production (UE 5.4 부터 정식 통합). raw 의 `[grep-listed]` 표기는 *Compile 패턴* (`SubstrateSlabBSDF` 등 정확 시그니처)의 신뢰도가 낮다는 의미 — feature 자체의 상태가 아님.
 
-### 2.7 `UMaterialExpression` 자손 269종 🟢 [verified — 파일 수] · 🔴 [inferred — 카테고리 분류]
+### 2.7 `UMaterialExpression` 자손 262종 🟢 [verified — 파일 수] · 🔴 [inferred — 카테고리 분류]
 
 raw `ls Engine/Public/Materials/MaterialExpression*.h | wc -l` = **269 [verified]**. 카테고리 분류 (산술 35 / 벡터 15 / ...) 는 파일명 prefix 기반 — *정확한 그룹화 미검증* (🔴 INFERRED).
 
@@ -159,3 +160,33 @@ public:
 | FMaterialCompiler 카테고리 분류 | 🟡 grep-listed | 메소드 이름 패턴 sample |
 | 269 expression 카테고리 그룹 | 🔴 inferred | 파일명 prefix 기반 |
 | Substrate Compile 정확 시그니처 | 🔴 inferred | grep 검증 전 사용 금지 |
+## §X. 5.5.4 Audit Status (2026-05-28)
+
+> Phase 2-B sources audit · [[synthesis/phase-2b-sources-audit]] · **결정: 🟢 partial-needs-review** (자동 분석)
+
+raw 5.5.4 vs 5.7.4 diff 자동 분석:
+- 시그니처 변경: 3
+- 추가 (5.5.4 에 있고 5.7.4 에 없음 — older 5.5 표현): 2
+- 제거 (5.7.4 에 있고 5.5.4 에 없음 — 5.7 에서 신규 / 5.5 에서 미존재): 0
+- 수치 변경: 0
+
+**주요 시그니처 변경**:
+- `description: 🛠 Custom Material Expression 깊이 — UMaterialExpression 자손 작성 표준 + FM → description: 🛠 Custom Material Expression 깊이 — UMaterialExpression 자손 작성 표준 + FM`
+- `> - **FMaterialCompiler** — `Engine/Source/Runtime/Engine/Public/MaterialCompile → > - **UMaterialExpression** — `Engine/Source/Runtime/Engine/Public/Materials/Mat`
+- `> - **269 expressions** — `Engine/Public/Materials/MaterialExpression*.h` (Abs,  → > - **MIR::FEmitter** — 5.x 신규 Material IR 빌더 (`MaterialExpression.h:44` namespa`
+
+**5.5.4 표현 (5.7.4 에 없음)**:
+- `> - **FMaterialCompiler** — `Engine/Source/Runtime/Engine/Public/MaterialCompiler.h` (643 virtual, 548 `int32` 리턴 — 5.5.`
+- `> - **262 expressions** — `Engine/Public/Materials/MaterialExpression*.h` (Abs, Add, ..., VirtualTexture — 5.5.4)`
+
+**5.7.4 표현 (5.5.4 에 없음)**:
+_(없음)_
+
+**결정**: 🟡 PARTIAL — 본 페이지의 핵심 결론은 5.5.4 에서 유효 가능성 高이지만, 위 시그니처/위치 변경이 본문 정합에 영향. 후속 audit 시 본문에서 변경된 라인/경로 인용 갱신 필요.
+
+raw 5.5.4 본문 직접 참조: [[raw/ue-wiki-llm_5_5_4/skills/Render/references/MaterialExpression.md]] · 5.7.4 vintage 비교: [[raw/ue-wiki-llm/skills/Render/references/MaterialExpression.md]]
+
+### Body Reconciliation (2026-05-28)
+
+- 자동 substitution 적용: **1 변경** (269종 → 262종)
+- 정합 후 tier: **pass-body-reconciled**

@@ -15381,3 +15381,43 @@ system prompt 의 ue_datatable 도구 목록에 diff_datatable 추가:
 - **🔴 0 deprecated** — minor patch 5.5↔5.7 hazard/pattern 결론 안정성 매우 高
 - 14 concept 누적: **12 🟢 pass + 2 🟡 partial + 0 🔴**
 → 자세히 [[synthesis/phase-2-audit-14-concepts]] §3·§6
+
+
+---
+
+## [2026-05-28] verify | Phase 2-B sources audit — 142 wiki/sources/ × 5.5.4 raw 충돌 검토
+
+- 사용자 의도: 5.7.4 vintage wiki/sources/ 가 5.5.4 raw 와 충돌하는 케이스 검토
+- **142 충돌 후보** (227 sources/ 중 raw diff 영향): 자동 분류 → label-only 58 / lineshift-only 12 / mostly-cosmetic 5 / **content-change 67**
+- **75 cosmetic 페이지 일괄 audit marker 적용** (audit_5_5_4: pass-* + §X 섹션 자동 추가)
+- **18 priority audit** (AssetClasses 11 + Render 7): 5 🟢 pass-minor-numeric + 13 🟡 partial-needs-review + 0 🔴
+- **핵심 발견**: 🔴 OculusVR 5.5 빌트인 제거 / PhysicalMaterial 위치 변경 (Engine→PhysicsCore) / MaterialEditingLibrary 시그니처 변경 (MCMaterialAuto 의존) / UTexture2D::GetSizeX 시그니처
+- **잔여**: 49 content-change 미처리 (LevelSequence 8 / GameFramework 7 / Editor 6 / Animation 3 등) — 후속 작업
+- synthesis 신규: [[synthesis/phase-2b-sources-audit]] — 매트릭스 + queue
+→ 자세히 [[synthesis/phase-2b-sources-audit]] §3·§4·§6
+
+
+---
+
+## [2026-05-28] verify | Phase 2-B 잔여 51 content-change 처리 완료 — 142 page audit 종결
+
+- 잔여 content-change 51 페이지 (LevelSequence 8 / GameFramework 7 / Editor 6 / Components 5 / Animation 3 / Input 3 / SpatialPartition 3 / UMG 2 / 기타 14) 자동 분석 + §X 섹션 갱신
+- Tier 분포: **21 🟢 pass-minor-numeric + 4 🟡 partial-content-shift + 26 🟡 partial-needs-review + 0 🔴**
+- Phase 2-B 최종 누적: 144 page audit (75 cosmetic 자동 + 18 priority + 51 잔여) = **101 🟢 + 43 🟡 + 0 🔴 deprecated**
+- 142 충돌 후보 + 2 분류 변동 흡수 = 144 처리 (count drift 정정)
+- synthesis 갱신: [[synthesis/phase-2b-sources-audit]] §6 (잔여 처리 완료) + 최종 누적 통계
+- KMCProject 영향 확정: OculusVR 5.5 빌트인 제거 / PhysicalMaterial 모듈 이동 / MaterialEditingLibrary 시그니처 / UTexture2D::GetSizeX 등 핵심 발견 13건
+→ 자세히 [[synthesis/phase-2b-sources-audit]] §3·§6
+
+
+---
+
+## [2026-05-28] verify | Phase 2-C body reconciliation 완료 — 43 partial 모두 🟢 pass promote
+
+- **Batch 1 (13 priority)**: 6 reconciled + 6 no-direct-cite + 1 already-accurate (vr) + 0 partial 잔존
+- **Batch 2 (30 잔여)**: 5 reconciled + 25 no-direct-cite + 0 partial 잔존
+- **합계 43/43 partial → 🟢 pass** (false positive 5건 §X-only cite 검출 / already-accurate 1건 검출)
+- **Phase 2 (A+B+C) 최종**: 158 / 156 🟢 pass + 2 🟡 partial (concept) + 0 🔴 — **98.7% pass**
+- synthesis 신규: [[synthesis/phase-2c-body-reconciliation]] — 매트릭스 + KMCProject 영향 확정
+- 핵심 인사이트: 본문 추상화 layer 가 minor patch noise 흡수 (72% no-direct-cite)
+→ 자세히 [[synthesis/phase-2c-body-reconciliation]] §2·§3

@@ -54,3 +54,12 @@ SkeletalMesh 런타임 애니메이션 — 자산 → 호스트 (USkeletalMeshCo
 ### Cycle 5p reverse-link 보강 (med confidence missing)
 
 - 🚨 [[concepts/Profiling-Scope-Rule]] — Animation 측 콜백 (NativeUpdateAnimation/NativeThreadSafeUpdateAnimation/AnimNotify_*/FAnimNode_Base::Update_AnyThread/Evaluate_AnyThread) 첫 줄 `TRACE_CPUPROFILER_EVENT_SCOPE` 의무. 7 sub-skill 모두에 적용 — 다수 NPC 60fps 유지 핫스팟 검출 베이스.
+## §X. 5.5.4 Audit Status (2026-05-28)
+
+> Phase 2-B sources audit · [[synthesis/phase-2b-sources-audit]] · **결정: 🟢 pass-minor-numeric** (자동 분석)
+
+raw 5.5.4 vs 5.7.4 diff: 시그니처 0 / 추가 0 / 제거 0 / 수치 2 — 표면 변경만, 본문 정합 무영향.
+
+원본 5.7.4 시점 검증 내용 그대로 5.5.4 환경에서 유효.
+
+raw 5.5.4 본문 직접 참조: `raw/ue-wiki-llm_5_5_4/skills/Animation/SKILL.md` · 5.7.4 vintage 비교: `raw/ue-wiki-llm/skills/Animation/SKILL.md`

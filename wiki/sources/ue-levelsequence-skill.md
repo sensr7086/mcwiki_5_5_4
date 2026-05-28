@@ -6,7 +6,8 @@ source_path: raw/ue-wiki-llm/skills/LevelSequence/SKILL.md
 source_kind: text
 source_date: 2026-05-13
 ingested: 2026-05-14
-last_updated: 2026-05-15
+last_updated: 2026-05-28
+audit_5_5_4: pass-body-no-direct-cite  # 2026-05-28 Phase 2-C body-reconciliation
 related_concepts:
   - "[[concepts/Profiling-Scope-Rule]]"
   - "[[concepts/Asset-Loading-Policy]]"
@@ -243,3 +244,32 @@ specialist (`ue-wiki-llm:ue-levelsequence-specialist`) plugin 활성 시 자동 
 - 🚨 [[concepts/Asset-Loading-Policy]] — LevelSequence 어셋 Soft Reference
 - 🚨 [[concepts/Editor-Only-4-Tier-Separation]] — Sequencer / LevelSequenceEditor 4단 분리
 - [[sources/ue-ref-07-profilingscopeRule]] / [[sources/ue-ref-11-assetloadingpolicy]] / [[sources/ue-ref-05-editoronlyindex]]
+## §X. 5.5.4 Audit Status (2026-05-28)
+
+> Phase 2-B sources audit · [[synthesis/phase-2b-sources-audit]] · **결정: 🟢 partial-needs-review** (자동 분석)
+
+raw 5.5.4 vs 5.7.4 diff 자동 분석:
+- 시그니처 변경: 1
+- 추가 (5.5.4 에만): 3
+- 제거 (5.7.4 에만, 5.5.4 에 없음): 0
+- 수치 변경: 0
+
+**주요 시그니처**:
+- `> - **CinematicCamera**: `Engine/Source/Runtime/CinematicCamera/Public/` (6 헤더 — → > - **MovieScene** (Runtime 베이스): `Engine/Source/Runtime/MovieScene/` (UE 5.5 — `
+
+**5.5.4 에만 (5.7.4 에 없음)**:
+- `> - **MovieSceneTracks** (빌트인 트랙): `Engine/Source/Runtime/MovieSceneTracks/` (UE 5.5 — Tracks 41 + Sections + Systems, 총`
+- `> - **LevelSequence** Runtime 모듈: `Engine/Source/Runtime/LevelSequence/Public/` (UE 5.5 — 16 헤더 — `ULevelSequence` / `AL`
+- `> - **CinematicCamera**: `Engine/Source/Runtime/CinematicCamera/Public/` (UE 5.5 — 6 헤더 — `UCineCameraComponent` / `ACin`
+
+**5.7.4 에만 (5.5.4 에 없음 — 5.5 → 5.7 추가)**:
+_(없음)_
+
+**결정**: 🟡 PARTIAL — 본 페이지의 핵심 결론은 대부분 stable 추정. 위 변경이 본문 정합에 영향 — 후속 본문 갱신 권장.
+
+raw 5.5.4 본문 직접 참조: `raw/ue-wiki-llm_5_5_4/skills/LevelSequence/SKILL.md` · 5.7.4 vintage 비교: `raw/ue-wiki-llm/skills/LevelSequence/SKILL.md`
+
+### Body Reconciliation (2026-05-28)
+
+- 자동 substitution: **0 변경**
+- 정합 후 tier: **🟢 pass-body-no-direct-cite**

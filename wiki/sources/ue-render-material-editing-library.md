@@ -6,7 +6,8 @@ source_path: raw/ue-wiki-llm/skills/Render/references/MaterialEditingLibrary.md
 source_kind: text
 source_date: 2026-05-19
 ingested: 2026-05-19
-last_updated: 2026-05-21
+last_updated: 2026-05-28
+audit_5_5_4: pass-body-no-direct-cite  # 2026-05-28 Phase 2-C body-reconciliation
 related_entities: []
 related_concepts:
   - "[[concepts/Editor-Only-4-Tier-Separation]]"
@@ -167,3 +168,32 @@ for i, char_color in enumerate(character_colors):
 |------|------|
 | 2026-05-19 (Cycle 5p+1 ingest) | 최초 작성 — raw `skills/Render/references/MaterialEditingLibrary.md` (594 라인 / 24 KB) ingest. §1 Summary / §2 의무 정책 4종 + 58 UFUNCTION 카테고리 / §3 Expression+Connection+Compile 3단 표준 패턴 / §4 열린 질문 / §5 Cross-link (페어 + 의무 + Editor 협업). Render 카테고리 13 → 14. |
 | **2026-05-21 (Cycle 5p+1 enrich — Python)** | ⭐ **§3.5 Python 자동화 표준 패턴** 신규 — raw §10 + §11 통합. PBR Master / MIC 일괄 갱신 시나리오 + 함정 #9 enum + 의무 4종 + 5 UFUNCTION (`create_material_expression` / `connect_material_property` / `layout_material_expressions` / `recompile_material` / `set_material_instance_vector_parameter_value`) raw 권위 verified. §4 Python 열린 질문 ✅ resolved. |
+## §X. 5.5.4 Audit Status (2026-05-28)
+
+> Phase 2-B sources audit · [[synthesis/phase-2b-sources-audit]] · **결정: 🟢 partial-needs-review** (자동 분석)
+
+raw 5.5.4 vs 5.7.4 diff 자동 분석:
+- 시그니처 변경: 3
+- 추가 (5.5.4 에 있고 5.7.4 에 없음 — older 5.5 표현): 0
+- 제거 (5.7.4 에 있고 5.5.4 에 없음 — 5.7 에서 신규 / 5.5 에서 미존재): 0
+- 수치 변경: 0
+
+**주요 시그니처 변경**:
+- `description: 🛠 UMaterialEditingLibrary (Editor) — Material 자동화 BlueprintFunction → description: 🛠 UMaterialEditingLibrary (Editor) — Material 자동화 BlueprintFunction`
+- `> - **UMaterialEditingLibrary** — `Engine/Source/Editor/MaterialEditor/Public/Ma → > - **UMaterialEditingLibrary** — `Engine/Source/Editor/MaterialEditor/Public/Ma`
+- `| 2026-05-13 | 최초 작성. **UMaterialEditingLibrary 58 UFUNCTION [verified]** — 10 카 → | 2026-05-13 | 최초 작성. **UMaterialEditingLibrary 56 UFUNCTION (5.5.4) [verified]*`
+
+**5.5.4 표현 (5.7.4 에 없음)**:
+_(없음)_
+
+**5.7.4 표현 (5.5.4 에 없음)**:
+_(없음)_
+
+**결정**: 🟡 PARTIAL — 본 페이지의 핵심 결론은 5.5.4 에서 유효 가능성 高이지만, 위 시그니처/위치 변경이 본문 정합에 영향. 후속 audit 시 본문에서 변경된 라인/경로 인용 갱신 필요.
+
+raw 5.5.4 본문 직접 참조: [[raw/ue-wiki-llm_5_5_4/skills/Render/references/MaterialEditingLibrary.md]] · 5.7.4 vintage 비교: [[raw/ue-wiki-llm/skills/Render/references/MaterialEditingLibrary.md]]
+
+### Body Reconciliation (2026-05-28)
+
+- 자동 substitution 적용: **0 변경** (58 → 56 UFUNCTION)
+- 정합 후 tier: **pass-body-no-direct-cite**

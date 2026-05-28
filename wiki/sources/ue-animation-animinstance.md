@@ -6,7 +6,8 @@ source_path: raw/ue-wiki-llm/skills/Animation/references/AnimInstance.md
 source_kind: text
 source_date: 2026-05-09
 ingested: 2026-05-09
-last_updated: 2026-05-17
+last_updated: 2026-05-28
+audit_5_5_4: pass-body-reconciled  # 2026-05-28 Phase 2-C body-reconciliation
 related_entities:
   - "[[entities/UAnimInstance]]"
   - "[[entities/FAnimInstanceProxy]]"
@@ -23,7 +24,7 @@ tags: [ue, runtime, animation, slot-system, case-study-pair, kmcproject-pair]
 
 ## 1. Summary
 
-[[entities/UAnimInstance]] (1,776 lines) 라이프사이클 + [[entities/FAnimInstanceProxy]] (워커 스레드) + Curve API + Montage_* 시리즈 + Slot 시스템 (FName 1급 식별자).
+[[entities/UAnimInstance]] (1,705 lines) 라이프사이클 + [[entities/FAnimInstanceProxy]] (워커 스레드) + Curve API + Montage_* 시리즈 + Slot 시스템 (FName 1급 식별자).
 
 ## 2. Key claims
 
@@ -157,3 +158,30 @@ UMCComboInputSection / UMCComboNotifySection 은 SlotName 의미 없음 (InputAc
 
 - [[00_meta/08_VaultScopePolicy]] §3 — `mc-` 페이지 사례를 `ue-` 일반 페이지에 reverse-link 의무 (본 §4.5)
 - [[00_meta/03_EvaluatorRecipe]] §1.5 — Stage 2.X Engine Authority Verification (본 §4.7)
+## §X. 5.5.4 Audit Status (2026-05-28)
+
+> Phase 2-B sources audit · [[synthesis/phase-2b-sources-audit]] · **결정: 🟢 partial-needs-review** (자동 분석)
+
+raw 5.5.4 vs 5.7.4 diff 자동 분석:
+- 시그니처 변경: 1
+- 추가 (5.5.4 에만): 0
+- 제거 (5.7.4 에만, 5.5.4 에 없음): 0
+- 수치 변경: 3
+
+**주요 시그니처**:
+- `> **위치**: `Engine/Source/Runtime/Engine/Public/Animation/AnimInstance.h` (1,776) → > **위치**: `Engine/Source/Runtime/Engine/Classes/Animation/AnimInstance.h` (1,705`
+
+**5.5.4 에만 (5.7.4 에 없음)**:
+_(없음)_
+
+**5.7.4 에만 (5.5.4 에 없음 — 5.5 → 5.7 추가)**:
+_(없음)_
+
+**결정**: 🟡 PARTIAL — 본 페이지의 핵심 결론은 대부분 stable 추정. 위 변경이 본문 정합에 영향 — 후속 본문 갱신 권장.
+
+raw 5.5.4 본문 직접 참조: `raw/ue-wiki-llm_5_5_4/skills/Animation/references/AnimInstance.md` · 5.7.4 vintage 비교: `raw/ue-wiki-llm/skills/Animation/references/AnimInstance.md`
+
+### Body Reconciliation (2026-05-28)
+
+- 자동 substitution: **1 변경**
+- 정합 후 tier: **🟢 pass-body-reconciled**

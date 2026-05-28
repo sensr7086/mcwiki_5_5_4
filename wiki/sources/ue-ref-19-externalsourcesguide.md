@@ -6,7 +6,8 @@ source_path: raw/ue-wiki-llm/references/19_ExternalSourcesGuide.md
 source_kind: text
 source_date: 2026-05-09
 ingested: 2026-05-09
-last_updated: 2026-05-13
+last_updated: 2026-05-28
+audit_5_5_4: pass-body-reconciled  # 2026-05-28 Phase 2-C body-reconciliation
 tags: [ue, reference, governance, external-sources, confidence-tags]
 ---
 
@@ -88,7 +89,7 @@ https://docs.unrealengine.com/5.7/en-US/?application_version=5.7
 
 ```
 브랜치 — release / 5.7
-태그 — 5.7.4-release (해당 시)
+태그 — 5.5.4-release (해당 시)
 ```
 
 🚨 main 브랜치 = 5.8+ 가능성 → 5.7.4 와 다를 수 있음. 항상 `release` 또는 `5.7` 브랜치 명시.
@@ -238,3 +239,32 @@ grep -rn "#define DOREPLIFETIME_CONDITION" Runtime/Engine/
 - Audit hook: [[sources/ue-ref-18-modelevolutionaudit]] (분기별 외부 source 신선도 검토)
 - Wiki harness: [[sources/ue-ref-03-wikiharness]] (시나리오 라우팅 — 본 페이지가 "위키에 없음" fallback)
 - vault Governance: [[00_meta/06_VaultCitationRule]] (§13 3-tier 마커)
+## §X. 5.5.4 Audit Status (2026-05-28)
+
+> Phase 2-B sources audit · [[synthesis/phase-2b-sources-audit]] · **결정: 🟢 partial-needs-review** (자동 분석)
+
+raw 5.5.4 vs 5.7.4 diff 자동 분석:
+- 시그니처 변경: 1
+- 추가 (5.5.4 에만): 3
+- 제거 (5.7.4 에만, 5.5.4 에 없음): 0
+- 수치 변경: 0
+
+**주요 시그니처**:
+- `[Step 4] GitHub UE 5.7 release 브랜치 (액세스 시) → [Step 4] GitHub UE 5.5 release 브랜치 (액세스 시)`
+
+**5.5.4 에만 (5.7.4 에 없음)**:
+- `````
+- ``
+- `> 🚨 main 브랜치는 5.8+ 가능성 — 5.5.4와 다를 수 있음. 항상 `release` 또는 `5.7` 브랜치 명시.`
+
+**5.7.4 에만 (5.5.4 에 없음 — 5.5 → 5.7 추가)**:
+_(없음)_
+
+**결정**: 🟡 PARTIAL — 본 페이지의 핵심 결론은 대부분 stable 추정. 위 변경이 본문 정합에 영향 — 후속 본문 갱신 권장.
+
+raw 5.5.4 본문 직접 참조: `raw/ue-wiki-llm_5_5_4/references/19_ExternalSourcesGuide.md` · 5.7.4 vintage 비교: `raw/ue-wiki-llm/references/19_ExternalSourcesGuide.md`
+
+### Body Reconciliation (2026-05-28)
+
+- 자동 substitution: **1 변경**
+- 정합 후 tier: **🟢 pass-body-reconciled**
