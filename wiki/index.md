@@ -1,6 +1,6 @@
 # Wiki Index
 
-> Last updated: 2026-05-27 · **5.5.4 active vault (forked from 5.7.4 archive)** · 인계 통계 (5.7.4 vintage): 227 sources / 97 entities / 75 concepts / 63 synthesis (4 신규 — migration + Phase 2-A + Phase 2-B + Phase 2-C) · ⚠️ 5.7-specific content audit 진행 중
+> Last updated: 2026-05-28 · **5.5.4 active vault (forked from 5.7.4 archive)** · 인계 통계: 227 sources / 97 entities / 75 concepts / 63 synthesis (4 신규 — migration + Phase 2-A + Phase 2-B + Phase 2-C) · ✅ **Phase 2 audit 완료** (158 / 156 🟢 pass · 98.7%)
 
 매 ingest 후 LLM 이 자동 갱신. CLAUDE.md §5.2 step 1 의 진입점.
 
@@ -10,11 +10,11 @@
 
 > **본 vault 는 UE 5.5.4 의 일반 지식 베이스다.** KMCProject 는 vault 의 일반 패턴을 *검증* 하는 case study.
 >
-> **분기 출처**: `E:\MCWiki` (5.7.4 frozen, 2026-05-27 fork). 인계된 wiki/ 콘텐츠는 5.7.x 시대 표현을 포함 — 점진 audit 대상. 자세히 [[synthesis/migrated-from-5-7-4-to-5-5-4]] · log.md `## [2026-05-27] schema-change`.
+> **분기 출처**: `E:\MCWiki` (5.7.4 frozen, 2026-05-27 fork). 인계된 wiki/ 콘텐츠는 **Phase 2 (A+B+C) audit 완료** (2026-05-28): 158 페이지 중 156 🟢 pass / 2 🟡 partial / 0 🔴. 자세히 [[synthesis/phase-2c-body-reconciliation]] · [[synthesis/migrated-from-5-7-4-to-5-5-4]].
 
 | 슬러그 접두사 | 의미 | 비율 |
 | -- | -- | -- |
-| `ue-` / `ue-agent-` / `ue-meta-` / `ue-ref-` | UE 5.5.4 일반 지식 (5.7.x 인계분 audit 중) | **96%** |
+| `ue-` / `ue-agent-` / `ue-meta-` / `ue-ref-` | UE 5.5.4 일반 지식 (Phase 2 audit 완료, 98.7% pass) | **96%** |
 | **`mc-`** | **KMCProject 실측 사례** | **4%** |
 
 → 정책 전문: [[00_meta/08_VaultScopePolicy]]
@@ -281,7 +281,7 @@
 ### Migration / Schema-change / Audit (4) ⭐⭐⭐
 - [[synthesis/migrated-from-5-7-4-to-5-5-4]] — **2026-05-27 fork 기록** · UE 5.7.4 → 5.5.4 vault 분기 · 인계 자산 + audit 로드맵 + Phase 1~3 계획
 - [[synthesis/phase-2-audit-14-concepts]] — **2026-05-27 Phase 2-A audit** · 14 concept tier 재검토 · 🟢 12 pass / 🟡 2 partial / 0 🔴
-- [[synthesis/phase-2b-sources-audit]] — **2026-05-28 Phase 2-B sources audit** · 142 wiki/sources/ × 5.5.4 raw 충돌 검토 · 75 cosmetic + 18 priority + 51 잔여
+- [[synthesis/phase-2b-sources-audit]] — **2026-05-28 Phase 2-B sources audit** · 142 wiki/sources/ × 5.5.4 raw 충돌 검토 · 75 cosmetic + 67 content-change 자동 분류
 - [[synthesis/phase-2c-body-reconciliation]] — **2026-05-28 Phase 2-C body recon** · 43 partial 모두 🟢 promote · Phase 2 (A+B+C) 158 / 156 pass (98.7%)
 
 ### Actor / Lifecycle (3)
