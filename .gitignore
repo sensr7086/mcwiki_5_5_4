@@ -31,9 +31,4 @@ venv/
 *.key
 *.pem
 
-# Local-only mcp.json copies (use mcp.example.json as the committed template)
-mcp.json
-tools/mcp.local.json
 
-# .mcpb build outputs (versioned via GitHub Releases, not committed to source)
-*.mcpb
